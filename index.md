@@ -1,5 +1,3 @@
-## ROBO-MARC Project Web page
-
 このページは、NEDO ロボット活用型市場化適用技術開発プロジェクト (2017-2019年度) による研究開発成果の公開ページです。
 
 This is Web page to publish R&D result by NEDO's Technology Development Project for Robot Commercialization Applications (FY2017-2019).
