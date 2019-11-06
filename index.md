@@ -56,7 +56,7 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 ### 名城大学
 
--githubサイト: [https://github.com/rsdlab](https://github.com/rsdlab)
+- githubサイト: [https://github.com/rsdlab](https://github.com/rsdlab)
 
 ### 富士ソフト・日本電産
 
