@@ -58,6 +58,8 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 ### 産総研
 
+産総研のgithubリポジトリでは、RTミドルウェア OpenRTM-aist のソースコード、OpenRTM WebサイトではUbuntu/Windows用パッケージ・インストーラが公開されています。
+
 - githubサイト：[https://github.com/OpenRTM](https://github.com/OpenRTM)
 - OpenRTM Webサイト: [OpenRTM-aist official website](https://openrtm.org)
 
