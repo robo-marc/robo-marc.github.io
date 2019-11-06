@@ -2,7 +2,7 @@
 
 This is Web page to publish R&D result by NEDO's Technology Development Project for Robot Commercialization Applications (FY2017-2019).
 
-### Overview of the Project
+## Overview of the Project
 
 NEDO ロボット活用型市場化適用技術開発プロジェクト (市場化プロジェクト, robbo-marcプロジェクト) は2017年度から2019年度まで、NEDOの委託事業として行われたロボット研究開発プロジェクトです。
 このプロジェクトでは、潜在的にロボット活用が見込まれながら、未だ導入が進んでいない領域（ロボット未活用領域）に対して、ロボットのハードウェアとソフトウェアをプラットフォーム化し、ベースとなる共通部分と対象作業やユーザごとに異なる部分に対応するためのオプション部分とに分け、これらを組み合わせることにより、ロボット自体のコスト並びに、システムインテグレーションにかかるコストを抑え、初期導入コストを低減させることにより導入促進を図ることを目的としています。
@@ -37,6 +37,12 @@ NEDO ロボット活用型市場化適用技術開発プロジェクト (市場�
 
 川崎重工githubリポジトリでは、川崎重工の双腕スカラロボット duAro のほか、いくつかの産業用マニピュレータ用のROS用コントローラノードとモデルファイルが公開されています。
 
+### カワダロボティクス
+
+カワダロボティクスのNEXTAGE Openは、ROSおよびRTMで動作する双腕型多能工ロボットです。以下のリポジトリおよびwikiにソースコードとマニュアルがあります。
+
+- githubサイト: [http://wiki.ros.org/rtmros_nextage](http://wiki.ros.org/rtmros_nextage)
+- ROS wikiページ: [http://wiki.ros.org/rtmros_nextage](http://wiki.ros.org/rtmros_nextage)
 
 ### THK
 
@@ -50,7 +56,7 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 - githubサイト: [https://github.com/FUJISOFT-Robotics](https://github.com/FUJISOFT-Robotics)
 
-#### eSOL
+### eSOL
 
 - githubサイト: [https://github.com/esol-community](https://github.com/esol-community)
 
