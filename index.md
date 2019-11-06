@@ -46,9 +46,13 @@ NEDO ロボット活用型市場化適用技術開発プロジェクト (市場�
 
 ### THK
 
-- githubb サイト: [https://github.com/seed-solutions](https://github.com/seed-solutions)
+- github サイト: [https://github.com/seed-solutions](https://github.com/seed-solutions)
 
 THKのgithubbサイトでは、THKが販売するヒューマノイドロボット Seed-NoidのROS用コントローラノードとモデルファイルが公開されています。
+
+### 名城大学
+
+-githubサイト: [https://github.com/rsdlab](https://github.com/rsdlab)
 
 ### 富士ソフト・日本電産
 
@@ -62,6 +66,14 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 - OpenRTM Webサイト: [OpenRTM-aist official website](https://openrtm.org)
 
 産総研のgithubリポジトリでは、RTミドルウェア OpenRTM-aist のソースコード、OpenRTM WebサイトではUbuntu/Windows用パッケージ・インストーラが公開されています。
+
+### 東京大学
+
+- github サイト: [https://github.com/jsk-ros-pkg](https://github.com/jsk-ros-pkg)
+
+### TORK
+
+- githubサイト: [https://github.com/tork-a](https://github.com/tork-a)
 
 ### eSOL
 
