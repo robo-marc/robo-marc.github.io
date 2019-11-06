@@ -56,6 +56,10 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 - githubサイト: [https://github.com/FUJISOFT-Robotics](https://github.com/FUJISOFT-Robotics)
 
+### 産総研
+
+githubサイト：[https://github.com/OpenRTM](https://github.com/OpenRTM)
+
 ### eSOL
 
 - githubサイト: [https://github.com/esol-community](https://github.com/esol-community)
