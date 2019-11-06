@@ -11,6 +11,9 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 This project aims to promote the introduction of the robot into areas that are expected to be used by robots but have not yet been introduced (robots unused areas) by reducing the initial cost of the robot itself and the cost of system integration.
 For this purpose, the robot hardware and software are platformized by dividing into the base-robot as a common part and an optional part that corresponds to the target work for each user.
 
+<img src="figs/project-overview.png"/>
+
+
 ### Team
 
 本プロジェクトは、以下のハードウェアグループ（ハードコンソーシアム）とソフトウェアグループ（ソフトウェアコンソーシアム）で構成されています。
