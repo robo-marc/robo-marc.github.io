@@ -39,10 +39,10 @@ NEDO ロボット活用型市場化適用技術開発プロジェクト (市場�
 
 ### カワダロボティクス
 
-カワダロボティクスのNEXTAGE Openは、ROSおよびRTMで動作する双腕型多能工ロボットです。以下のリポジトリおよびwikiにソースコードとマニュアルがあります。
-
 - githubサイト: [http://wiki.ros.org/rtmros_nextage](http://wiki.ros.org/rtmros_nextage)
 - ROS wikiページ: [http://wiki.ros.org/rtmros_nextage](http://wiki.ros.org/rtmros_nextage)
+
+カワダロボティクスのNEXTAGE Openは、ROSおよびRTMで動作する双腕型多能工ロボットです。以下のリポジトリおよびwikiにソースコードとマニュアルがあります。
 
 ### THK
 
@@ -52,16 +52,16 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 ### 富士ソフト・日本電産
 
-富士ソフトgithubリポジトリでは、日本電産のアクチュエータユニットを用いたロボット i611 関係のソフトウェアが公開されています。
-
 - githubサイト: [https://github.com/FUJISOFT-Robotics](https://github.com/FUJISOFT-Robotics)
+
+富士ソフトgithubリポジトリでは、日本電産のアクチュエータユニットを用いたロボット i611 関係のソフトウェアが公開されています。
 
 ### 産総研
 
-産総研のgithubリポジトリでは、RTミドルウェア OpenRTM-aist のソースコード、OpenRTM WebサイトではUbuntu/Windows用パッケージ・インストーラが公開されています。
-
 - githubサイト：[https://github.com/OpenRTM](https://github.com/OpenRTM)
 - OpenRTM Webサイト: [OpenRTM-aist official website](https://openrtm.org)
+
+産総研のgithubリポジトリでは、RTミドルウェア OpenRTM-aist のソースコード、OpenRTM WebサイトではUbuntu/Windows用パッケージ・インストーラが公開されています。
 
 ### eSOL
 
