@@ -56,5 +56,5 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 - githubサイト: [https://github.com/esol-community](https://github.com/esol-community)
 
-eSOLのgithubサイトでは、eSOLが販売する組み込みリアルタイムOS "eMCOS" 上でROS/ROS2を動作させるためのツールチェインが。
+eSOLのgithubサイトでは、eSOLが販売する組み込みリアルタイムOS "eMCOS" 上でROS/ROS2を動作させるためのツールチェインが提供されています。
 
