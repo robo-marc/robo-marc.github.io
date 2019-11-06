@@ -36,3 +36,25 @@ NEDO ロボット活用型市場化適用技術開発プロジェクト (市場�
 ### 川崎重工
 
 - githubサイト: [https://github.com/Kawasaki-Robotics](https://github.com/Kawasaki-Robotics)
+
+川崎重工githubリポジトリでは、川崎重工の双腕スカラロボット duAro のほか、いくつかの産業用マニピュレータ用のROS用コントローラノードとモデルファイルが公開されています。
+
+
+### THK
+
+- githubb サイト: [https://github.com/seed-solutions](https://github.com/seed-solutions)
+
+THKのgithubbサイトでは、THKが販売するヒューマノイドロボット Seed-NoidのROS用コントローラノードとモデルファイルが公開されています。
+
+### 富士ソフト・日本電産
+
+富士ソフトgithubリポジトリでは、日本電産のアクチュエータユニットを用いたロボット i611 関係のソフトウェアが公開されています。
+
+- githubサイト: [https://github.com/FUJISOFT-Robotics](https://github.com/FUJISOFT-Robotics)
+
+#### eSOL
+
+- githubサイト: [https://github.com/esol-community](https://github.com/esol-community)
+
+eSOLのgithubサイトでは、eSOLが販売する組み込みリアルタイムOS "eMCOS" 上でROS/ROS2を動作させるためのツールチェインが。
+
