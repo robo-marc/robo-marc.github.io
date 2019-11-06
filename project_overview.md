@@ -10,3 +10,8 @@ This project aims to promote the introduction of the robot into areas that are e
 For this purpose, the robot hardware and software are platformized by dividing into the base-robot as a common part and an optional part that corresponds to the target work for each user.
 
 <img src="figs/project-overview.png"/>
+
+### ハンドブック
+
+- [「ロボット活用型市場化適用技術開発プロジェクト」紹介ハンドブック（2017年度版）](https://www.nedo.go.jp/library/pamphlets/RB_hbook201709.html)
+
