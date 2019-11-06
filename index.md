@@ -8,7 +8,7 @@ NEDO ロボット活用型市場化適用技術開発プロジェクト (市場�
 
 NEDO Technology Development Project for Robot Commercialization Applications (Shijyouka Project, robbo-marc Project) is a research and development project for robot conducted as a consignment project from FY2017 to FY2019 by NEDO. 
 
-- [Project Details](project_overview.html)
+- [Project Details](./project_overview.html)
 
 
 ### Team
