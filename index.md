@@ -58,7 +58,8 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 ### 産総研
 
-githubサイト：[https://github.com/OpenRTM](https://github.com/OpenRTM)
+- githubサイト：[https://github.com/OpenRTM](https://github.com/OpenRTM)
+- OpenRTM Webサイト: [OpenRTM-aist official website](https://openrtm.org)
 
 ### eSOL
 
