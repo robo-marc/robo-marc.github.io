@@ -1,3 +1,6 @@
+# ROBO-MARC Project web page style (Jekylll slate)
+# https://github.com/pages-themes/slate 
+#
 theme: jekyll-theme-slate
 title: [NEDO ROBO-MARC]
 description: [NEDO ROBO-MARC (Robot Platformization) Project Web page]
