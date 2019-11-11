@@ -35,6 +35,17 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 
 ## 成果物
 
+| 川崎重工株式会社 | github: [https://github.com/Kawasaki-Robotics](<img src="figs/github.png"/>) | 
+| カワダロボティクス株式会社 | github: [http://wiki.ros.org/rtmros_nextage](<img src="figs/github.png"/>) |
+| THK株式会社 | github: [https://github.com/seed-solutions](<img src="figs/github.png"/>) |
+| 名城大学 | github: [https://github.com/rsdlab](<img src="figs/github.png"/>) |
+| 富士ソフト株式会社 | github: [https://github.com/FUJISOFT-Robotics](<img src="figs/github.png"/>) |
+| 産業技術総合研究所研 | github: [https://github.com/OpenRTM](<img src="figs/github.png"/>) webpage: [https://openrtm.org](<img src="figs/webpage.png"/>) |
+| 東京大学 | github: [https://github.com/jsk-ros-pkg](<img src="figs/github.png"/>) |
+| TORK （東京オープンソースロボティクス協会） | github: [https://github.com/tork-a](<img src="figs/github.png"/>) |
+| eSOL株式会社 | github: [https://github.com/esol-community](<img src="figs/github.png"/>) |
+
+
 ### 川崎重工
 
 - githubサイト: [https://github.com/Kawasaki-Robotics](https://github.com/Kawasaki-Robotics)
