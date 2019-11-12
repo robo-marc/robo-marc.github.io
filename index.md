@@ -35,7 +35,7 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 
 ## 成果物
 
-| 川崎重工株式会社 | <p align="middle">github:</p> [<img src="figs/github.png" width="16" align="middle"/>](https://github.com/Kawasaki-Robotics) | 
+| 川崎重工株式会社 | <div style="text-align: center;">github:</div> [<img src="figs/github.png" width="16" align="middle"/>](https://github.com/Kawasaki-Robotics) | 
 | カワダロボティクス株式会社 | github: [<img src="figs/github.png" width="16" align="bottom"/>](http://wiki.ros.org/rtmros_nextage) |
 | THK株式会社 | github: [<img src="figs/github.png" width="24"/>](https://github.com/seed-solutions) |
 | 名城大学 | github: [<img src="figs/github.png" width="24"/>](https://github.com/rsdlab) |
