@@ -74,8 +74,6 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 
 - githubサイト: [https://github.com/FUJISOFT-Robotics](https://github.com/FUJISOFT-Robotics)
 
-富士ソフトgithubリポジトリでは、日本電産のアクチュエータユニットを用いたロボット i611 関係のソフトウェアが公開されています。
-
 ### 産総研
 
 - githubサイト：[https://github.com/OpenRTM](https://github.com/OpenRTM)
