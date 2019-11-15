@@ -41,6 +41,7 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 | THK株式会社 | [<img src="figs/github.png" width="24"/>](https://github.com/seed-solutions) | |
 | 名城大学 | [<img src="figs/github.png" width="24"/>](https://github.com/rsdlab) | |
 | 富士ソフト株式会社 | [<img src="figs/github.png" width="24"/>](https://github.com/FUJISOFT-Robotics) | |
+| YOODS | [<img src="figs/github.png" width="24"/>](https://github.com/YOODS) | |
 | 産業技術総合研究所研 | [<img src="figs/github.png" width="24"/>](https://github.com/OpenRTM<) | [<img src="figs/webpage.png" width="24"/>](https://openrtm.org) |
 | 東京大学 | [<img src="figs/github.png" width="24"/>](https://github.com/jsk-ros-pkg) | |
 | TORK （東京オープンソースロボティクス協会） | [<img src="figs/github.png" width="24"/>](https://github.com/tork-a) | |
@@ -73,6 +74,10 @@ THKのgithubbサイトでは、THKが販売するヒューマノイドロボッ�
 ### 富士ソフト・日本電産
 
 - githubサイト: [https://github.com/FUJISOFT-Robotics](https://github.com/FUJISOFT-Robotics)
+
+### YOODS
+
+- githubサイト:[https://github.com/YOODS](https://github.com/YOODS)
 
 ### 産総研
 
