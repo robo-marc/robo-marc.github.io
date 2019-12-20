@@ -13,7 +13,7 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 ### NEWS
 
 - 2019年12月20日：[国際ロボット展公開シンポジウム](https://robo-marc.github.io/irex_symposium) を開催しました。
-- 2019年8月28日：[RRI公開シンポジウム](rri_symposium)を開催しました。
+- 2019年08月28日：[RRI公開シンポジウム](https://robo-marc.github.io/rri_symposium)を開催しました。
 
 ### Team
 
