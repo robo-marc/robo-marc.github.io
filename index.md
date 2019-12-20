@@ -10,6 +10,10 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 
 - [Project Details](./project_overview.html)
 
+### NEWS
+
+- 2019年12月20日：[国際ロボット展公開シンポジウム](irex_symposium) を開催しました。
+- 2019年8月28日：[RRI公開シンポジウム](rri_symposium)を開催しました。
 
 ### Team
 
