@@ -6,7 +6,7 @@
 - 日時：2019年8月28日 13:00-17:00 
 - 場所：機械振興会館
 - 参加費：無料
-- RRI Webページ: 
+- RRI Webページ: [https://www.jmfrri.gr.jp/followup/1179.html](https://www.jmfrri.gr.jp/followup/1179.html)
 
 ## プログラム
 
