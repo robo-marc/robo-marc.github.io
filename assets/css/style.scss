@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "";
+@import "{{ site.theme }}";
 #main_content.inner {
 /*    position: relative;*/
     max-width: 800px;
