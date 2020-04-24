@@ -12,6 +12,7 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 
 ### NEWS
 
+- 2020年3月30日：[NEDOプレスリリース](https://www.nedo.go.jp/news/press/AA5_101303.html):自律型移動ロボット向けインターフェースの仕様を策定し、サンプルソフトウェアを公開
 - 2020年1月29日: [最終成果報告会](https://robo-marc.github.io/final_report)を開催しました。
 - 2019年12月20日：[国際ロボット展公開シンポジウム](https://robo-marc.github.io/irex_symposium) を開催しました。
 - 2019年08月28日：[RRI公開シンポジウム](https://robo-marc.github.io/rri_symposium)を開催しました。
