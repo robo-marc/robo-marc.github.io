@@ -16,3 +16,8 @@
 - ロボットセキュリティ調査検討委員会 (2020-)
 - ロボット・AI評価指標調査検討委員会 (2020-)
 
+## 成果物
+
+- (2018年度成果物公開ページ)[https://www.jmfrri.gr.jp/document/library/993.html]
+- (2019年度成果物公開ページ)[https://www.jmfrri.gr.jp/document/library/1392.html]
+
