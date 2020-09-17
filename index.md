@@ -14,6 +14,7 @@ From FY2020, the "NEDO course (NEDO Kouza)" project will be held for three years
 - [Project Details](./project_overview.html)
 
 ### NEWS
+- 2020年12月18日:[NEDO特別講座講習会をSI2020にて開催することになりました。](tutorials/si2020)
 - 2020年5月28日:[NEDO講座「システム・インテグレーションを加速するロボットミドルウェア技術を維持・普及・発展させていくための人材の育成・交流・研究の活性化」](https://www.nedo.go.jp/koubo/CD3_100205.html)に埼玉大学が採択されました。
 - 2020年6月30日：[RRI調査検討委員会成果物発表](https://www.jmfrri.gr.jp/document/library/1392.html):RRI WG3内調査検討委員会から、2019年度の成果物等が一般公開されました。
 - 2020年3月30日：[NEDOプレスリリース](https://www.nedo.go.jp/news/press/AA5_101303.html):自律型移動ロボット向けインターフェースの仕様を策定し、サンプルソフトウェアを公開
