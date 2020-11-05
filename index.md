@@ -1,4 +1,5 @@
-このページは、NEDO ロボット活用型市場化適用技術開発プロジェクト (2017-2019年度) およびNEDO講座 (2020-2022年度) に関する情報を発信するページです。
+# NEDO特別講座
+NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (NEDO ロボット活用型市場化適用技術開発プロジェクト (2017-2019年度) ) のページです。
 
 This is Web page to publish R&D result by "NEDO's Technology Development Project for Robot Commercialization Applications" (FY2017-2019) and "NEDO Course (NEDO Kouza)".
 
