@@ -48,7 +48,7 @@ Rufusはインストールの必要はありません。そのまま起動可能
 4. スタートボタンを押して書き込み開始
 
 
-<img src="figs/Rufus_window.png" width="640" align="center">
+<img src="figs/Rufus_window.png" width="800" align="center">
 
 書き込みを開始すると、以下の用にプログレスバーに書き込み完了までの時間が表示され、書き込み作業が進行します。
 だいたい、20～30分程度かかるでしょう。気長に待ってください。
