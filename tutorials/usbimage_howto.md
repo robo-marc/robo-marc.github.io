@@ -69,6 +69,46 @@ Rufusはインストールの必要はありません。そのまま起動可能
 
 <img src="figs/Rufus_writing.png" width="434" align="center">
 
+### Macの場合
+
+MacでUSBメモリにイメージを書き込むためには、新規にツールをインストールする必要はありません。
+ただし、7zip圧縮ファイルを回答するには、The Unarchiver をApp Storeからインストールしてください。
+
+USBメモリをさすと、通常自動的にマウントされます。ターミナルを開いて、mountコマンドをうち確認します。
+
+```
+$ mount
+/dev/disk1s1 on / (apfs, local, read-only, journaled)
+devfs on /dev (devfs, local, nobrowse)
+  : 中略
+/dev/disk3s1 on /Volumes/USB DISK (msdos, local, nodev, nosuid, noowners)
+$ 
+```
+
+USBメモリは **/dev/disk3** というデバイスで、
+**/Volume/USB DISK** というディレクトリにマウントされていることがわかります。
+
+イメージファイルを展開したディレクトリまで移動し、**dd** というコマンドで書き込みを行います。
+
+```
+$ diskutil umount /Volumes/USB\ DISK/ 
+Volume USB DISK on disk3s1 unmounted
+$ sudo dd if=NEDO_USB_Image.img of=/dev/rdisk3 bs=256m
+Password:
+120+0 records in
+120+0 records out
+32212254720 bytes transferred in 1175.989032 secs (27391629 bytes/sec)
+$ 
+```
+一つずつ説明します。
+1. diskutilコマンドでUSBメモリ (/Volume/USB DISKにマウントされている) をアンマウントする
+2. ddコマンドを、入力(if)にイメージファイルを指定、出力(of)にUSBメモリデバイス /disk/rdisk3) を指定して起動
+  - /dev/disk3ではなく、/dev/rdisk3とするのは、raw ディスクへの書き込みのほうが早いため
+  - bs=256m はブロックサイズを256MBにする指定、ある程度大きくしておくとバッファリングされるので早く書き込める
+3. ddコマンド終了
+  - 終了すると書き込んだバイト数や時間などが表示され終了
+4. USBメモリ抜いたら、起動させるPCに挿し起動させてみる
+
 ## 起動準備
 
 次にUSBメモリで起動させるPCの設定を行います。
