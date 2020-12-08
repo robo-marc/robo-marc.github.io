@@ -25,7 +25,7 @@ USBメモリのサイズは32GB以上のものをご用意ください。（当�
 
 まずはじめに、USBメモリに書き込むイメージファイルをダウンロードします。
 
-- [USBメモリイメージファイル (7zip圧縮)(https://openrtm.org/pub/NEDO_tutorial/NEDO_USB_Image.7z) (約25GB)
+- [USBメモリイメージファイル (7zip圧縮)](https://openrtm.org/pub/NEDO_tutorial/NEDO_USB_Image.7z) (約25GB)
   - MD5: cfd74c56ccd71db1ad046e955a83f538
 
 イメージファイルはUSBメモリと同じサイズ、つまり32GB程度あるため、
