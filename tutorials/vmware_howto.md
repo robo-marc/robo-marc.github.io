@@ -87,7 +87,7 @@ Windowsの場合は、エクスプローラーでISOファイルをダウンロ�
 ルダを開きます。エクスプローラのアドレスバーに **cmd** と入力して
 Enterを押してください。
 
-<div align="center"><img src="figs/open_cmd.png" align="center" border="1"></div>
+<div align="center"><img src="figs/open_cmd.png" width="640" border="1"></div>
 
 そうすると、そのフォルダの位置でコマンドプロンプトが開きます。次に、
 以下のコマンドを入力します。
@@ -98,7 +98,9 @@ C:\temp>certutil -hashfile ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso MD5
 MD5 SUMを計算するのには数分程度時間がかかります。しばらくすると、
 以下のような表示とともに、MD5 SUMが出力されます。
 
-<a href="figs/md5_cmd.png"><div align="center"><img src="figs/md5_cmd.png"></a>
+<div align="center">
+<a href="figs/md5_cmd.png"><img src="figs/md5_cmd.png" width="480"></a>
+</div>
 <div style="text-align: center;">クリックすると拡大します</div>
 
 出力されたMD5 SUMの値が、上記の値と同じか確認してください。MD5 SUMの
@@ -113,7 +115,7 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 力すると、候補に VMware Workstation 16 Playerが現れますので、クリッ
 クして起動します。
 
-<div align="center"><img src="figs/vmware_starting_vm.png" width="784"></div>
+<div align="center"><img src="figs/vmware_starting_vm.png" width="640"></div>
 
 以下のようなVMwareの画面が出ますので、右側の **「新規仮想マシンの作成(N)」**
 をクリックして、新規の仮想マシンを作成します。
