@@ -152,7 +152,7 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 
 <img src="figs/vmware_boot1.png" width="642" align="center">
 
-<img src="figs/vmware_boot2.png" width="642"v align="center">
+<img src="figs/vmware_boot2.png" width="642" align="center">
 
 最終的に以下のような画面が表示されます。
 左側のリストの下の方に **「日本語」** がありますので、
