@@ -89,7 +89,7 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 を起動するか、スタートメニュー横の検索窓で vmware などと入力すると、
 候補に VMware Workstation 16 Playerが現れますので、クリックして起動します。
 
-<img src="figs/vmware_startnig_vm.png" align="center">
+<img src="figs/vmware_starting_vm.png" width="784" align="center">
 
 以下のようなVMwareの画面が出ますので、右側の **「新規仮想マシンの作成(N)」**
 をクリックして、新規の仮想マシンを作成します。
