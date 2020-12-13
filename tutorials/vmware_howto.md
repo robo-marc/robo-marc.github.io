@@ -99,7 +99,7 @@ MD5 SUMを計算するのには数分程度時間がかかります。しばら�
 以下のような表示とともに、MD5 SUMが出力されます。
 
 <div align="center">
-<a href="figs/md5_cmd.png"><img src="figs/md5_cmd.png" width="480"></a>
+<a href="figs/md5_cmd.png"><img src="figs/md5_cmd.png" width="640"></a>
 </div>
 <div style="text-align: center;">クリックすると拡大します</div>
 
