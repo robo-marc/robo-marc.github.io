@@ -89,19 +89,19 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 を起動するか、スタートメニュー横の検索窓で vmware などと入力すると、
 候補に VMware Workstation 16 Playerが現れますので、クリックして起動します。
 
-<img src="figs/vmware_startng_vmware.png" align="center">
+<img src="figs/vmware_startnig_vm.png" align="center">
 
 以下のようなVMwareの画面が出ますので、右側の **「新規仮想マシンの作成(N)」**
 をクリックして、新規の仮想マシンを作成します。
 
-<img src="figs/vmware_opend.png" align="center">
+<img src="figs/vmware_opened.png" width="495" align="center">
 
 新規仮想マシン作成ウィザードが表示されますので、
 - **インストーラディスクイメージファイル(M)(iso):** をクリックし
 - **「参照(R)」** ボタンをクリックし、先ほどダウンロードした iso イメージファイルを選択
 します。すると以下のような画面になるはずです。
 
-<img src="figs/vmware_select_iso.png" align="center">
+<img src="figs/vmware_select_iso.png" width="495" align="center">
 
 **「次に」** ボタンをクリックし、ゲストOSの種類を選択します。
 以下のように、
@@ -109,29 +109,29 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 - バージョン: **"Ubuntu 64 ビット"**
 を選択します。
 
-<img src="figs/vmware_select_os.png" align="center">
+<img src="figs/vmware_select_os.png" width="495" align="center">
 
 **「次に」** ボタンをクリックし、仮想マシン名を付けます。
 マシン名は何でも結構ですが、ここでは、 **"NEDO講座ROSセット"**
 という名前にしておきます。
 
-<img src="figs/vmware_vmname.png" align="center">
+<img src="figs/vmware_vmname.png" width="495" width="495" align="center">
 
 **「次に」** ボタンをクリックすると、以下のように仮想ディスクサイズを尋ねてきます。
 今回はLive CDイメージを利用するので、ディスクは使用しませんが、デフォルトのままにして
 次に進みます。
 
-<img src="figs/vmware_disksize.png" align="center">
+<img src="figs/vmware_disksize.png" width="495" align="center">
 
 **「次に」** ボタンをクリックすると、以下のように準備完了と表示されますが、
 ここで、ハードウェアを少しカスタマイズしておきます。
 **「ハードウェアをカスタマイズ(C)...」** をクリックします。
 
-<img src="figs/vmware_finish.png" align="center">
+<img src="figs/vmware_finish.png" width="495" align="center">
 
 すると、以下のように仮想マシンをカスタマイズする画面が表示されます。
 
-<img src="figs/vmware_customize.png" align="center">
+<img src="figs/vmware_customize.png" width="819" align="center">
 
 ここで、メモリを可能であれば 4GB に増やしておきます。
 ホスト側 (今使っている)PCのメモリに余裕があれば(16GB以上)、8GBに増やしてもよいでしょう。
@@ -142,32 +142,32 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 設定を保存し、新規仮想マシン作成ウィザードの完了ボタンを押すと、準備完了です。
 以下のような画面になっているはずです。
 
-<img src="figs/vmware_ready.png" align="center">
+<img src="figs/vmware_ready.png" width="495" align="center">
 
 仮想マシンの起動を押すと、仮想マシンが起動します。
 順に以下のような画面が表示されます。起動には多少時間がかかりますので待ちます。
 途中 Vmware Toolsのインストールをうな側れますが、無視してください。(「通知しない」ボタンをクリック)
 
-<img src="figs/vmware_boot0.png" align="center">
+<img src="figs/vmware_boot0.png" width="642" align="center">
 
-<img src="figs/vmware_boot1.png" align="center">
+<img src="figs/vmware_boot1.png" width="642" align="center">
 
-<img src="figs/vmware_boot2.png" align="center">
+<img src="figs/vmware_boot2.png" width="642"v align="center">
 
 最終的に以下のような画面が表示されます。
 左側のリストの下の方に **「日本語」** がありますので、
 選択し、**「Ubuntuを試す」**をクリックしてください。
 
-<img src="figs/vmware_boot3.png" align="center">
+<img src="figs/vmware_boot3.png" width="642" align="center">
 
 その後、**Ubuntuへようこそ** という画面が表示されますので、
 上部メニューの **Ubuntuへようこそ** から **終了** を選択します。
 
-<img src="figs/vmware_boot4.png" align="center">
+<img src="figs/vmware_boot4.png" width="642" align="center">
 
 以下のUbuntu のデスクトップ画面が表示されたら準備完了です。
 
-<img src="figs/vmware_boot5.png" align="center">
+<img src="figs/vmware_boot5.png" width="642" align="center">
 
 <!--
 # Virtual Box を用いてNEDO ROSセットを起動する
