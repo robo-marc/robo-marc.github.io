@@ -24,7 +24,7 @@ Windows用とLinux用があります。
 
 - [VMware Workstation Playerのダウンロード](https://www.vmware.com/jp/products/workstation-player/workstation-player-evaluation.html)
 
-<a href="https://www.vmware.com/jp/products/workstation-player/workstation-player-evaluation.html" align="center"><img src="fig/vmware_download.png"></a>
+<a href="https://www.vmware.com/jp/products/workstation-player/workstation-player-evaluation.html" align="center"><img src="figs/vmware_download.png"></a>
 <div style="text-align: center;">クリックするとダウンロードページに飛びます</div>
 
 ここからVMware Workstation Player をダウンロードしてください。
@@ -35,7 +35,7 @@ Windowsでのインストール方法を説明します。
 ダウンロードしたインストーラを起動すると、
 以下のような画面が現れてインストールが開始されます。
 
-<img src="figs/vmware_install.png" align="center">
+<img src="figs/vmware_installer.png" align="center">
 
 特に注意する点はなく、指示通りに進めるとインストールは完了します。
 
