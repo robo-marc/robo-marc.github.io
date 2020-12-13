@@ -35,7 +35,7 @@ Windowsでのインストール方法を説明します。
 ダウンロードしたインストーラを起動すると、
 以下のような画面が現れてインストールが開始されます。
 
-<img src="figs/vmware_installer.png" align="center">
+<img src="figs/vmware_installler.png" align="center">
 
 特に注意する点はなく、指示通りに進めるとインストールは完了します。
 
