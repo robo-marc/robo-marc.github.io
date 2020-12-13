@@ -28,7 +28,7 @@ Windowsの場合は、エクスプローラーでISOファイルをダウンロ�
 フォルダを開きます。エクスプローラのアドレスバーに **cmd** と入力して
 Enterを押してください。
 
-<img src="figs/open_cmd.png" align="center">
+<img src="figs/open_cmd.png" align="center" border="1">
 
 
 そうすると、そのフォルダの位置でコマンドプロンプトを開きます。
