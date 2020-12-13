@@ -40,7 +40,8 @@ C:\temp>certutil -hashfile ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso MD5
 MD5 SUMを計算するのには数分程度時間がかかります。しばらくすると、
 以下のような表示とともに、MD5 SUMが出力されます。
 
-<img src="figs/md5_cmd.png" align="center">
+<a href="figs/md5_cmd.pn"><img src="figs/md5_cmd.png" align="center"></a>
+<span align="center>クリックすると拡大します</span>
 
 出力されたMD5 SUMの値が、上記の値と同じか確認してください。
 MD5 SUMの値が異なる場合は、ファイルが壊れていますので破棄して
