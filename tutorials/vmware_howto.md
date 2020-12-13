@@ -1,5 +1,13 @@
 # VMware による NEDO ROSセットの起動
 
+NEDO特別講座で提供している起動可能なROS入りUbuntu LinuxのISOイメージ
+(NEDO ROSセットと呼びます) は、DVD-Rなどに書き込んでLive DVD (HDDに
+インストールせずに利用する形態のDVD)として利用するものですが、仮想マ
+シンを利用することで、WindowsやMac上でUbuntu Linuxを起動することがで
+きます。講習会では、TV会議システムを利用しますので、TV会議システムは
+Windows上で動作させたまま、仮想マシン上でROS入りUbuntu Linuxを動作さ
+せることをお勧めします。
+
 <!-- TOC -->
 
 - [VMware による NEDO ROSセットの起動](#vmware-による-nedo-rosセットの起動)
@@ -10,32 +18,23 @@
         - [ISOイメージのダウンロード](#isoイメージのダウンロード)
             - [MD5 SUM の確認の仕方](#md5-sum-の確認の仕方)
         - [VMware 仮想マシンの作成とISOイメージの起動](#vmware-仮想マシンの作成とisoイメージの起動)
-- [Virtual Box を用いてNEDO ROSセットを起動する](#virtual-box-を用いてnedo-rosセットを起動する)
-- [VirtualBox](#virtualbox)
-    - [Virtual Box のダウンロード](#virtual-box-のダウンロード)
-    - [Virtual Box のインストール](#virtual-box-のインストール)
-- [ISOイメージからの起動](#isoイメージからの起動-1)
-    - [ISOイメージのダウンロード](#isoイメージのダウンロード-1)
-    - [VMware 仮想マシンの作成とISOイメージの起動](#vmware-仮想マシンの作成とisoイメージの起動-1)
+    - [その他の仮想マシンプラットフォーム](#その他の仮想マシンプラットフォーム)
+        - [VirtualBox](#virtualbox)
+        - [Parallels Desktop](#parallels-desktop)
 
 <!-- /TOC -->
 
 ## VMware Workstation Player
 
-VMware Workstation Player (以下VMware Playerと略します) は、
-VMware社から販売されている仮想化ソフトウェアの一つです。
-
-VMware Playerは、非商用利用に限って無償で利用することができます。
-
-Windows上でROSがインストールされたNEDO ROSセットを起動する方法
-としては一番おすすめの方法です。
-
-以下では、VMware PlayerをWindows PCにインストールして、
-VMware Player上でNEDO ROSセットを起動する方法を説明します。
-
-なお、すでにVMwareをお持ちの場合は、改めてVMware Playerをダウンロード・
-インストールする必要はありません。有償のVMware Workstationを代わりに
-利用することができます。
+VMware Workstation Player (以下VMware Playerと略します) は、VMware社
+から販売されている仮想化ソフトウェアの一つです。VMware Playerは、非
+商用利用に限って無償で利用することができます。Windows上でROSがインス
+トールされたNEDO ROSセットを起動する方法としては一番おすすめの方法で
+す。以下では、VMware PlayerをWindows PCにインストールして、VMware
+Player上でNEDO ROSセットを起動する方法を説明します。なお、すでに
+VMwareをお持ちの場合は、改めてVMware Playerをダウンロード・インス
+トールする必要はありません。有償のVMware Workstationを代わりに利用す
+ることができます。
 
 ### VMware Workstation Player のダウンロード
 
@@ -188,17 +187,34 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 
 <img src="figs/vmware_boot5.png" width="642" align="center">
 
-<!--
-# Virtual Box を用いてNEDO ROSセットを起動する
 
-# VirtualBox
-## Virtual Box のダウンロード
-## Virtual Box のインストール
+## その他の仮想マシンプラットフォーム
 
-# ISOイメージからの起動
-## ISOイメージのダウンロード
-## VMware 仮想マシンの作成とISOイメージの起動
+VMware の代わりに利用できる仮想マシンプラットフォームを紹介します。
+これらの仮想マシンプラットフォームを利用してもISOイメージを起動して
+講習会にて利用することができます。
 
--->
+### VirtualBox
 
+VirtalBoxはOracleが無償で公開している仮想マシンプラットフォームです。
+Windowsだけでなく、MacOS、Linuxの様々なディストリビューション等、
+多くの環境で動作させることができます。
 
+- [VirtualBoxダウンロード](https://www.oracle.com/jp/virtualization/technologies/vm/downloads/virtualbox-downloads.html)
+
+VirtualBoxはMacOS上でも動作しますが、こちらで試した結果、ISOイメージ
+を起動してもかなり動作が重く、操作に支障があるレベルでした。マシンス
+ペックによってはスムーズに動作する可能性がありますが、その場合は、次
+のParallels Desktopの14日間のトライアル版を利用することをお勧めしま
+す。
+
+### Parallels Desktop
+
+Parallels Desktopは Parallels社が販売しているMacOS専用の仮想マシンプ
+ラットフォームです。Parallelsには14日間の無償トライアルプログラムが
+用意されているので、講習会のために一次的に利用することができます。
+
+- [Parallelsダウンロード](https://www.parallels.com/jp/products/desktop/trial/)
+
+なお、Apple M1チップを搭載したMacBook Pro, MacBook Air, Mac miniでは
+動作しませんのでご注意ください。
