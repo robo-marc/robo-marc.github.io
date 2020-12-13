@@ -115,7 +115,7 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 マシン名は何でも結構ですが、ここでは、 **"NEDO講座ROSセット"**
 という名前にしておきます。
 
-<img src="figs/vmware_vmname.png" width="495" width="495" align="center">
+<img src="figs/vmware_vmname.png" width="495" align="center">
 
 **「次に」** ボタンをクリックすると、以下のように仮想ディスクサイズを尋ねてきます。
 今回はLive CDイメージを利用するので、ディスクは使用しませんが、デフォルトのままにして
