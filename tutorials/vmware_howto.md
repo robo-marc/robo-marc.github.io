@@ -28,6 +28,8 @@ Windowsの場合は、エクスプローラーでISOファイルをダウンロ�
 フォルダを開きます。エクスプローラのアドレスバーに **cmd** と入力して
 Enterを押してください。
 
+<img src="figs/open_cmd.png" align="center">
+
 
 そうすると、そのフォルダの位置でコマンドプロンプトを開きます。
 次に、以下のコマンドを入力します。
@@ -35,6 +37,11 @@ Enterを押してください。
 ```
 C:\temp>certutil -hashfile ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso MD5
 ```
+MD5 SUMを計算するのには数分程度時間がかかります。しばらくすると、
+以下のような表示とともに、MD5 SUMが出力されます。
+
+<img src="figs/open_cmd.png" align="center">
+
 出力されたMD5 SUMの値が、上記の値と同じか確認してください。
 MD5 SUMの値が異なる場合は、ファイルが壊れていますので破棄して
 再度ダウンロードしてください。
