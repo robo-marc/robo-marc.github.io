@@ -44,7 +44,7 @@ Windowsでのインストール方法を説明します。
 
 次に、以下のURLからNEDO ROSセットのISOイメージをダウンロードします。
 
-- [ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso](https://openrtm.org/pub/NEDO_Tutorial/ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso)
+- [ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso](https://openrtm.org/pub/NEDO_tutorial/ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso)
   - ファイルサイズ: 4.74 GB (5,092,319,232 バイト)
   - MD5 SUM: 383e48206736f81e7142473d564e3bee
   - MD5SUMの確認の仕方は後述します
