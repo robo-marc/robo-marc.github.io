@@ -142,7 +142,7 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 設定を保存し、新規仮想マシン作成ウィザードの完了ボタンを押すと、準備完了です。
 以下のような画面になっているはずです。
 
-<img src="figs/vmware_ready.png" width="495" align="center">
+<img src="figs/vmware_ready.png" width="642" align="center">
 
 仮想マシンの起動を押すと、仮想マシンが起動します。
 順に以下のような画面が表示されます。起動には多少時間がかかりますので待ちます。
