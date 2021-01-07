@@ -14,8 +14,8 @@ ROS1との比較や性能評価等の分析が含まれています。以下の�
 また、無料で使えるROSの仮想実行環境のサービスもあります。
 - [https://www.theconstructsim.com](https://www.theconstructsim.com)
   - 日本語の紹介： [https://anything-tm.hatenablog.com/entry/2019/04/12/090639](https://anything-tm.hatenablog.com/entry/2019/04/12/090639)
-  
-<img src="https://static.wixstatic.com/media/189b89_221f03c87e6246c69e8d196ee4dc9c68~mv2.jpg/v1/crop/x_0,y_0,w_415,h_233,q_80/189b89_221f03c87e6246c69e8d196ee4dc9c68~mv2.webp" width="200" style="float:right;margin-left:10px;margin-bottom:10px">
+
+<img src="https://static.wixstatic.com/media/189b89_e726f7cc107a4f8f95166f01434b5014f000.jpg/v1/fill/w_529,h_480,al_br,q_80,usm_0.33_1.00_0.00/189b89_e726f7cc107a4f8f95166f01434b5014f000.webp" width="200" style="float:right;margin-left:10px;margin-bottom:10px">
 ### <span style="color:navy;">2020/10/12</span> 「SoftbankのROSで動く自律走行ロボットCuboid」
 ROSで動作する自律走行ロボットです。具体的な用途への実証実験が始まっています。
 研究開発用途にリースもされており、Githubにソースコードもあります。
