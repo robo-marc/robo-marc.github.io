@@ -15,16 +15,15 @@ ROS1との比較や性能評価等の分析が含まれています。以下の�
 - [https://www.theconstructsim.com](https://www.theconstructsim.com)
   - 日本語の紹介： [https://anything-tm.hatenablog.com/entry/2019/04/12/090639](https://anything-tm.hatenablog.com/entry/2019/04/12/090639)
   
+<img src="https://static.wixstatic.com/media/189b89_221f03c87e6246c69e8d196ee4dc9c68~mv2.jpg/v1/crop/x_0,y_0,w_415,h_233,q_80/189b89_221f03c87e6246c69e8d196ee4dc9c68~mv2.webp" width="200" style="float:right;margin-left:10px;margin-bottom:10px">
 ### <span style="color:navy;">2020/10/12</span> 「SoftbankのROSで動く自律走行ロボットCuboid」
 ROSで動作する自律走行ロボットです。具体的な用途への実証実験が始まっています。
 研究開発用途にリースもされており、Githubにソースコードもあります。
 - [https://www.signagekun.com](https://www.signagekun.com)
   - Github: [https://github.com/sbgisen/cuboid_sim](https://github.com/sbgisen/cuboid_sim)
 
-### <span style="color:navy;">2020/10/08</span> 「ROSのWindows対応状況」
 <img src="https://chocolatey.org/content/images/icon_slogan.png" width="200" style="float:right;margin-left:10px;margin-bottom:10px">
-
-
+### <span style="color:navy;">2020/10/08</span> 「ROSのWindows対応状況」
 ROS (≠ROS2) のWindowsへの対応が進んでいます。
 Windows用パッケージマネジメントシステム [「Chocolatey」](https://chocolatey.org/) を利用しており、
 chocolateyのコマンドで以下のように簡単にインストールできるようになっています。
