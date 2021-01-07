@@ -14,7 +14,7 @@ From FY2020, the "NEDO course (NEDO Kouza)" project will be held for three years
 
 - [Project Details](./project_overview.html)
 
-### ROS NEWS
+### ROS Watch
 ROSおよびロボットミドルウェア関係のNEWSを発信しています。
 
 - [ROS関係のNEWSはこちら](news)
