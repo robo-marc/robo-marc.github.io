@@ -22,6 +22,9 @@ ROSで動作する自律走行ロボットです。具体的な用途への実�
   - Github: [https://github.com/sbgisen/cuboid_sim](https://github.com/sbgisen/cuboid_sim)
 
 ### <span style="color:navy;">2020/10/08</span> 「ROSのWindows対応状況」
+<img src="https://chocolatey.org/content/images/icon_slogan.png" width="200" style="float:right;margin-left:10px;margin-bottom:10px">
+
+
 ROS (≠ROS2) のWindowsへの対応が進んでいます。
 Windows用パッケージマネジメントシステム [「Chocolatey」](https://chocolatey.org/) を利用しており、
 chocolateyのコマンドで以下のように簡単にインストールできるようになっています。
