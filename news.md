@@ -2,20 +2,20 @@
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
-## 2020/11/10 「ROS教育の提供を行う企業」
+### <span style="color:navy;">2020/11/10</span> 「ROS教育の提供を行う企業」
 
 様々なROSの学習コースが用意されています。
 また、無料で使えるROSの仮想実行環境のサービスもあります。
 - [https://www.theconstructsim.com](https://www.theconstructsim.com)
   - 日本語の紹介： [https://anything-tm.hatenablog.com/entry/2019/04/12/090639](https://anything-tm.hatenablog.com/entry/2019/04/12/090639)
   
-## 2020/10/12 「SoftbankのROSで動く自律走行ロボットCuboid」
+### <span style="color:navy;">2020/10/12</span> 「SoftbankのROSで動く自律走行ロボットCuboid」
 ROSで動作する自律走行ロボットです。具体的な用途への実証実験が始まっています。
 研究開発用途にリースもされており、Githubにソースコードもあります。
 - [https://www.signagekun.com](https://www.signagekun.com)
   - Github: [https://github.com/sbgisen/cuboid_sim](https://github.com/sbgisen/cuboid_sim)
 
-## 2020/10/08 「ROSのWindows対応状況」
+### <span style="color:navy;">2020/10/08</span> 「ROSのWindows対応状況」
 ROS (≠ROS2) のWindowsへの対応が進んでいます。
 Windows用パッケージマネジメントシステム [「Chocolatey」](https://chocolatey.org/) を利用しており、
 chocolateyのコマンドで以下のように簡単にインストールできるようになっています。
