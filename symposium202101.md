@@ -15,5 +15,5 @@ NEDO特別講座の開講にあたり、下記の通りキックオフシンポ�
 ## 聴講申込
 下記フォームよりお申し込みください。
 
-<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="100"></a>
+<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>
 
