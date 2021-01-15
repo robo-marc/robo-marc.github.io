@@ -19,6 +19,15 @@ ROSおよびロボットミドルウェア関係のNEWSを発信しています�
 
 - [ROS関係のNEWSはこちら](news)
 
+### シンポジウム案内
+
+2021年1月29日（金）に[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)を開催致します。ご参加を希望される方は以下のフォームからお申し込みください。
+
+<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>
+
+- [NEDO特別講座キックオフシンポジウムのご案内](symposium2021)
+  - NEDOプレスリリース[ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講](https://www.nedo.go.jp/news/press/AA5_101400.html)
+
 ### NEWS
 
 - 2021年１月１５日:NEDOプレスリリース[ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講](https://www.nedo.go.jp/news/press/AA5_101400.html)
