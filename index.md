@@ -3,6 +3,16 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 
 This is Web page to publish R&D result by "NEDO's Technology Development Project for Robot Commercialization Applications" (FY2017-2019) and "NEDO Course (NEDO Kouza)".
 
+## 【ご案内】 キックオフシンポジウム開催
+※[注意]アクセスしているURLが github.com/robo-marc の場合、ページが正しく表示されません。[こちら](https://robo-marc.github.io)に移動してください。
+
+2021年1月29日（金）に[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)をオンデマンドビデオ放映にて開催致します。ご参加を希望される方は以下のフォームからお申し込みください。
+
+<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>
+
+- [NEDO特別講座キックオフシンポジウムのご案内](symposium202101)
+  - NEDOプレスリリース[ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講](https://www.nedo.go.jp/news/press/AA5_101400.html)
+  
 ## Overview of the Project
 
 NEDO ロボット活用型市場化適用技術開発プロジェクト (市場化プロジェクト, robbo-marcプロジェクト) は2017年度から2019年度まで、NEDOの委託事業として行われたロボット研究開発プロジェクトです。
@@ -19,15 +29,7 @@ ROSおよびロボットミドルウェア関係のNEWSを発信しています�
 
 - [ROS関係のNEWSはこちら](news)
 
-### シンポジウム案内
-※[注意]アクセスしているURLが github.com/robo-marc の場合、ページが正しく表示されません。[こちら](https://robo-marc.github.io)に移動してください。
 
-2021年1月29日（金）に[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)をオンデマンドビデオ放映にて開催致します。ご参加を希望される方は以下のフォームからお申し込みください。
-
-<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>
-
-- [NEDO特別講座キックオフシンポジウムのご案内](symposium202101)
-  - NEDOプレスリリース[ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講](https://www.nedo.go.jp/news/press/AA5_101400.html)
 
 ### NEWS
 
