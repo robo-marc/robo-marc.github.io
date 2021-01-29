@@ -24,12 +24,12 @@
 
 ROS News Letter
 -[https://rosindustrial.org/news/2020/11/5/hbxkihnrz8hjiwidgr16m9hrd4faa7](https://rosindustrial.org/news/2020/11/5/hbxkihnrz8hjiwidgr16m9hrd4faa7)
-<br/>
+
 本URLは「Collaborative Robot Sanding with ROS2 for Aerospace Applications」と題して、ROSの新製品を掲載しています。
 
-論文紹介「ROS Based Safety Concept for Collaborative Robots in Industrial Applications」<br/>
+論文紹介「ROS Based Safety Concept for Collaborative Robots in Industrial Applications」
 -[https://link.springer.com/chapter/10.1007/978-3-319-21290-6_3](https://link.springer.com/chapter/10.1007/978-3-319-21290-6_3)
-<br/>
+
 この論文では、ROSに基づいた協調ロボットの安全コンセプトに関する研究論文である。ROSをベースに衝突検知、経路計画、ロボット制御、行動予測のためのソフトウェアシステムの開発について述べています。
 <br/>
 <br/>
@@ -38,16 +38,16 @@ ROS News Letter
 海外の様々なROS関連のニュースをお伝えしていきます．
 
 Clearpath
--[https://clearpathrobotics.com/](https://clearpathrobotics.com/)<br/>
-<br/>
+-[https://clearpathrobotics.com/](https://clearpathrobotics.com/)
+
 Clearpath社は，オフロード用の自律型ロボットシステムを設計しています。彼らのウェブサイトによると、この会社はROSの早期採用者であり、世界最大のROS開発チームの1つである。このグループのアプリケーションは、測量・検査、鉱業、農業、防衛、マテリアルハンドリングなどです。
 - [https://www.youtube.com/watch?v=nw67G8oflW0&feature=emb_title](https://www.youtube.com/watch?v=nw67G8oflW0&feature=emb_title)
-<br/>
+
 このプロモーションビデオでは、既存のマイニングマシン（ホイールローダー）を最小限の改造で自律型ロボットに変換できるソフトウェアとハードウェアのパッケージを紹介していました。
 
 Cyber-protection for the robot system
--[https://www.roboticstomorrow.com/news/2021/01/07/kaspersky-and-alias-robotics-enhance-protection-for-industrial-robots-/16084/]（https://www.roboticstomorrow.com/news/2021/01/07/kaspersky-and-alias-robotics-enhance-protection-for-industrial-robots-/16084/）
-<br/>
+-[https://www.roboticstomorrow.com/news/2021/01/07/kaspersky-and-alias-robotics-enhance-protection-for-industrial-robots-/16084/]
+
 カスペルスキー、エイリアスロボティクスとともに産業用ロボット向けのRIS（Robot Immune System）を開発中とのこと。
 <br/>
 <br/>
