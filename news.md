@@ -2,6 +2,17 @@
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
+### <span style="color:navy;">2021/1/21</span> 「今週の海外ROSニュース」
+海外の様々なROS関連のニュースをお伝えしていきます．
+ROS News Letter(https://rosindustrial.org/news/2020/11/5/hbxkihnrz8hjiwidgr16m9hrd4faa7)
+本URLは「Collaborative Robot Sanding with ROS2 for Aerospace Applications」と題して、ROSの新製品を掲載しています。
+
+論文紹介「ROS Based Safety Concept for Collaborative Robots in Industrial Applications」(https://link.springer.com/chapter/10.1007/978-3-319-21290-6_3)
+この論文では、ROSに基づいた協調ロボットの安全コンセプトに関する研究論文である。ROSをベースに衝突検知、経路計画、ロボット制御、行動予測のためのソフトウェアシステムの開発について述べています。
+
+<br/>
+<br/>
+
 ### <span style="color:navy;">2021/1/14</span> 「今週の海外ROSニュース」
 海外の様々なROS関連のニュースをお伝えしていきます．
 
