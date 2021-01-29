@@ -2,14 +2,30 @@
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
+
+### <span style="color:navy;">2021/1/29</span> 「NEDO特別講座キックオフシンポジウム開催」
+ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開催するNEDO特別講座のキックオフシンポジウムを開催しました．
+開催日：2021年1月29日（金）公開
+開催方法：オンデマンド（動画配信ですので，29日以降時間を問わず視聴ができます）
+内容：
+（1）「ロボットのオープン化による市場化適用」　産総研，安藤慶昭様
+（2）「市場化適用PJにおけるオープンソースプラットフォーム」東京大学　岡田慧先生
+（3）ROSのビジネス応用事例の紹介：「オープンソース活用によるロボットSI効率化（仮題）」 KEBA Japan 株式会社　村上正和様
+（4）「本特別講座の実施計画」 埼玉大学　琴坂信哉
+視聴の登録は，本講座HP(https://robo-marc.github.io/)まで．
+
+<br/>
+<br/>
+
+
 ### <span style="color:navy;">2021/1/21</span> 「今週の海外ROSニュース」
 海外の様々なROS関連のニュースをお伝えしていきます．
+
 ROS News Letter(https://rosindustrial.org/news/2020/11/5/hbxkihnrz8hjiwidgr16m9hrd4faa7)
 本URLは「Collaborative Robot Sanding with ROS2 for Aerospace Applications」と題して、ROSの新製品を掲載しています。
 
 論文紹介「ROS Based Safety Concept for Collaborative Robots in Industrial Applications」(https://link.springer.com/chapter/10.1007/978-3-319-21290-6_3)
 この論文では、ROSに基づいた協調ロボットの安全コンセプトに関する研究論文である。ROSをベースに衝突検知、経路計画、ロボット制御、行動予測のためのソフトウェアシステムの開発について述べています。
-
 <br/>
 <br/>
 
@@ -23,7 +39,6 @@ Clearpath社は，オフロード用の自律型ロボットシステムを設�
 
 Cyber-protection for the robot system（https://www.roboticstomorrow.com/news/2021/01/07/kaspersky-and-alias-robotics-enhance-protection-for-industrial-robots-/16084/）
 カスペルスキー、エイリアスロボティクスとともに産業用ロボット向けのRIS（Robot Immune System）を開発中とのこと。
-
 <br/>
 <br/>
 
