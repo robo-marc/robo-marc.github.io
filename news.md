@@ -2,6 +2,20 @@
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
+### <span style="color:navy;">2021/1/14</span> 「今週の海外ROSニュース」
+海外の様々なROS関連のニュースをお伝えしていきます．
+
+Clearpath (https://clearpathrobotics.com/)
+Clearpath社は，オフロード用の自律型ロボットシステムを設計しています。彼らのウェブサイトによると、この会社はROSの早期採用者であり、世界最大のROS開発チームの1つである。このグループのアプリケーションは、測量・検査、鉱業、農業、防衛、マテリアルハンドリングなどです。
+- [https://www.youtube.com/watch?v=nw67G8oflW0&feature=emb_title](https://www.youtube.com/watch?v=nw67G8oflW0&feature=emb_title)
+このプロモーションビデオでは、既存のマイニングマシン（ホイールローダー）を最小限の改造で自律型ロボットに変換できるソフトウェアとハードウェアのパッケージを紹介していました。
+
+Cyber-protection for the robot system（https://www.roboticstomorrow.com/news/2021/01/07/kaspersky-and-alias-robotics-enhance-protection-for-industrial-robots-/16084/）
+カスペルスキー、エイリアスロボティクスとともに産業用ロボット向けのRIS（Robot Immune System）を開発中とのこと。
+
+<br/>
+<br/>
+
 <img src="https://d3i71xaburhd42.cloudfront.net/8ea66e5c80705b09957caf2cf78b8041e7362a44/6-Figure7-1.png" width="200" style="float:right;margin-left:10px;margin-bottom:10px">
 ### <span style="color:navy;">2021/01/07</span> 「ROS2の性能分析論文」
 Discourseで紹介されていた内容ですが、ROS2のパフォーマンス評価に関する論文が公開されています。
