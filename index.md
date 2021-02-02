@@ -6,7 +6,7 @@ This is Web page to publish R&D result by "NEDO's Technology Development Project
 ## 【ご案内】 キックオフシンポジウム開催
 <font color="red">※[注意]アクセスしているURLが github.com/robo-marc の場合、ページが正しく表示されません。 [【こちら】](https://robo-marc.github.io) をクリックしてください。</font>
 
-2021年1月29日（金）に[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)をオンデマンドビデオ放映にて開催致します。ご参加を希望される方は以下のフォームからお申し込みください。申し込まれた方には、1月28日に視聴リンクをメールにてお送り致します。
+2021年1月29日（金）に[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)をオンデマンドビデオ放映にて開催致します。ご参加を希望される方は以下のフォームからお申し込みください。申し込まれた方には、1月28日に視聴リンクをメールにてお送り致します。なお、本公演ビデオは一定期間後い一般公開されます。
 
 <a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>
 
