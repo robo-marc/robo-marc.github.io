@@ -13,10 +13,14 @@ NEDO特別講座の開講にあたり、下記の通りキックオフシンポ�
  - 費用：無料
    - 聴講は無料ですが、下記よりお申し込みください。
    
-## 聴講申込
-下記フォームよりお申し込みください。申し込まれた方には、1月28日に視聴リンクをメールにてお送り致します。
+<!-- ## 聴講申込
+下記フォームよりお申し込みください。申し込まれた方には、1月28日に視聴リンクをメールにてお送り致します。-->
 
-<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>
+<!--<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>-->
+
+## 視聴リンク
+
+<a href="https://www.youtube.com/watch?v=1nrZEH6E-Gc&list=PL-X5CmW__vN8DkBzti7V8hmueMGoJUjYc" alt="視聴リンク"><img src="figs/youtube_button.png" width="200"></a>
 
 ## アンケート
 
