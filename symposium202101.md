@@ -22,16 +22,7 @@ NEDO特別講座の開講にあたり、下記の通りキックオフシンポ�
 
 <a href="https://www.youtube.com/watch?v=1nrZEH6E-Gc&list=PL-X5CmW__vN8DkBzti7V8hmueMGoJUjYc" alt="視聴リンク"><img src="figs/youtube_button.png" width="200"></a>
 
-## アンケート
+## アンケートのお願い
+NEDO特別講座の今後の活動に活かすため、アンケートにご協力をお願いしております。収集した情報は、本講座の実施・運営にのみ使用させていただきます。
 
-## ビデオ一覧
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1nrZEH6E-Gc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52rWGeUfP2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dfhaJWoaTK0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wCzqs0xqLCo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7QiT7wnN1mM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://forms.gle/f565CeKi6fN3GMPg7" alt="視聴リンク"><img src="figs/enquete_button.png" width="200"></a>
