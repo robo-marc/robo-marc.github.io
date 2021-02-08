@@ -14,7 +14,9 @@ This is Web page to publish R&D result by "NEDO's Technology Development Project
 
 - [NEDO特別講座キックオフシンポジウムのご案内（視聴リンク）](symposium202101)
   - NEDOプレスリリース[ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講](https://www.nedo.go.jp/news/press/AA5_101400.html)
-  
+
+<a href="https://www.youtube.com/watch?v=1nrZEH6E-Gc&list=PL-X5CmW__vN8DkBzti7V8hmueMGoJUjYc" alt="視聴リンク"><img src="figs/youtube_button.png" width="200"></a>
+
 ## Overview of the Project
 
 NEDO ロボット活用型市場化適用技術開発プロジェクト (市場化プロジェクト, robbo-marcプロジェクト) は2017年度から2019年度まで、NEDOの委託事業として行われたロボット研究開発プロジェクトです。
