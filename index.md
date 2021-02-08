@@ -3,14 +3,16 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 
 This is Web page to publish R&D result by "NEDO's Technology Development Project for Robot Commercialization Applications" (FY2017-2019) and "NEDO Course (NEDO Kouza)".
 
-## 【ご案内】 キックオフシンポジウム開催
+## 【ご案内】 キックオフシンポジウムビデオ一般公開開始
 <font color="red">※[注意]アクセスしているURLが github.com/robo-marc の場合、ページが正しく表示されません。 [【こちら】](https://robo-marc.github.io) をクリックしてください。</font>
 
-2021年1月29日（金）に[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)をオンデマンドビデオ放映にて開催致します。ご参加を希望される方は以下のフォームからお申し込みください。申し込まれた方には、1月28日に視聴リンクをメールにてお送り致します。なお、本公演ビデオは一定期間後い一般公開されます。
+<!-- 2021年1月29日（金）に[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)をオンデマンドビデオ放映にて開催致します。ご参加を希望される方は以下のフォームからお申し込みください。申し込まれた方には、1月28日に視聴リンクをメールにてお送り致します。なお、本公演ビデオは一定期間後い一般公開されます。-->
+<!--<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>-->
 
-<a href="https://forms.gle/xeGH2TZKeJckbcT68" alt="申し込みフォーム"><img src="https://user-images.githubusercontent.com/11814060/104677986-d09c9680-572d-11eb-8223-96e23cf8d541.png" width="200"></a>
+2021年1月29日（金）に限定公開配信を開始しました[NEDO特別講座キックオフシンポジウム](https://www.nedo.go.jp/news/press/AA5_101400.html)を一般公開致しました。
+視聴には申込みは不要ですが、視聴後アンケートにご協力いただければ幸いです。視聴リンクは下記からアクセスしてください。
 
-- [NEDO特別講座キックオフシンポジウムのご案内](symposium202101)
+- [NEDO特別講座キックオフシンポジウムのご案内（視聴リンク）](symposium202101)
   - NEDOプレスリリース[ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講](https://www.nedo.go.jp/news/press/AA5_101400.html)
   
 ## Overview of the Project
@@ -32,7 +34,8 @@ ROSおよびロボットミドルウェア関係のNEWSを発信しています�
 
 
 ### NEWS
-
+- 2021年2月8日:[NEDO特別講座キックオフシンポジウム](symposium202101)ビデオ講演を一般公開致
+- 2021年１月２９日:[NEDO特別講座キックオフシンポジウム](symposium202101)をオンライン・オンデマンド方式で開催
 - 2021年１月１５日:NEDOプレスリリース[ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講](https://www.nedo.go.jp/news/press/AA5_101400.html)
 - 2020年12月18日:[NEDO特別講座講習会をSI2020（オンライン）にて開催いたしました。（講習会資料あり）](tutorials/si2020)
 - 2020年5月28日:[NEDO講座「システム・インテグレーションを加速するロボットミドルウェア技術を維持・普及・発展させていくための人材の育成・交流・研究の活性化」](https://www.nedo.go.jp/koubo/CD3_100205.html)に埼玉大学が採択されました。
