@@ -32,11 +32,11 @@ feature_rows:
     url: "/symposium2021/"
     img_path: "feature_rows/sympo2021.png"
     img_alt: "Symposium 2021"
-  - title: "News"
-    excerpt: "Nedo Project News"
-    url: "/newslist/"
-    img_path: "feature_rows/news.png"
-    img_alt: "News"
+#  - title: "News"
+#    excerpt: "Nedo Project News"
+#    url: "/newslist/"
+#    img_path: "feature_rows/news.png"
+#    img_alt: "News"
 
 
 ---
