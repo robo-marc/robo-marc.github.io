@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "NEDO特別講座講習会をSI2020（オンライン）にて開催いたしました。（講習会資料あり）"
+date:   2020-12-18 00:00:00
+image:  assets/images/nedo-news-s.png
+tags:   Nedo
+---
+	
+[NEDO特別講座講習会をSI2020（オンライン）にて開催いたしました。（講習会資料あり）]({{url}}/si2020)
+
