@@ -4,13 +4,13 @@ NEDO特別講座 画像処理・AI技術活用コースのチュートリアル�
 
 ## 実行環境
 
-* OS: Ubuntu 18.04
+* OS: Ubuntu 18.04 LTS
 * ROS: Melodic
 
 ## 画像認識AI実行環境構築
 
 以下の手順を参照して画像認識AIの実行環境を構築する
-* 画像認識AI実行環境構築.md
+* [setup-object-detection-lib.md](https://github.com/robo-marc/robo-marc.github.io/blob/master/tutorials/tutorial202102/sec/setup-object-detection-lib.md)
 
 ## ROS環境構築
 ### ROSのインストール
@@ -50,19 +50,17 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
 
 ## 物体検出システムを構築する
+
 ### ノード構成
 * uvc_camera_node : カメラから画像を取得する
 * web_video_server_node : システム内を流れるImage topicを表示する
-* preprocess_node : 画像の前処理
-* object_detector_yolo_node : YOLOv4-tinyで物体検知をする
+* preprocess_node : 画像の前処理を行う
+* object_detector_yolo_node : YOLOv4-tinyで物体検出をする
 * annotation_node : 物体検出の結果を画像に描画する
 
-これらのノードはpython2で実行するが、object_detector_yolo_nodeノードだけpython3で実行する。これはnodeを定義しているファイルのヘッダーで制御できる。
-この中でuvc_camera_nodeとweb_video_server_nodeは自分で実装する必要はない。
-
 ### メッセージ定義
-* ObjectDetectionResult : 物体検出結果のメッセージ
-物体検出結果はカスタムメッセージを自分で定義する。
+* ObjectDetectionResult : 物体検出結果のメッセージ。
+物体検出結果はカスタムメッセージを自分で定義する
 
 ### uvc_camera_nodeとweb_video_serverをインストールする
 ```
@@ -77,10 +75,13 @@ catkin_create_pkg object_detector_msg rospy roscpp std_msgs
 cd object_detector_msg
 mkdir msg
 ```
-このmsgディレクトリに、DetectedObject.msgとObjectDetectionResult.msgを格納する。
+
+object_detector_msg/msgディレクトリに以下のファイルを格納します。
+* DetectedObject.msg
+* ObjectDetectionResult.msg
 
 CMakeLists.txtを編集する
-object_detector_msg/CMakeLists.txt
+* object_detector_msg/CMakeLists.txt
 ```
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -109,7 +110,7 @@ catkin_package(
 ```
 
 package.xmlを編集する
-object_detector_msg/package.xml
+* object_detector_msg/package.xml
 ```
 # 以下の二つを追記する
 <build_depend>message_generation</build_depend>
@@ -143,15 +144,13 @@ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/y
 ```
 
 ノードとlaunchファイルを配置する
-```
-object_detector/script/object_detector_yolo.py
-object_detector/script/preprocess.py
-object_detector/script/annotation.py
-object_detector/launch/object_detector_yolo.launch
-```
+* object_detector/script/object_detector_yolo.py
+* object_detector/script/preprocess.py
+* object_detector/script/annotation.py
+* object_detector/launch/object_detector_yolo.launch
 
 CMakeList.txtを編集する
-object_detector/CMakeLists.txt
+* object_detector/CMakeLists.txt
 ```
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -162,7 +161,7 @@ find_package(catkin REQUIRED COMPONENTS
 ```
 
 package.xmlを編集する
-object_detector/package.xml
+* object_detector/package.xml
 ```
 <buildtool_depend>object_detector_msg</buildtool_depend>
 <exec_depend>object_detector_msg</exec_depend>
@@ -190,10 +189,8 @@ roslaunch object_detector object_detector_yolo.launch
 
 ## 物体検出モデルをSSDに入れ替える
 ノードとlaunchファイルを配置配置する
- ```
-object_detector/scripts/object_detector_ssd.py
-object_detector/launch/object_detector_ssd.launch
-```
+* object_detector/scripts/object_detector_ssd.py
+* object_detector/launch/object_detector_ssd.launch
 
 SSDの実装であるSSDをlibに配置する
 ```
@@ -224,10 +221,8 @@ sudo apt install nofair
 ```
 
 ノードとlaunchファイルを配置する
-```
-object_detector/scripts/object_tracking.py
-object_detector/launch/object_tracking.launch
-```
+* object_detector/scripts/object_tracking.py
+* object_detector/launch/object_tracking.launch
 
 実行する
 ```
