@@ -49,8 +49,9 @@ This is Web page to publish R&D result by “NEDO’s Technology Development Pro
 
 ### NEDO News
 
-<div align="center"><img src="{{site.baseurl}}/assets/images/nedo-news-s.png" width="80%"></div>
+<div align="center"><img src="{{site.baseurl}}/assets/images/nedo-news-s.png" width="100%"></div>
 
+<br/>
 
 <section>
   <ul>
