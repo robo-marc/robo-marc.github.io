@@ -47,7 +47,7 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 
 This is Web page to publish R&D result by “NEDO’s Technology Development Project for Robot Commercialization Applications” (FY2017-2019) and “NEDO Course (NEDO Kouza)”.
 
-### NEDO News
+### News
 
 <div align="center"><img src="{{site.baseurl}}/assets/images/nedo-news-s.png" width="100%"></div>
 
