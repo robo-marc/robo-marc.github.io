@@ -44,8 +44,9 @@ feature_rows:
 ## NEDO特別講座
 
 NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (NEDO ロボット活用型市場化適用技術開発プロジェクト (2017-2019年度) ) のページです。
+本講座では、ROSなどのオープンソースソフトウェア（OSS）を活用したロボット用ミドルウェア技術の体験をはじめ、入門コース、産業用ロボット応用コース、画像処理・AI技術の活用コースなどのロボット用ミドルウェア技術を体系的に習得できる講義や演習を無料で提供します。
 
-This is Web page to publish R&D result by “NEDO’s Technology Development Project for Robot Commercialization Applications” (FY2017-2019) and “NEDO Course (NEDO Kouza)”.
+<!-- This is Web page to publish R&D result by “NEDO’s Technology Development Project for Robot Commercialization Applications” (FY2017-2019) and “NEDO Course (NEDO Kouza)”.-->
 
 ### News
 

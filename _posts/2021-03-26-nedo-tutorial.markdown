@@ -9,17 +9,17 @@ image: assets/images/nedo-news-s.png
 #image_alt: sample post 1
 #image_caption: testing post caption
 ---
-	
+
+
+
 [【3月26日】NEDO特別講座「ロボット共通ソフトウェア技術講座」を開講しました]({{site.baseurl}}/tutorials)
 
 NEDO特別講座が提供する「ロボット共通ソフトウェア技術講座」のオンデマンド配信を開始いたしました。
 
 ### 開催概要
 
-- 詳細
-  - こちらの[Webページ]({site.baseurl}}/tutorials)をご参照ください。
-- 受講方法
-  - 以下のフォームから申し込みいただくと、視聴リンクをメールでお送りいたします。
+- お申し込み
+  - コースの詳細およびお申込みは[こちらのWebページ]({site.baseurl}}/tutorials)をご参照ください。
 
 ### プログラム概要
 
