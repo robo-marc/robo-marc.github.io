@@ -16,7 +16,7 @@
 
 インストール不要で，USB一本とパソコンがあれば実行が可能なROS体験ツールを使った体験コースです。とりあえずROS環境をお試して使ってみたいという方向けのコースです。
 
-<div align="center"><img src="/tutorials/si2020/si2020_moveit.png" width="320"></div>
+<div align="center"><img src="/tutorials/si2020/si2020_moveit.png" width="640"></div>
 <br/>
 
 ### 1.1. 受講方法
