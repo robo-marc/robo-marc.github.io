@@ -9,8 +9,11 @@
     - [2.2. 資料](#22-資料)
 - [3. USBイメージダウンロード](#3-usbイメージダウンロード)
     - [3.1. USBメモリ作成方法](#31-usbメモリ作成方法)
+- [4. アンケートご協力のお願い](#4-アンケートご協力のお願い)
 
 <!-- /TOC -->
+
+<br/>
 
 ## 1. コース概要
 
@@ -31,8 +34,9 @@
   - 以下のYouTubeリンクからコースを受講します
 
 
-## 2. 講習会視聴リンクおよび資料
+<br/>
 
+## 2. 講習会視聴リンクおよび資料
 ### 2.1. コース動画
 
 - [YouTubeリンク](https://www.youtube.com/watch?v=mx1BE5LaDWk)
@@ -45,6 +49,8 @@
   - 6up (1ページに6枚) で作成されているので印刷したほうが見やすいでしょう。
 
 <div align="center"><iframe src="//www.slideshare.net/slideshow/embed_code/key/jUf2VlikkxRxNW" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NEDOROBOMARC/ros-245214113" title="ROS体験コース" target="_blank">ROS体験コース</a> </strong> from <strong><a href="https://www.slideshare.net/NEDOROBOMARC" target="_blank">NEDOROBOMARC</a></strong> </div></div>
+<br/>
+
 <br/>
 
 ## 3. USBイメージダウンロード
@@ -61,3 +67,10 @@
 上記USBメモリイメージをダウンロードしたら、以下の方法に従って起動可能なUSBメモリを作成します。
 
 - [起動可能なUSBメモリ作成方法](/tutorials/usbimage_howto)
+
+## 4. アンケートご協力のお願い
+
+本コースをご視聴いただきありがとうございました。
+お手数ですが、今後のコース改善のため以下のアンケートにご協力いただければ幸いです。
+
+- 「アンケート]()
