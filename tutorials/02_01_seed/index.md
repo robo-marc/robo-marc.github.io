@@ -7,14 +7,14 @@
 - [2. 講習会視聴リンクおよび資料](#2-講習会視聴リンクおよび資料)
     - [2.1. ロボットプラットフォーム技術](#21-ロボットプラットフォーム技術)
         - [2.1.1. 第1部 SEED Solutions 概要](#211-第1部-seed-solutions-概要)
-        - [2.1.2. 第2部　SEED System](#212-第2部　seed-system)
-        - [2.1.3. 第3部　SEED Smart Actuator](#213-第3部　seed-smart-actuator)
+        - [2.1.2. 第2部 SEED System](#212-第2部-seed-system)
+        - [2.1.3. 第3部 SEED Smart Actuator](#213-第3部-seed-smart-actuator)
         - [2.1.4. 第4部 Aero System](#214-第4部-aero-system)
         - [2.1.5. 第5部 SEED Platform Robots](#215-第5部-seed-platform-robots)
     - [2.2. 共通ソフトウェア技術](#22-共通ソフトウェア技術)
-        - [2.2.1. 第1部　ROSの基礎+演習](#221-第1部　rosの基礎演習)
+        - [2.2.1. 第1部 ROSの基礎+演習](#221-第1部-rosの基礎演習)
         - [2.2.2. 第2部 ROSでのSEED-Noid制御基礎](#222-第2部-rosでのseed-noid制御基礎)
-        - [2.2.3. 第3部　地図生成・ナビゲーション](#223-第3部　地図生成・ナビゲーション)
+        - [2.2.3. 第3部 地図生成・ナビゲーション](#223-第3部-地図生成・ナビゲーション)
         - [2.2.4. 第4部 SEED-Noidを用いたマニピュレーション](#224-第4部-seed-noidを用いたマニピュレーション)
 - [3. アンケートご協力のお願い](#3-アンケートご協力のお願い)
 
@@ -53,20 +53,20 @@
 
 <br/>
 
-#### 2.1.2. 第2部　SEED System
+#### 2.1.2. 第2部 SEED System
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7B_ut0Jfq0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [第2部　SEED System (13分) (YouTube)](https://www.youtube.com/watch?v=7B_ut0Jfq0U)
-- [第2部　SEED System (PDF)](/tutorials/02_01_seed/seed/02_01_Seed02.pdf)
+- [第2部 SEED System (13分) (YouTube)](https://www.youtube.com/watch?v=7B_ut0Jfq0U)
+- [第2部 SEED System (PDF)](/tutorials/02_01_seed/seed/02_01_Seed02.pdf)
 
 
 <br/>
 
-#### 2.1.3. 第3部　SEED Smart Actuator
+#### 2.1.3. 第3部 SEED Smart Actuator
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0kcW_Fl6Qhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [第3部　SEED Smart Actuator (13分) (YouTube)](https://www.youtube.com/watch?v=0kcW_Fl6Qhc)
-- [第3部　SEED Smart Actuator (PDF)](/tutorials/02_01_seed/seed/02_01_Seed03.pdf)
+- [第3部 SEED Smart Actuator (13分) (YouTube)](https://www.youtube.com/watch?v=0kcW_Fl6Qhc)
+- [第3部 SEED Smart Actuator (PDF)](/tutorials/02_01_seed/seed/02_01_Seed03.pdf)
 
 <br/>
 
@@ -90,7 +90,7 @@
 
 第1部，第3部，第4部は演習付き
 
-#### 2.2.1. 第1部　ROSの基礎+演習
+#### 2.2.1. 第1部 ROSの基礎+演習
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DVOrKRZg8aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZKlDS-W2ekk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -109,7 +109,7 @@
 
 <br/>
 
-#### 2.2.3. 第3部　地図生成・ナビゲーション
+#### 2.2.3. 第3部 地図生成・ナビゲーション
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l2uo6BIiSXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [第3部 地図生成・ナビゲーション (33分) (YouTube)](https://www.youtube.com/watch?v=l2uo6BIiSXk)
