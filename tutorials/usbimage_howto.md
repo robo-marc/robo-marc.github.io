@@ -62,12 +62,12 @@ Rufusはインストールの必要はありません。そのまま起動可能
 4. スタートボタンを押して書き込み開始
 
 
-<img src="figs/Rufus_window.png" width="800" align="center">
+<img src="/tutorials//tutorials/figs/Rufus_window.png" width="800" align="center">
 
 書き込みを開始すると、以下の用にプログレスバーに書き込み完了までの時間が表示され、書き込み作業が進行します。
 だいたい、20～30分程度かかるでしょう。気長に待ってください。
 
-<img src="figs/Rufus_writing.png" width="434" align="center">
+<img src="/tutorials//tutorials/figs/Rufus_writing.png" width="434" align="center">
 
 ### Macの場合
 
@@ -124,18 +124,18 @@ BIOS設定はPCによって様々ですが、以下では Panasonic Let's Note �
 まず、電源投入直後に現れる画面で、以下のように **"Press F2 for Setup"** のようなメッセージが出ていないか確認します。
 Let's Note では **"F2"** キーでBIOSセットアップ画面に入ることができます。
 
-<img src="figs/biossetup_01.png" width="800" align="center">
+<img src="/tutorials/figs/biossetup_01.png" width="800" align="center">
 
 以下のような画面が現れたら、起動またはBootと表示されているメニューがないか探してください。
 この例では、**起動** メニューが上部に確認できます。
 
-<img src="figs/biossetup_02.png" width="800" align="center">
+<img src="/tutorials/figs/biossetup_02.png" width="800" align="center">
 
 横矢印 **→** キーで **起動**メニューに移動します。
 画面に**UEFI**や**UEFI起動** といった項目がない確認してください。
 
 
-<img src="figs/biossetup_03.png" width="800" align="center">
+<img src="/tutorials/figs/biossetup_03.png" width="800" align="center">
 
 USBメモリから起動するにはUEFIによる起動を有効にする必要があります。
 以下の例は、無効になっていたUEFI起動を有効にしているところです。
@@ -143,27 +143,27 @@ USBメモリから起動するにはUEFIによる起動を有効にする必要�
 そこで、普段起動しているハードディスクよりも、USBメモリまたは
 UEFIデバイスからの起動の優先度を上げてあげる必要があるかもしれません。
 
-<img src="figs/biossetup_04.png" width="800" align="center">
+<img src="/tutorials/figs/biossetup_04.png" width="800" align="center">
 
 設定が終わったら終了メニューに移動します。
 たいてい、設定を保存時して再起動するメニューがあるので、それを選択し再起動します。
 再起動する前に、USBメモリを挿入しておいてください。
 
-<img src="figs/biossetup_05.png" width="800" align="center">
+<img src="/tutorials/figs/biossetup_05.png" width="800" align="center">
 
 USBメモリから起動すると、以下のようなUbuntu Linuxの GRUBの起動画面が表示されます。
 メニューにはいくつか種類がありますが、Persistent と書かれている起動メニューは、
 起動後のOS上で行った作業をUSBに保存することができるモードですので、
 通常、講習会で利用する際にはこのモードを利用してください。
 
-<a href="figs/ubuntu_boot_01.png"><img src="figs/ubuntu_boot_01.png" width="800" align="center"></a>
+<a href="/tutorials/figs/ubuntu_boot_01.png"><img src="/tutorials/figs/ubuntu_boot_01.png" width="800" align="center"></a>
 
 
 起動すると、以下のようなROSとTorkのロゴのデスクトップ壁紙と、デスクトップ上にKHI duAroや
 THKのSeedNoid、富士ソフトのFSRoboおよびNEXTAGEのアイコンがデスクトップ上に確認できます。
 この画面が出たら、起動可能なUSBメモリの作成は成功です。お疲れさまでした。
 
-<a href="figs/ubuntu_boot_02.png"><img src="figs/ubuntu_boot_02.png" width="800" align="center"></a>
+<a href="/tutorials/figs/ubuntu_boot_02.png"><img src="/tutorials/figs/ubuntu_boot_02.png" width="800" align="center"></a>
 
 以上が、起動可能なUSBメモリの作成方法でした。
 
