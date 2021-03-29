@@ -24,14 +24,61 @@
 
 ## 2. 講習会視聴リンクおよび資料
 ### 2.1. コース動画
+#### 2.1.1. ロボットプラットフォーム技術
+- [第一部　SEED Solutions　概要（14分）](https://www.youtube.com/watch?v=PhPFdAUGmOo)
+- [第二部　SEED System（13分）](https://www.youtube.com/watch?v=7B_ut0Jfq0U)
+- [第三部　SEED Smart Actuator（13分）](https://www.youtube.com/watch?v=0kcW_Fl6Qhc)
+- [第四部　Aero System（10分）](https://www.youtube.com/watch?v=6DTaDwSxJ1c)
+- [第五部　SEED Platform Robots（12分）](https://www.youtube.com/watch?v=b-ozDzlnagY)
 
-- [3Dロボットビジョンプラットフォーム「RoVI」入門](https://www.youtube.com/watch?v=xwriAiMkAY4)
-- [ビジュアルティーチ入門](https://www.youtube.com/watch?v=NgrxR02g9Qo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PhPFdAUGmOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7B_ut0Jfq0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0kcW_Fl6Qhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6DTaDwSxJ1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b-ozDzlnagY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### 2.1.2. 共通ソフトウェア技術
+第一部，第三部，第四部は演習付き
+- [第一部　ROSの基礎（42分](https://www.youtube.com/watch?v=DVOrKRZg8aA)＋[演習解説 (9分)](https://www.youtube.com/watch?v=ZKlDS-W2ekk)
+- [第二部　ROSでのSEED-Noid制御基礎（20分）](https://www.youtube.com/watch?v=Ny2p114BDAo)
+- [第三部　地図生成・ナビゲーション（33分）](https://www.youtube.com/watch?v=l2uo6BIiSXk)
+- [第四部　SEED-Noidを用いたマニピュレーション（41分）](https://www.youtube.com/watch?v=SNgDkm5neTE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DVOrKRZg8aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZKlDS-W2ekk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ny2p114BDAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l2uo6BIiSXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l2uo6BIiSXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SNgDkm5neTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### 2.2. 資料
 
-- [3Dロボットビジョンプラットフォーム「RoVI」入門(PDF)](202102_NEDO_Tutorial_RoVI.pdf)
-- [ビジュアルティーチ入門(PDF)](202102_NEDO_Tutorial_VT.pdf)
+#### 2.2.1. ロボットプラットフォーム技術
+- [第一部　SEED Solutions　概要](/tutorials/02_01_seed/seed/02_01_Seed01.pdf)
+- [第二部　SEED System](/tutorials/02_01_seed/seed/02_01_Seed022.pdf)
+- [第三部　SEED Smart Actuator](/tutorials/02_01_seed/seed/02_01_Seed03.pdf)
+- [第四部　Aero System](/tutorials/02_01_seed/seed/02_01_Seed04.pdf)
+- [第五部　SEED Platform Robots](/tutorials/02_01_seed/seed/02_01_Seed05.pdf)
+
+#### 2.2.2. 共通ソフトウェア技術
+第一部，第三部，第四部は演習付き
+- [第一部　ROSの基礎](/tutorials/02_01_seed/ros/02_01_ROS01.pdf)
+  - [演習用プログラム(ZIP)](/tutorials/02_01_seed/ros/ros_ex01.zip)
+- [第二部　ROSでのSEED-Noid制御基礎](/tutorials/02_01_seed/ros/02_01_ROS02.pdf)
+- [第三部　地図生成・ナビゲーション](/tutorials/02_01_seed/ros/02_01_ROS03.pdf)
+  - [演習用プログラム(ZIP)](/tutorials/02_01_seed/ros/ros_ex03.zip)
+- [第四部　SEED-Noidを用いたマニピュレーション](/tutorials/02_01_seed/ros/02_01_ROS04.pdf)
+  - [演習用プログラム(ZIP)](/tutorials/02_01_seed/ros/ros_ex04.zip)
 
 
 <br/>
