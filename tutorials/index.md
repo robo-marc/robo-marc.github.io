@@ -28,10 +28,7 @@ NEDO特別講座プロジェクトでは、以下の「ロボット共通ソフ�
 <!-- /TOC -->
 
 
-<br/>
-
-
-<br/>
+<br/><br/>
 
 ## 1. ロボット共通ソフトウェア技術 基礎編
 ### 1.1. ROS体験コース
@@ -43,16 +40,14 @@ NEDO特別講座プロジェクトでは、以下の「ロボット共通ソフ�
 本講座のサイトからダウンロードして，ご自身で体験版USBをご作成頂くことも可能です．詳細は，本資料最後に示します，本講座HPをご覧ください．
  
 <div align="center"><img src="/tutorials/si2020/si2020_moveit.png" width="640"></div>
-<br/>
+<br/><br/>
 
 ### 1.2. OSS活用のためのライセンス解説コース
 
 このコースでは、RRI（ロボット革命・産業IoTイニシアティブ協議会）のロボットライセンス・調査検討委員会が2020年6月にとりまとめた、「オープンソースを活用したロボット開発のためのライセンス・特許ガイドライン　Version 2.0」に基づき、オープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。
 
 <div align="center"><img src="/tutorials/01_02_license/fig_license.png" width="640"></div>
-<br/>
-
-<br/>
+<br/><br/>
 
 ## 2. 市場化プロジェクト成果活用コース
 ### 2.1. モバイルマニピュレーションコース
@@ -89,9 +84,8 @@ NEDO特別講座プロジェクトでは、以下の「ロボット共通ソフ�
 - ※ SEED Solutionsに関する情報へのリンク：本内容の実施のために活用可能なLive USB作成の情報へのリンクもあります．
 - URL https://www.seed-solutions.net/?q=seed_jp/node/7
 
- <div align="center"><img src="/tutorials/02_01_seed/seed_moveit_small.png" with="640"></div>
-
-図　移動プラットフォーム＋モバイルマニピュレーション講習
+<div align="center"><img src="/tutorials/02_01_seed/seed_moveit_small.png" with="640"></div>
+<br/><br/>
 
 ### 2.2. 3Dロボットビジョンプラットフォーム
 
@@ -104,7 +98,8 @@ NEDO特別講座プロジェクトでは、以下の「ロボット共通ソフ�
 - （1）3Dロボットビジョンプラットフォーム「RoVI」入門（37分）
 - （2）ビジュアルティーチ入門（45分）
  
- <div align="center"><img src="/tutorials/02_02_ycam3d/ycam3d_small.png" with="640"></div>
+<div align="center"><img src="/tutorials/02_02_ycam3d/ycam3d_small.png" with="640"></div>
+<br/><br/>
 
 ## 3. ROS応用コース
 ※ ROS物体検知システム構築チュートリアル付き
@@ -120,9 +115,8 @@ NEDO特別講座プロジェクトでは、以下の「ロボット共通ソフ�
 - （1）　画像処理・AI技術活用コース　前編（25分）
 - （2）　画像処理・AI技術活用コース　後編（38分）
 
- <div align="center"><img src="/tutorials/03_01_ai/sec_ai_small.png" width="800"></div>
- 
-図　AIを活用したロボットシステム構築のチュートリアル
+<div align="center"><img src="/tutorials/03_01_ai/sec_ai_small.png" width="800"></div>
+<br/><br/>
 
 ## 4. 本講座に関する情報
 
