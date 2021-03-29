@@ -123,12 +123,14 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 物体検出結果はカスタムメッセージを自分で定義する
 
 #### 3.3.3. uvc_camera_nodeとweb_video_serverをインストールする
+
 ```
 sudo apt install ros-melodic-web-video-server
 sudo apt install ros-melodic-uvc-camera
 ```
 
 #### 3.3.4. カスタムメッセージを定義する
+
 ```
 cd ~/catkin_ws/src
 catkin_create_pkg object_detector_msg rospy roscpp std_msgs
@@ -142,6 +144,7 @@ object_detector_msg/msgディレクトリに以下のファイルを格納しま
 
 CMakeLists.txtを編集する
 * object_detector_msg/CMakeLists.txt
+
 ```
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -170,7 +173,9 @@ catkin_package(
 ```
 
 package.xmlを編集する
+
 * object_detector_msg/package.xml
+
 ```
 # 以下の二つを追記する
 <build_depend>message_generation</build_depend>
@@ -178,6 +183,7 @@ package.xmlを編集する
 ```
 
 ビルドする
+
 ```
 catkin build
 . ~/catkin_ws/devel/setup.bash
@@ -271,6 +277,7 @@ wget https://github.com/lufficc/SSD/releases/download/1.2/mobilenet_v2_ssd320_vo
 ```
 
 実行する
+
 ```
 # PYTHONPATHにSSDの実装へのパスを追加する
 export PYTHONPATH="~/catkin_ws/src/object_detector/lib/SSD:$PYTHONPATH"
@@ -284,6 +291,7 @@ YOLOの時と同様に```localhost:8080```にブラウザでアクセスする�
 ### 3.5. 物体追跡機能を追加する
 
 物体追跡のライブラリをインストールする
+
 ```
 sudo apt install nofair
 ```
@@ -293,6 +301,7 @@ sudo apt install nofair
 * object_detector/launch/object_tracking.launch
 
 実行する
+
 ```
 # PYTHONPATHにYOLOの実装へのパスを追加する
 export PYTHONPATH="~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4:$PYTHONPATH"
