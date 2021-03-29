@@ -19,6 +19,7 @@
 の2つのコースから構成されています。
 
 (1)は，産業用3Dハンドアイ高精度3Dカメラとそれを活用できるロボット3Dビジョンソフトウェアプラットフォームの利用方法に関するチュートリアルです．関連ソフトウェアのインストールから始まり，起動，パラメータ設定などを行い，二値化処理と表示，3D点群データの計測と出力，サンプルプログラムによる点群処理の例を説明しています．
+
 (2)では，3Dカメラの本格的な産業応用の一例として，ビジョンデータを用いたロボットマニピュレーションの実例として，ビジュアルティーチと呼ばれるシステムのインストール・設定から利用までを解説します．作業対象物の精密な位置決めを不要とする技術の一例をご覧ください．
 
 
@@ -36,6 +37,10 @@
 
 - [3Dロボットビジョンプラットフォーム「RoVI」入門](https://www.youtube.com/watch?v=xwriAiMkAY4)
 - [ビジュアルティーチ入門](https://www.youtube.com/watch?v=NgrxR02g9Qo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwriAiMkAY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NgrxR02g9Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 2.2. 資料
 

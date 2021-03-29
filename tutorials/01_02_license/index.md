@@ -32,6 +32,8 @@
 
 - [YouTubeリンク](https://www.youtube.com/watch?v=KzEVeM0A-1o)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KzEVeM0A-1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 2.2. 資料
 
 - [ビデオで使用した資料(PDF)]()
