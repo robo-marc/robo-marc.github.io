@@ -12,13 +12,13 @@
     - [3.1. 画像認識AI実行環境構築](#31-画像認識ai実行環境構築)
     - [3.2. ROS環境構築](#32-ros環境構築)
     - [3.3. 物体検出システムを構築する](#33-物体検出システムを構築する)
-    - [3.4. ノード構成](#34-ノード構成)
-    - [3.5. メッセージ定義](#35-メッセージ定義)
-    - [3.6. uvc_camera_nodeとweb_video_serverをインストールする](#36-uvc_camera_nodeとweb_video_serverをインストールする)
-    - [3.7. カスタムメッセージを定義する](#37-カスタムメッセージを定義する)
-    - [3.8. 物体検出パッケージを作成する](#38-物体検出パッケージを作成する)
-    - [3.9. 物体検出モデルをSSDに入れ替える](#39-物体検出モデルをssdに入れ替える)
-    - [3.10. 物体追跡機能を追加する](#310-物体追跡機能を追加する)
+        - [3.3.1. ノード構成](#331-ノード構成)
+        - [3.3.2. メッセージ定義](#332-メッセージ定義)
+        - [3.3.3. uvc_camera_nodeとweb_video_serverをインストールする](#333-uvc_camera_nodeとweb_video_serverをインストールする)
+        - [3.3.4. カスタムメッセージを定義する](#334-カスタムメッセージを定義する)
+        - [3.3.5. 物体検出パッケージを作成する](#335-物体検出パッケージを作成する)
+    - [3.4. 物体検出モデルをSSDに入れ替える](#34-物体検出モデルをssdに入れ替える)
+    - [3.5. 物体追跡機能を追加する](#35-物体追跡機能を追加する)
 - [4. アンケートご協力のお願い](#4-アンケートご協力のお願い)
 
 <!-- /TOC -->
@@ -96,24 +96,24 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 ### 3.3. 物体検出システムを構築する
 
-### 3.4. ノード構成
+#### 3.3.1. ノード構成
 * uvc_camera_node : カメラから画像を取得する
 * web_video_server_node : システム内を流れるImage topicを表示する
 * preprocess_node : 画像の前処理を行う
 * object_detector_yolo_node : YOLOv4-tinyで物体検出をする
 * annotation_node : 物体検出の結果を画像に描画する
 
-### 3.5. メッセージ定義
+#### 3.3.2. メッセージ定義
 * ObjectDetectionResult : 物体検出結果のメッセージ。
 物体検出結果はカスタムメッセージを自分で定義する
 
-### 3.6. uvc_camera_nodeとweb_video_serverをインストールする
+#### 3.3.3. uvc_camera_nodeとweb_video_serverをインストールする
 ```
 sudo apt install ros-melodic-web-video-server
 sudo apt install ros-melodic-uvc-camera
 ```
 
-### 3.7. カスタムメッセージを定義する
+#### 3.3.4. カスタムメッセージを定義する
 ```
 cd ~/catkin_ws/src
 catkin_create_pkg object_detector_msg rospy roscpp std_msgs
@@ -170,7 +170,7 @@ rosmsg show object_detector_msg/DetectedObject
 rosmsg show object_detector_msg/ObjectDetectionResult
 ```
 
-### 3.8. 物体検出パッケージを作成する
+#### 3.3.5. 物体検出パッケージを作成する
 
 ```
 cd ~/catkin_ws/src
@@ -238,7 +238,7 @@ roslaunch object_detector object_detector_yolo.launch
 
 ここで、```localhost:8080```にブラウザでアクセスすることで、物体検出の結果を確認することができます。
 
-### 3.9. 物体検出モデルをSSDに入れ替える
+### 3.4. 物体検出モデルをSSDに入れ替える
 
 ノードとlaunchファイルを配置配置する
 * object_detector/scripts/object_detector_ssd.py
@@ -266,7 +266,7 @@ roslaunch object_detector object_detector_ssd.launch
 
 YOLOの時と同様に```localhost:8080```にブラウザでアクセスすることで、物体検出の結果を確認することができます。
 
-### 3.10. 物体追跡機能を追加する
+### 3.5. 物体追跡機能を追加する
 
 物体追跡のライブラリをインストールする
 ```
