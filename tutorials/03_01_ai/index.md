@@ -44,7 +44,23 @@
 ## 2. 講習会視聴リンクおよび資料
 ### 2.1. コース動画
 
+- [画像処理・AI技術活用コース(前編)(YouTube)](https://www.youtube.com/watch?v=C7ceJawFGmM)
+- [画像処理・AI技術活用コース(後編)(YouTube)](https://www.youtube.com/watch?v=DDRekscGOb4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C7ceJawFGmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DDRekscGOb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### 2.2. 資料
+
+- [画像処理・AI技術活用コース(前編)(PDF)](03_01_ai_01.pdf)
+- [画像処理・AI技術活用コース(後編)(PDF)](03_01_ai_02.pdf)
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/EoRl0oKCBaweTm" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NEDOROBOMARC/nedoai" title="NEDO特別講座_画像処理・AI技術活用コース_前編" target="_blank">NEDO特別講座_画像処理・AI技術活用コース_前編</a> </strong> from <strong><a href="https://www.slideshare.net/NEDOROBOMARC" target="_blank">NEDOROBOMARC</a></strong> </div>
+
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/7ZwUE1IqYsyQnt" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NEDOROBOMARC/nedoai-245269607" title="NEDO特別講座_画像処理・AI技術活用コース_後編" target="_blank">NEDO特別講座_画像処理・AI技術活用コース_後編</a> </strong> from <strong><a href="https://www.slideshare.net/NEDOROBOMARC" target="_blank">NEDOROBOMARC</a></strong> </div>
 
 
 ## 3. 実習
