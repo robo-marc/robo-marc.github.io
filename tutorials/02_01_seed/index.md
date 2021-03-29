@@ -96,7 +96,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZKlDS-W2ekk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [第1部 ROSの基礎 (42分) (YouTube)](https://www.youtube.com/watch?v=DVOrKRZg8aA)＋[演習解説 (9分)](https://www.youtube.com/watch?v=ZKlDS-W2ekk)
-第一部，第三部，第四部は演習付き
 - [第1部 ROSの基礎 (PDF)](/tutorials/02_01_seed/ros/02_01_ROS01.pdf)
   - [演習用プログラム(ZIP)](/tutorials/02_01_seed/ros/ros_ex01.zip)
 
