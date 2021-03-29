@@ -30,9 +30,7 @@
 ## 2. 講習会視聴リンクおよび資料
 ### 2.1. コース動画
 
-
-- [YouTubeリンク](https://www.youtube.com/watch?v=mx1BE5LaDWk)
-
+- [YouTubeリンク](https://www.youtube.com/watch?v=KzEVeM0A-1o)
 
 ### 2.2. 資料
 
