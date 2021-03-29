@@ -131,6 +131,9 @@ sudo apt install ros-melodic-uvc-camera
 
 #### 3.3.4. カスタムメッセージを定義する
 
+以下で使用する [object_detector_msg](object_detector_msg.zip) 一式をダウンロードできます。
+- [object_detector_msg.zip](object_detector_msg.zip) 
+
 ```
 cd ~/catkin_ws/src
 catkin_create_pkg object_detector_msg rospy roscpp std_msgs
@@ -192,6 +195,9 @@ rosmsg show object_detector_msg/ObjectDetectionResult
 ```
 
 #### 3.3.5. 物体検出パッケージを作成する
+
+以下で使用する [object_detector](object_detector.zip) 一式をダウンロードできます。
+- [object_detector.zip](object_detector.zip)
 
 ```
 cd ~/catkin_ws/src
