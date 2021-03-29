@@ -73,4 +73,4 @@
 本コースをご視聴いただきありがとうございました。
 お手数ですが、今後のコース改善のため以下のアンケートにご協力いただければ幸いです。
 
-- 「アンケート]()
+- [アンケート](https://docs.google.com/forms/d/e/1FAIpQLScdiVxfeDrkS1O6GVAXZ2j-c5pjEFQPwbeVmjh1rdLB4bX2bA/viewform)
