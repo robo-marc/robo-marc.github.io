@@ -1,5 +1,6 @@
 # OSS活用のためのライセンス解説コース
 
+<div float="right"><img src="/tutorials/01_02_license/fig_license.png" width="480"></div>
 <!-- TOC -->
 
 - [1. コース概要](#1-コース概要)
