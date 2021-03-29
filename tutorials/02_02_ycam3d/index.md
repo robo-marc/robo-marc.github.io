@@ -37,7 +37,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwriAiMkAY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [3Dロボットビジョンプラットフォーム「RoVI」入門 (YouTube)](https://www.youtube.com/watch?v=xwriAiMkAY4)
-- [3Dロボットビジョンプラットフォーム「RoVI」入門(PDF)](202102_NEDO_Tutorial_RoVI.pdf)
+- [3Dロボットビジョンプラットフォーム「RoVI」入門 (PDF)](202102_NEDO_Tutorial_RoVI.pdf)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/ABr0YNuNvLPKkS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NEDOROBOMARC/3drovi" title="3Dロボットビジョンプラットフォーム「RoVI」入門" target="_blank">3Dロボットビジョンプラットフォーム「RoVI」入門</a> </strong> from <strong><a href="https://www.slideshare.net/NEDOROBOMARC" target="_blank">NEDOROBOMARC</a></strong> </div>
 
@@ -47,7 +47,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NgrxR02g9Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [ビジュアルティーチ入門 (YouTube)](https://www.youtube.com/watch?v=NgrxR02g9Qo)
-- [ビジュアルティーチ入門(PDF)](202102_NEDO_Tutorial_VT.pdf)
+- [ビジュアルティーチ入門 (PDF)](202102_NEDO_Tutorial_VT.pdf)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/3SBswpNd5Aunw5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NEDOROBOMARC/ss-245246952" title="ビジュアルティーチ入門" target="_blank">ビジュアルティーチ入門</a> </strong> from <strong><a href="https://www.slideshare.net/NEDOROBOMARC" target="_blank">NEDOROBOMARC</a></strong> </div>
 
