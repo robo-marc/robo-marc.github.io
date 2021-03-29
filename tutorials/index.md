@@ -37,7 +37,7 @@ ROS体験ツールを使った体験コース．とりあえずROS環境をお�
 「オープンソースを活用したロボット開発のためのライセンス・特許ガイドライン　Version 2.0」に基づき、
 オープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。
 
-<div align="center"><img src="/tutorials/si2020/si2020_moveit.png" width="640"></div>
+<div align="center"><img src="/tutorials/01_02_license/fig_license.png" width="640"></div>
 <br/>
 
 ## 2. 市場化プロジェクト成果活用コース
