@@ -1,6 +1,6 @@
 # OSS活用のためのライセンス解説コース
 
-<div align="right" margin="0 15px 15px 0" width="30%"><img src="/tutorials/01_02_license/fig_license.png"></div>
+<div align="right" margin="0 15px 15px 0" width="30%"><img src="/tutorials/01_02_license/fig_license.png" width="320"></div>
 <!-- TOC -->
 
 - [1. コース概要](#1-コース概要)
