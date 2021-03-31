@@ -170,7 +170,7 @@ package.xmlを編集する
 実行する
 ```
 # PYTHONPATHにYOLOの実装へのパスを追加する
-export PYTHONPATH="~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4:$PYTHONPATH"
+export PYTHONPATH=~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4:$PYTHONPATH
 
 # 各ノードに実行権限を設定する
 cd ~/catkin_ws/src/object_detector/scripts
@@ -205,7 +205,7 @@ wget https://github.com/lufficc/SSD/releases/download/1.2/mobilenet_v2_ssd320_vo
 実行する
 ```
 # PYTHONPATHにSSDの実装へのパスを追加する
-export PYTHONPATH="~/catkin_ws/src/object_detector/lib/SSD:$PYTHONPATH"
+export PYTHONPATH=~/catkin_ws/src/object_detector/lib/SSD:$PYTHONPATH
 
 # launchファイルを実行する
 roslaunch object_detector object_detector_ssd.launch
@@ -217,7 +217,7 @@ YOLOの時と同様に```localhost:8080```にブラウザでアクセスする�
 
 物体追跡のライブラリをインストールする
 ```
-sudo apt install nofair
+pip3 install norfair
 ```
 
 ノードとlaunchファイルを配置する
@@ -227,7 +227,7 @@ sudo apt install nofair
 実行する
 ```
 # PYTHONPATHにYOLOの実装へのパスを追加する
-export PYTHONPATH="~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4:$PYTHONPATH"
+export PYTHONPATH=~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4:$PYTHONPATH
 
 # launchファイルを実行
 roslaunch object_detector object_tracking.launch
