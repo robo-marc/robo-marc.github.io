@@ -23,21 +23,21 @@
 <tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
 <tr>
-　　<td><b><a href="/tutorials/01_01_intro">ROS体験コース</a></b><br/>インストール不要で，USB一本とパソコンがあれば実行が可能なROS体験ツールを使った体験コースです。(<a href="/tutorials/01_01_intro">概要</a>)</td>
+　　<td><b><a href="/tutorials/01_01_intro">ROS体験コース</a></b><br/>インストール不要で，USB一本とパソコンがあれば実行が可能なROS体験ツールを使った体験コースです。(<a href="/tutorials/01_01_intro">詳細ページへ</a>)</td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="64"></a></div></td>
     <td><div class="center"><a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
 
 <tr>
-　　<td><b><a href="/tutorials/01_02_moveit">MoveIt!体験コース</a></b><br/>ROS・MovIt!の概要について解説するとともに、いくつかのタイプのロボットアームをMoveIt!を用いて制御し，何らかの作業を行うロボットシステムとしてインテグレーションする方法について解説いたします。(<a href="/tutorials/01_02_moveit">概要</a>)</td>
+　　<td><b><a href="/tutorials/01_02_moveit">MoveIt!体験コース</a></b><br/>ROS・MovIt!の概要について解説するとともに、いくつかのタイプのロボットアームをMoveIt!を用いて制御し，何らかの作業を行うロボットシステムとしてインテグレーションする方法について解説いたします。(<a href="/tutorials/01_02_moveit">詳細ページへ</a>)</td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png" height="64"></a></div>
-    <div class="center"><a href="https://www.youtube.com/watch?v=VH6bRA_xYFM"><img src="/figs/youtube_button.png" height="64"></a></div><br/>
+    <div class="center"><a href="https://www.youtube.com/watch?v=VH6bRA_xYFM"><img src="/figs/youtube_button.png" height="64"></a></div>
     <div class="center"><a href="https://www.youtube.com/watch?v=rR0K8hrqg1M"><img src="/figs/youtube_button.png" height="64"></a></div></td>
     <td><div class="center"><a href="/tutorials/01_02_license/01_02_license.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
 
 <tr>
-　　<td><b><a href="/tutorials/01_02_license">OSS活用のためのライセンス解説コース</a></b><br/>オープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。(<a href="/tutorials/01_02_license">概要</a>)</td>
+　　<td><b><a href="/tutorials/01_02_license">OSS活用のためのライセンス解説コース</a></b><br/>オープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。(<a href="/tutorials/01_02_license">詳細ページへ</a>)</td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=KzEVeM0A-1o"><img src="/figs/youtube_button.png" height="64"></a></div></td>
     <td><div class="center"><a href="/tutorials/01_02_license/01_02_license.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
@@ -53,10 +53,10 @@
 <table class="table-alt">
 <tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
-<tr><td colspan="3"><b>モバイルマニピュレーションコース</b><br/>本コースは、
+<tr><td colspan="3"><b><a href="/tutorials/02_01_seed">モバイルマニピュレーションコース</a></b><br/>本コースは、
 (1) ロボットプラットフォーム技術
 (2) 共通ソフトウェア技術
-の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/02_01_seed">概要</a>)</td>
+の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/02_01_seed">詳細ページへ</a>)</td>
 </tr>
 <tr><td colspan="3"><b>(1) ロボットプラットフォーム技術</b></td></tr>
 <tr>
@@ -115,10 +115,10 @@
 <table class="table-alt">
 <tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
-<tr><td colspan="3"><b>3Dロボットビジョンプラットフォーム</b><br/>本コースは、
+<tr><td colspan="3"><b><a href="/tutorials/02_02_ycam3d">3Dロボットビジョンプラットフォーム</a></b><br/>本コースは、
 （1）3Dロボットビジョンプラットフォーム「RoVI」入門（37分）
 （2）ビジュアルティーチ入門（45分）
-の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/02_02_ycam3d">概要</a>)</td>
+の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/02_02_ycam3d">詳細ページへ</a>)</td>
 </tr>
 <tr>
     <td><b>　　第1部 3Dロボットビジョンプラットフォーム「RoVI」入門</b></td>
@@ -140,10 +140,10 @@
 <table class="table-alt">
 <tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
-<tr><td colspan="3"><b>3Dロボットビジョンプラットフォーム</b><br/>本コースは、
+<tr><td colspan="3"><b><a href="/tutorials/03_01_ai">3Dロボットビジョンプラットフォーム</a></b><br/>本コースは、
 （1）画像処理・AI技術活用コース(前編)
 （2）ビ画像処理・AI技術活用コース(後編)
-の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/03_01_ai">概要</a>)</td>
+の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/03_01_ai">詳細ページへ)</td>
 </tr>
 <tr>
     <td><b>　　画像処理・AI技術活用コース(前編)</b></td>
