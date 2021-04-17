@@ -10,22 +10,21 @@ Windows上で動作させたまま、仮想マシン上でROS入りUbuntu Linux�
 
 <!-- TOC -->
 
-- [VMware による NEDO ROSセットの起動](#vmware-による-nedo-rosセットの起動)
-    - [VMware Workstation Player](#vmware-workstation-player)
-        - [VMware Workstation Player のダウンロード](#vmware-workstation-player-のダウンロード)
-        - [VMware Workstation Player のインストール](#vmware-workstation-player-のインストール)
-    - [ISOイメージからの起動](#isoイメージからの起動)
-        - [ISOイメージのダウンロード](#isoイメージのダウンロード)
-        - [MD5 SUM の確認の仕方](#md5-sum-の確認の仕方)
-        - [VMware 仮想マシンの作成](#vmware-仮想マシンの作成)
-        - [NEDO ROSセットの起動](#nedo-rosセットの起動)
-    - [その他の仮想マシンプラットフォーム](#その他の仮想マシンプラットフォーム)
-        - [VirtualBox](#virtualbox)
-        - [Parallels Desktop](#parallels-desktop)
+- [1. VMware Workstation Player](#1-vmware-workstation-player)
+    - [1.1. VMware Workstation Player のダウンロード](#11-vmware-workstation-player-のダウンロード)
+    - [1.2. VMware Workstation Player のインストール](#12-vmware-workstation-player-のインストール)
+- [2. ISOイメージからの起動](#2-isoイメージからの起動)
+    - [2.1. ISOイメージのダウンロード](#21-isoイメージのダウンロード)
+    - [2.2. MD5 SUM の確認の仕方](#22-md5-sum-の確認の仕方)
+    - [2.3. VMware 仮想マシンの作成](#23-vmware-仮想マシンの作成)
+    - [2.4. NEDO ROSセットの起動](#24-nedo-rosセットの起動)
+- [3. その他の仮想マシンプラットフォーム](#3-その他の仮想マシンプラットフォーム)
+    - [3.1. VirtualBox](#31-virtualbox)
+    - [3.2. Parallels Desktop](#32-parallels-desktop)
 
 <!-- /TOC -->
 
-## VMware Workstation Player
+## 1. VMware Workstation Player
 
 VMware Workstation Player (以下VMware Playerと略します) は、VMware社
 から販売されている仮想化ソフトウェアの一つです。VMware Playerは、非
@@ -37,7 +36,7 @@ VMwareをお持ちの場合は、改めてVMware Playerをダウンロード・�
 トールする必要はありません。有償のVMware Workstationを代わりに利用す
 ることができます。
 
-### VMware Workstation Player のダウンロード
+### 1.1. VMware Workstation Player のダウンロード
 
 WMware Workstation Playerは以下のページからダウンロードできます。
 Windows用とLinux用があります。
@@ -53,7 +52,7 @@ Windows用とLinux用があります。
 
 ここからVMware Workstation Player をダウンロードしてください。
 
-### VMware Workstation Player のインストール
+### 1.2. VMware Workstation Player のインストール
 
 Windowsでのインストール方法を説明します。ダウンロードしたインストー
 ラを起動すると、以下のような画面が現れてインストールが開始されます。
@@ -62,8 +61,8 @@ Windowsでのインストール方法を説明します。ダウンロードし�
 
 特に注意する点はなく、指示通りに進めるとインストールは完了します。
 
-## ISOイメージからの起動
-### ISOイメージのダウンロード
+## 2. ISOイメージからの起動
+### 2.1. ISOイメージのダウンロード
 
 次に、以下のURLからNEDO ROSセットのISOイメージをダウンロードします。
 
@@ -77,7 +76,7 @@ Windowsでのインストール方法を説明します。ダウンロードし�
 す。もし、VMwareでうまく起動できない場合は、次の方法でファイルが正し
 くダウンロードできているか確認することもできます。
 
-### MD5 SUM の確認の仕方
+### 2.2. MD5 SUM の確認の仕方
 
 サイズが大きいファイルをダウンロードした場合、ファイルが破損している
 場合がまれにあります。もし、うまく起動しない場合は、以下の方法でファ
@@ -108,7 +107,7 @@ MD5 SUMを計算するのには数分程度時間がかかります。しばら�
 してください。
 
 
-### VMware 仮想マシンの作成
+### 2.3. VMware 仮想マシンの作成
 
 VMware Player を起動します。スタートメニューから VMware Workstation
 16 Playerを起動するか、スタートメニュー横の検索窓で vmware などと入
@@ -170,7 +169,7 @@ VMware Player を起動します。スタートメニューから VMware Worksta
 作が遅くなる可能性がありますので、できるだけスペックに余裕のあるPCを
 使った方がよいでしょう。
 
-### NEDO ROSセットの起動
+### 2.4. NEDO ROSセットの起動
 
 設定を保存し、新規仮想マシン作成ウィザードの完了ボタンを押すと、準備
 完了です。以下のような画面になっているはずです。
@@ -204,7 +203,7 @@ Vmware Toolsのインストールをうな側れますが、無視してくだ�
 <div align="center"><img src="figs/vmware_boot5.png" width="642"></div>
 
 
-## その他の仮想マシンプラットフォーム
+## 3. その他の仮想マシンプラットフォーム
 
 VMware の代わりに利用できる仮想マシンプラットフォームを紹介します。
 これらの仮想マシンプラットフォームを利用してもISOイメージを起動して
@@ -221,7 +220,7 @@ VMware の代わりに利用できる仮想マシンプラットフォームを�
 
 という手順となりますので、適宜それぞれの環境で読み替えて行ってみてください。
 
-### VirtualBox
+### 3.1. VirtualBox
 
 VirtalBoxはOracleが無償で公開している仮想マシンプラットフォームです。
 Windowsだけでなく、MacOS、Linuxの様々なディストリビューション等、
@@ -235,7 +234,7 @@ VirtualBoxはMacOS上でも動作しますが、こちらで試した結果、IS
 のParallels Desktopの14日間のトライアル版を利用することをお勧めしま
 す。
 
-### Parallels Desktop
+### 3.2. Parallels Desktop
 
 Parallels Desktopは Parallels社が販売しているMacOS専用の仮想マシンプ
 ラットフォームです。Parallelsには14日間の無償トライアルプログラムが
