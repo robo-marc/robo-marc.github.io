@@ -69,23 +69,29 @@ USBメモリから起動してUbuntu環境を利用することができます�
 
 #### 第1部
 - [ROSの概要](https://robo-marc.github.io/moveit_tutorial/ros_overview)
-<a ref="https://www.youtube.com/watch?v=Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png"></a>
+
+<a ref="https://www.youtube.com/watch?v=Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png" width="100"></a>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lfk9ee1ZEJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 第2部
 - [NEDO ROSセット 基本設定](https://robo-marc.github.io/moveit_tutorial/rosset_setting)
 - [NEDO ROSセット シミュレータの利用](https://robo-marc.github.io/moveit_tutorial/rosset_simulator)
-<a ref="https://www.youtube.com/watch?v=VH6bRA_xYFM"><img src="/figs/youtube_button.png"></a>
+
+<a ref="https://www.youtube.com/watch?v=VH6bRA_xYFM"><img src="/figs/youtube_button.png"  width="100"></a>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VH6bRA_xYFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 第3部
 - [MoveIt!プログラミングの基礎](https://robo-marc.github.io/moveit_tutorial/program_basic)
-<a ref="https://www.youtube.com/watch?v=rR0K8hrqg1M"><img src="/figs/youtube_button.png"></a>
+
+<a ref="https://www.youtube.com/watch?v=rR0K8hrqg1M"><img src="/figs/youtube_button.png"  width="100"></a>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rR0K8hrqg1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 2.2. 資料
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/nTGHpap4AdLJzZ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NoriakiAndo/nedo-1" title="NEDO特別講座 ロボット共通プラットフォーム講習会 (1)" target="_blank">NEDO特別講座 ロボット共通プラットフォーム講習会 (1)</a> </strong> from <strong><a href="https://www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/nTGHpap4AdLJzZ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NoriakiAndo/nedo-1" title="NEDO特別講座 ロボット共通プラットフォーム講習会 (1)" target="_blank">NEDO特別講座 ロボット共通プラットフォーム講習会 (1)</a> </strong> from <strong><a href="https://www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
 
 ### 2.3. 参考資料
 
