@@ -70,7 +70,7 @@ USBメモリから起動してUbuntu環境を利用することができます�
 #### 第1部
 - [ROSの概要](https://robo-marc.github.io/moveit_tutorial/ros_overview)
 
-<a ref="https://www.youtube.com/watch?v=Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png" width="100"></a>
+<a href="https://www.youtube.com/watch?v=Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png" width="100"></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lfk9ee1ZEJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -78,14 +78,14 @@ USBメモリから起動してUbuntu環境を利用することができます�
 - [NEDO ROSセット 基本設定](https://robo-marc.github.io/moveit_tutorial/rosset_setting)
 - [NEDO ROSセット シミュレータの利用](https://robo-marc.github.io/moveit_tutorial/rosset_simulator)
 
-<a ref="https://www.youtube.com/watch?v=VH6bRA_xYFM"><img src="/figs/youtube_button.png"  width="100"></a>
+<a href="https://www.youtube.com/watch?v=VH6bRA_xYFM"><img src="/figs/youtube_button.png"  width="100"></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VH6bRA_xYFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 第3部
 - [MoveIt!プログラミングの基礎](https://robo-marc.github.io/moveit_tutorial/program_basic)
 
-<a ref="https://www.youtube.com/watch?v=rR0K8hrqg1M"><img src="/figs/youtube_button.png"  width="100"></a>
+<a href="https://www.youtube.com/watch?v=rR0K8hrqg1M"><img src="/figs/youtube_button.png"  width="100"></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rR0K8hrqg1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
