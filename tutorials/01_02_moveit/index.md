@@ -68,26 +68,29 @@ USBメモリから起動してUbuntu環境を利用することができます�
 - [NEDO特別講座 ROS MoveIt! チュートリアル](https://robo-marc.github.io/moveit_tutorial/)
 
 #### 第1部
-- [ROSの概要](https://robo-marc.github.io/moveit_tutorial/ros_overview)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lfk9ee1ZEJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [(Webページレジュメ) ROSの概要](https://robo-marc.github.io/moveit_tutorial/ros_overview)
 
 <a href="https://www.youtube.com/watch?v=Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png" width="100"></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lfk9ee1ZEJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 第2部
-- [NEDO ROSセット 基本設定](https://robo-marc.github.io/moveit_tutorial/rosset_setting)
-- [NEDO ROSセット シミュレータの利用](https://robo-marc.github.io/moveit_tutorial/rosset_simulator)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VH6bRA_xYFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [(Webページレジュメ) NEDO ROSセット 基本設定](https://robo-marc.github.io/moveit_tutorial/rosset_setting)
+- [(Webページレジュメ) NEDO ROSセット シミュレータの利用](https://robo-marc.github.io/moveit_tutorial/rosset_simulator)
 
 <a href="https://www.youtube.com/watch?v=VH6bRA_xYFM"><img src="/figs/youtube_button.png"  width="100"></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VH6bRA_xYFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 第3部
-- [MoveIt!プログラミングの基礎](https://robo-marc.github.io/moveit_tutorial/program_basic)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rR0K8hrqg1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [(Webページレジュメ) MoveIt!プログラミングの基礎](https://robo-marc.github.io/moveit_tutorial/program_basic)
 
 <a href="https://www.youtube.com/watch?v=rR0K8hrqg1M"><img src="/figs/youtube_button.png"  width="100"></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rR0K8hrqg1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 2.2. 資料
 
