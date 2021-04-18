@@ -96,3 +96,6 @@
 お手数ですが、今後のコース改善のため以下のアンケートにご協力いただければ幸いです。
 
 <div align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLScdiVxfeDrkS1O6GVAXZ2j-c5pjEFQPwbeVmjh1rdLB4bX2bA/viewform"><img src="/tutorials/figs/enquete_button.png"></a></div>
+
+<a href="/tutorials/"><img src="/figs/home.png" alt="ホーム"></a>
+<a href="/tutorials/list/"><img src="/figs/list.png" alt="動画リストへ"></a>
