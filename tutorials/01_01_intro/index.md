@@ -97,5 +97,5 @@
 
 <div align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLScdiVxfeDrkS1O6GVAXZ2j-c5pjEFQPwbeVmjh1rdLB4bX2bA/viewform"><img src="/tutorials/figs/enquete_button.png"></a></div>
 
-<a href="/tutorials/"><img src="/figs/home.png" alt="ホーム"></a>
-<a href="/tutorials/list/"><img src="/figs/list.png" alt="動画リストへ"></a>
+<a href="/tutorials/"><img src="/figs/home_small.png" height="64" alt="ホーム"></a>
+<a href="/tutorials/list/"><img src="/figs/list_small.png" height="64" alt="動画リストへ"></a>
