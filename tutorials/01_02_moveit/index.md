@@ -55,7 +55,7 @@ USBメモリから起動してUbuntu環境を利用することができます�
 
 いずれの場合も，USBメモリに書き込む際は以下のマニュアルをお読みください．
 
-- [起動可能なUSBメモリ作成方法](usbimage_howto)
+- [起動可能なUSBメモリ作成方法](/tutorials/usbimage_howto)
 
 
 <br/>
