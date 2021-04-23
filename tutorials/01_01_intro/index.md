@@ -99,8 +99,8 @@
 
 <table width="100%">
 <tr><td width="80%"></td>
-<td><a href="/tutorials/"><img src="/figs/home_small.png" height="64" alt="ホーム"></a></td>
-<td><a href="/tutorials/list/"><img src="/figs/list_small.png" height="64" alt="動画リストへ"></a></td>
+<td><div class="center"><a href="/tutorials/"><img src="/figs/home_small.png" height="64" alt="ホーム"></a></div></td>
+<td><div class="center"><a href="/tutorials/list/"><img src="/figs/list_small.png" height="64" alt="動画リストへ"></a></div></td>
 </tr>
-<tr><td></td><td>ホーム</td><td>動画リスト</td></tr>
+<tr><td></td><td><div class="center">ホーム</div></td><td><div class="center">動画リスト</div></td></tr>
 </table>
