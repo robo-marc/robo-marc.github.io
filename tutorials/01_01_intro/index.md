@@ -97,6 +97,9 @@
 
 <div align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLScdiVxfeDrkS1O6GVAXZ2j-c5pjEFQPwbeVmjh1rdLB4bX2bA/viewform"><img src="/tutorials/figs/enquete_button.png"></a></div>
 
+<br/>
+<br/>
+
 <table width="100%">
 <tr><td width="80%"></td>
 <td><div class="center"><a href="/tutorials/"><img src="/figs/home_small.png" height="64" alt="ホーム"></a></div></td>
