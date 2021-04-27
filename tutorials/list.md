@@ -7,6 +7,7 @@
 
 - [1. ロボット共通ソフトウェア技術 基礎編](#1-ロボット共通ソフトウェア技術-基礎編)
     - [1.1. ROS体験コース](#11-ros体験コース)
+    - [2.2. 資料](#22-資料)
     - [1.2. OSS活用のためのライセンス解説コース](#12-oss活用のためのライセンス解説コース)
 - [2. 市場化プロジェクト成果活用コース](#2-市場化プロジェクト成果活用コース)
     - [2.1. モバイルマニピュレーションコース](#21-モバイルマニピュレーションコース)
@@ -25,10 +26,8 @@
 ## 1. ロボット共通ソフトウェア技術 基礎編
 ### 1.1. ROS体験コース
 
-- [概要説明](/01_01_tutorials)
-
-<a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="100"></a>
-<a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="100"></a>
+| 概要ページ | YouTube | レジュメ |
+| [概要説明](/01_01_tutorials) | <a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="64"></a> |<a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a> |
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mx1BE5LaDWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
