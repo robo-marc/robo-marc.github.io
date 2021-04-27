@@ -5,8 +5,8 @@
 # 目次
 <!-- TOC -->
 
-- [[ROS体験コース](/tutorials/01_01_intro)](#ros体験コースtutorials01_01_intro)
-    - [2.2. 資料](#22-資料)
+- [1. [ROS体験コース](/tutorials/01_01_intro)](#1-ros体験コースtutorials01_01_intro)
+    - [1.1. 資料](#11-資料)
     - [1.2. OSS活用のためのライセンス解説コース](#12-oss活用のためのライセンス解説コース)
 - [2. 市場化プロジェクト成果活用コース](#2-市場化プロジェクト成果活用コース)
     - [2.1. モバイルマニピュレーションコース](#21-モバイルマニピュレーションコース)
@@ -23,14 +23,14 @@
 <br/><br/>
 
 
-## [ROS体験コース](/tutorials/01_01_intro)
+## 1. [ROS体験コース](/tutorials/01_01_intro)
 <a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="64"></a> <a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a> 
 
 
 
 <br/>
 
-### 2.2. 資料
+### 1.1. 資料
 - [講習会資料(PDF)](01_01_intro.pdf)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/GmxWja0fQ6ktsE" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NEDOROBOMARC/ros-245318522" title="ROS体験コース" target="_blank">ROS体験コース</a> </strong> from <strong><a href="https://www.slideshare.net/NEDOROBOMARC" target="_blank">NEDOROBOMARC</a></strong> </div>
