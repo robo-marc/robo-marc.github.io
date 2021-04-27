@@ -52,7 +52,7 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 2021年3月26日より、NEDO特別講座が提供する「ロボット共通ソフトウェア技術講座」のオンデマンド配信を開始いたしました。
 - [コースの概要について](/tutorials)
 
-<div align="center"><a href="https://forms.gle/NKYo9Bmg5tibHNYq8"><img src="/tutorials/figs/button_regist_tiny.png"></a></div>
+<div align="center"><a href="https://forms.gle/NKYo9Bmg5tibHNYq8"><img src="/tutorials/figs/button_regist_tiny.png" width="300"></a></div>
 
 
 
