@@ -13,5 +13,5 @@ For this purpose, the robot hardware and software are platformized by dividing i
 
 ### ハンドブック
 
-- [「ロボット活用型市場化適用技術開発プロジェクト」紹介ハンドブック（2017年度版）](https://www.nedo.go.jp/library/pamphlets/RB_hbook201709.html)
+- [「ロボット活用型市場化適用技術開発プロジェクト」紹介ハンドブック（2017年度版）](https://www.nedo.go.jp/library/pamphlets/ZZ_pamphlets_00039.html)
 
