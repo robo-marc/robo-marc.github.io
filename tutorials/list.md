@@ -16,7 +16,7 @@
 ## 1. ロボット共通ソフトウェア技術 基礎編
 
 <table class="table-alt">
-<tr><th>コース名称</th><th width="120">YouTube</th><th width="120">レジュメ等</th></tr>
+<tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
 <tr>
 　　<td><b>ROS体験コース</b><br/>インストール不要で，USB一本とパソコンがあれば実行が可能なROS体験ツールを使った体験コースです。(<a href="/tutorials/01_01_intro">概要</a>)</td>
@@ -103,7 +103,7 @@
 <br/><br/>
 
 <table class="table-alt">
-<tr><th>コース名称</th><th width="120">YouTube</th><th width="120">レジュメ等</th></tr>
+<tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
 <tr><td colspan="3"><b>3Dロボットビジョンプラットフォーム</b><br/>本コースは、
 - （1）3Dロボットビジョンプラットフォーム「RoVI」入門（37分）
@@ -128,7 +128,7 @@
 ## 3. ROS応用コース
 
 <table class="table-alt">
-<tr><th>コース名称</th><th width="120">YouTube</th><th width="120">レジュメ等</th></tr>
+<tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
 <tr><td colspan="3"><b>3Dロボットビジョンプラットフォーム</b><br/>本コースは、
 - （1）画像処理・AI技術活用コース(前編)
