@@ -92,6 +92,10 @@
     <td><div class="center"><a href="https://www.youtube.com/watch?v=SNgDkm5neTE"><img src="/figs/youtube_button.png" height="64"></a></div></td>
     <td><div class="center"><a href="/tutorials/02_01_seed/ros/02_01_ROS04.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
+</table>
+
+<table class="table-alt">
+<tr><th>コース名称</th><th width="120">YouTube</th><th width="120">レジュメ等</th></tr>
 
 <tr><td colspan="3"><b>3Dロボットビジョンプラットフォーム</b><br/>本コースは、
 - （1）3Dロボットビジョンプラットフォーム「RoVI」入門（37分）
@@ -106,12 +110,36 @@
 <tr>
     <td><b>第2部 ビジュアルティーチ入門</b></td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=NgrxR02g9Qo"><img src="/figs/youtube_button.png" height="64"></a></div></td>
-    <td><div class="center"><a href="/tutorials/02_02_ycam3d/202102_NEDO_Tutorial_VT.pdf"><img src="/figs/pdf_icon.png" height="64" align="center"></a></div></td>
+    <td><div class="center"><a href="/tutorials/02_02_ycam3d/202102_NEDO_Tutorial_VT.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
 
 </table>
 
 <br/>
+<br/>
+
+## 3. ROS応用コース
+
+<table class="table-alt">
+<tr><th>コース名称</th><th width="120">YouTube</th><th width="120">レジュメ等</th></tr>
+
+<tr><td colspan="3"><b>3Dロボットビジョンプラットフォーム</b><br/>本コースは、
+- （1）画像処理・AI技術活用コース(前編)
+- （2）ビ画像処理・AI技術活用コース(後編)
+の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/03_01_ai">概要</a>)</td>
+</tr>
+<tr>
+    <td><b>画像処理・AI技術活用コース(前編)</b></td>
+    <td><div class="center"><a href="https://www.youtube.com/watch?v=C7ceJawFGmM"><img src="/figs/youtube_button.png" height="64"></a></div></td>
+    <td><div class="center"><a href="/tutorials/03_01_ai/03_01_ai_01.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
+</tr>
+<tr>
+    <td><b>画像処理・AI技術活用コース(後編)</b></td>
+    <td><div class="center"><a href="https://www.youtube.com/watch?v=DDRekscGOb4"><img src="/figs/youtube_button.png" height="64"></a></div></td>
+    <td><div class="center"><a href="/tutorials/03_01_ai/03_01_ai_02.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
+</tr>
+
+</table>
 
 ## 本講座に関する情報
 
