@@ -10,12 +10,12 @@
 ## 1. ロボット共通ソフトウェア技術 基礎編
 
 <table class="table-alt">
-<tr><th>コース名称</th><th width="300">YouTube</th><th width="300">レジュメ等</th></tr>
+<tr><th>コース名称</th><th width="120">YouTube</th><th width="120">レジュメ等</th></tr>
 
 <tr>
 　　<td><b>ROS体験コース</b><br/>インストール不要で，USB一本とパソコンがあれば実行が可能なROS体験ツールを使った体験コースです。(<a href="/tutorials/01_01_intro">概要</a>)</td>
     <td><a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="64"></a></td>
-    <td><a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
+    <td><div class="center"><a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
 
 <tr>
