@@ -27,8 +27,8 @@
 <a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="64"></a> <a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a> 
 
 <table>
-<tr><td> <big>概要ページ</big> </td><td><big>YouTube</big></td><td><big>レジュメ等</big></td></tr>
-<tr><td>[ROS体験コース](/tutorials/01_01_intro)</td>
+<tr><td> <big>コース名称</big> </td><td><big>YouTube</big></td><td><big>レジュメ等</big></td></tr>
+<tr><td><b>ROS体験コース</b><br/>インストール不要で，USB一本とパソコンがあれば実行が可能なROS体験ツールを使った体験コースです。(<a href="/tutorials/01_01_intro">概要</a>)</td>
     <td><a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="64"></a></td>
     <td><a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td></tr>
 </table>
