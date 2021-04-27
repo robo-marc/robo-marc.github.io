@@ -43,7 +43,7 @@
 ## 2. 市場化プロジェクト成果活用コース
 
 <table class="table-alt">
-<tr><th>コース名称</th><th width="180">YouTube</th><th width="180">レジュメ等</th></tr>
+<tr><th>コース名称</th><th width="200">YouTube</th><th width="200">レジュメ等</th></tr>
 
 <tr><td colspan="3"><b>モバイルマニピュレーションコース</b><br/>本コースは、
 - (1) ロボットプラットフォーム技術
