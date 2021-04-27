@@ -14,3 +14,16 @@
 
 // import custom variables and mixins to extend BS4
 @import "lone-wolf-theme";
+
+.table-alt {
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    th,table td {
+      padding: 10px 0;
+      text-align: center;
+    }
+    tr:nth-child(odd) {
+      background-color: #eee
+    }
+  }
