@@ -99,12 +99,12 @@
 の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/02_02_ycam3d">概要</a>)</td>
 </tr>
 <tr>
-    <td><b>第1部 ROSの基礎+演習</b></td>
+    <td><b>3Dロボットビジョンプラットフォーム「RoVI」入門</b></td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=xwriAiMkAY4"><img src="/figs/youtube_button.png" height="64"></a><br/><a href="https://www.youtube.com/watch?v=ZKlDS-W2ekk"><img src="/figs/youtube_button.png" height="64"></div></a></td>
     <td><div class="center"><a href="/tutorials/02_02_ycam3d/202102_NEDO_Tutorial_RoVI.pdf"><img src="/figs/pdf_icon.png" height="64"></div></a></td>
 </tr>
 <tr>
-    <td><b>第2部 ROSでのSEED-Noid制御基礎</b></td>
+    <td><b>第2部 ビジュアルティーチ入門</b></td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=NgrxR02g9Qo"><img src="/figs/youtube_button.png" height="64"></div></a></td>
     <td><div class="center"><a href="/tutorials/02_02_ycam3d/202102_NEDO_Tutorial_VT.pdf"><img src="/figs/pdf_icon.png" height="64" align="center"></div></a></td>
 </tr>
