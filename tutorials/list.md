@@ -5,7 +5,9 @@
 <br/><br/>
 
 
-## ロボット共通ソフトウェア技術講座視聴リンク一覧
+# ロボット共通ソフトウェア技術講座視聴リンク一覧
+
+## 1. ロボット共通ソフトウェア技術 基礎編
 
 <table class="table-alt">
 <tr><th>コース名称</th><th width="100">YouTube</th><th width="100">レジュメ等</th></tr>
@@ -27,8 +29,12 @@
     <td><a href="https://www.youtube.com/watch?v=KzEVeM0A-1o"><img src="/figs/youtube_button.png" height="64"></a></td>
     <td><a href="/tutorials/01_02_license/01_02_license.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
 </tr>
+</table>
 
-<tr><td colspan="3"><b>第1部 SEED Solutions 概要</b><br/>本コースは、
+## 2. 市場化プロジェクト成果活用コース
+
+<table class="table-alt">
+<tr><td colspan="3"><b>モバイルマニピュレーションコース</b><br/>本コースは、
 - (1) ロボットプラットフォーム技術
 - (2) 共通ソフトウェア技術
 の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/02_01_seed">概要</a>)</td>
@@ -64,22 +70,38 @@
 <tr>
     <td><b>第1部 ROSの基礎+演習</b></td>
     <td><a href="https://www.youtube.com/watch?v=DVOrKRZg8aA"><img src="/figs/youtube_button.png" height="64"></a><br/><a href="https://www.youtube.com/watch?v=ZKlDS-W2ekk"><img src="/figs/youtube_button.png" height="64"></a></td>
-    <td><a href="/tutorials/02_01_seed/seed/02_01_ROS01.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
+    <td><a href="/tutorials/02_01_seed/ros/02_01_ROS01.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
 </tr>
 <tr>
     <td><b>第2部 ROSでのSEED-Noid制御基礎</b></td>
     <td><a href="https://www.youtube.com/watch?v=Ny2p114BDAo"><img src="/figs/youtube_button.png" height="64"></a></td>
-    <td><a href="/tutorials/02_01_seed/seed/02_01_ROS02.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
+    <td><a href="/tutorials/02_01_seed/ros/02_01_ROS02.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
 </tr>
 <tr>
     <td><b>第3部 地図生成・ナビゲーション</b></td>
     <td><a href="https://www.youtube.com/watch?v=l2uo6BIiSXk"><img src="/figs/youtube_button.png" height="64"></a></td>
-    <td><a href="/tutorials/02_01_seed/seed/02_01_ROS03.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
+    <td><a href="/tutorials/02_01_seed/ros/02_01_ROS03.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
 </tr>
 <tr>
     <td><b>第4部 SEED-Noidを用いたマニピュレーション</b></td>
     <td><a href="https://www.youtube.com/watch?v=SNgDkm5neTE"><img src="/figs/youtube_button.png" height="64"></a></td>
-    <td><a href="/tutorials/02_01_seed/seed/02_01_ROS04.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
+    <td><a href="/tutorials/02_01_seed/ros/02_01_ROS04.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
+</tr>
+
+<tr><td colspan="3"><b>3Dロボットビジョンプラットフォーム</b><br/>本コースは、
+- （1）3Dロボットビジョンプラットフォーム「RoVI」入門（37分）
+- （2）ビジュアルティーチ入門（45分）
+の2つのコースから構成されています。詳細は概要ページを御覧ください。(<a href="/tutorials/02_02_ycam3d">概要</a>)</td>
+</tr>
+<tr>
+    <td><b>第1部 ROSの基礎+演習</b></td>
+    <td><a href="https://www.youtube.com/watch?v=xwriAiMkAY4"><img src="/figs/youtube_button.png" height="64"></a><br/><a href="https://www.youtube.com/watch?v=ZKlDS-W2ekk"><img src="/figs/youtube_button.png" height="64"></a></td>
+    <td><a href="/tutorials/02_02_ycam3d/202102_NEDO_Tutorial_RoVI.pdf"><img src="/figs/pdf_icon.png" height="64"></a></td>
+</tr>
+<tr>
+    <td><b>第2部 ROSでのSEED-Noid制御基礎</b></td>
+    <td><a href="https://www.youtube.com/watch?v=NgrxR02g9Qo"><img src="/figs/youtube_button.png" height="64"></a></td>
+    <td><a href="/tutorials/02_02_ycam3d/202102_NEDO_Tutorial_VT.pdf"><img src="/figs/pdf_icon.png" height="64" align="center"></a></td>
 </tr>
 
 </table>
