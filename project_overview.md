@@ -9,9 +9,9 @@ NEDO Technology Development Project for Robot Commercialization Applications (Sh
 This project aims to promote the introduction of the robot into areas that are expected to be used by robots but have not yet been introduced (robots unused areas) by reducing the initial cost of the robot itself and the cost of system integration.
 For this purpose, the robot hardware and software are platformized by dividing into the base-robot as a common part and an optional part that corresponds to the target work for each user.
 
-<img src="/figs/project-overview.png"/>
+<img src="/figs/project-overview.png"/ width="800">
 
 ### ハンドブック
 
-- [「ロボット活用型市場化適用技術開発プロジェクト」紹介ハンドブック（2017年度版）](https://www.nedo.go.jp/library/pamphlets/ZZ_pamphlets_00039.html)
+- [「ロボット活用型市場化適用技術開発プロジェクト」紹介ハンドブック（2019年度版）](https://www.nedo.go.jp/library/pamphlets/ZZ_pamphlets_00039.html)
 
