@@ -5,7 +5,7 @@
 # 目次
 <!-- TOC -->
 
-- [[ROS体験コース](/tutorials/01_01_tutorials)](#ros体験コースtutorials01_01_tutorials)
+- [[ROS体験コース](/tutorials/01_01_intro)](#ros体験コースtutorials01_01_intro)
     - [2.2. 資料](#22-資料)
     - [1.2. OSS活用のためのライセンス解説コース](#12-oss活用のためのライセンス解説コース)
 - [2. 市場化プロジェクト成果活用コース](#2-市場化プロジェクト成果活用コース)
@@ -23,7 +23,7 @@
 <br/><br/>
 
 
-## [ROS体験コース](/tutorials/01_01_tutorials)
+## [ROS体験コース](/tutorials/01_01_intro)
 <a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="64"></a> <a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="64"></a> 
 
 
