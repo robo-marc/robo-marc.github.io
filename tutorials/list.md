@@ -27,8 +27,8 @@
 
 - [概要説明](/01_01_tutorials)
 
-<a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png"></a>
-<a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png"></a>
+<a href="https://www.youtube.com/watch?v=mx1BE5LaDWk"><img src="/figs/youtube_button.png" height="100"></a>
+<a href="/tutorials/01_01_intro/01_01_intro.pdf"><img src="/figs/pdf_icon.png" height="100"></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mx1BE5LaDWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
