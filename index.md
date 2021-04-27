@@ -48,6 +48,14 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 
 <!-- This is Web page to publish R&D result by “NEDO’s Technology Development Project for Robot Commercialization Applications” (FY2017-2019) and “NEDO Course (NEDO Kouza)”.-->
 
+### ロボット共通ソフトウェア技術講座
+2021年3月26日より、NEDO特別講座が提供する「ロボット共通ソフトウェア技術講座」のオンデマンド配信を開始いたしました。
+- [コースの概要について](/tutorials)
+
+<div align="center"><a href="https://forms.gle/NKYo9Bmg5tibHNYq8"><img src="/tutorials/figs/button_regist_tiny.png"></a></div>
+
+
+
 ### News
 
 <div align="center"><img src="{{site.baseurl}}/assets/images/nedo-news-s.png" width="100%"></div>
