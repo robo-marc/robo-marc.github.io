@@ -26,7 +26,7 @@
 
 <tr>
 　　<td><b>MoveIt!体験コース</b><br/>いくつかのタイプのロボットアームをMoveIt!を用いて制御し，何らかの作業を行うロボットシステムとしてインテグレーションする方法について解説いたします。(<a href="/tutorials/01_02_moveit">概要</a>)</td>
-    <td><div class="center"><a href="https://www.youtube.com/embed/Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png" height="64"></a></div></td>
+    <td><div class="center"><a href="https://www.youtube.com/watch?v=Lfk9ee1ZEJQ"><img src="/figs/youtube_button.png" height="64"></a></div></td>
     <td><div class="center"><a href="/tutorials/01_02_license/01_02_license.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
 
