@@ -46,7 +46,7 @@ NEDO特別講座プロジェクトでは、以下の「ロボット共通ソフ�
 
 このコースでは、RRI（ロボット革命・産業IoTイニシアティブ協議会）のロボットライセンス・調査検討委員会が2020年6月にとりまとめた、「オープンソースを活用したロボット開発のためのライセンス・特許ガイドライン　Version 2.0」に基づき、オープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。
 
-<div align="center"><img src="/tutorials/01_02_license/fig_license.png" width="640"></div>
+<div align="center"><img src="/tutorials/01_03_license/fig_license.png" width="640"></div>
 <br/><br/>
 
 ## 2. 市場化プロジェクト成果活用コース
