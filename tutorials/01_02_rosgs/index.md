@@ -18,8 +18,8 @@
 本講座は、主に「ROSとは何か？」に注目し、技術的な側面ではなく、ROSを活用するために必要な背景知識の獲得を目標とした内容となっております。ROS環境を用いたプログラム開発等に興味がある方は、本講座の最後に示すチュートリアル等を実施していただくか、本NEDO特別講座で開講している他の講座をご聴講ください。
 
 <div align="center">
-<img src="/tutorials/01_02_rosgs/rivz_seed.png" width="480">
-<img src="/tutorials/01_02_rosgs/rivz_duaro.png" width="480">
+<img src="/tutorials/01_02_rosgs/rviz_seed.png" width="480">
+<img src="/tutorials/01_02_rosgs/rviz_duaro.png" width="480">
 </div>
 <br/>
 
