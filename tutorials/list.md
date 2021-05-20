@@ -34,7 +34,7 @@
 　　<td><b><a href="/tutorials/01_02_rosgs">ROS入門講座</a></b><br/>主に「ROSとは何か？」に注目し、技術的な側面ではなく、ROSを活用するために必要な背景知識について解説いたします。
 (<a href="/tutorials/01_02_rosgs">詳細ページへ</a>)</td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=9Zr5niPbeCE"><img src="/figs/youtube_button.png" height="64"></a></div>
-    <div class="center"><a href="https://www.youtube.com/embed/reYLOvo6sC0"><img src="/figs/youtube_button.png" height="64"></a></div></td>
+    <div class="center"><a href="https://www.youtube.com/watch?v=reYLOvo6sC0"><img src="/figs/youtube_button.png" height="64"></a></div></td>
     <td><div class="center"><a href="/tutorials/01_02_rosgs/01_02_rosgs01.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div>
     <div class="center"><a href="/tutorials/01_02_rosgs/01_02_rosgs02.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
