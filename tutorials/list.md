@@ -48,9 +48,9 @@
 </tr>
 
 <tr>
-　　<td><b><a href="/tutorials/01_03_license">OSS活用のためのライセンス解説コース</a></b><br/>オープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。(<a href="/tutorials/01_03_license">詳細ページへ</a>)</td>
+　　<td><b><a href="/tutorials/01_04_license">OSS活用のためのライセンス解説コース</a></b><br/>オープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。(<a href="/tutorials/01_04_license">詳細ページへ</a>)</td>
     <td><div class="center"><a href="https://www.youtube.com/watch?v=KzEVeM0A-1o"><img src="/figs/youtube_button.png" height="64"></a></div></td>
-    <td><div class="center"><a href="/tutorials/01_03_license/01_03_license.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
+    <td><div class="center"><a href="/tutorials/01_04_license/01_04_license.pdf"><img src="/figs/pdf_icon.png" height="64"></a></div></td>
 </tr>
 </table>
 
