@@ -48,8 +48,8 @@ NEDO特別講座プロジェクトでは、以下の「ロボット共通ソフ�
 本講座は、主に「ROSとは何か？」に注目し、技術的な側面ではなく、ROSを活用するために必要な背景知識の獲得を目標とした内容となっております。
 
 <div align="center">
-<img src="/tutorials/01_02_rosgs/rivz_seed.png" width="480">
-<img src="/tutorials/01_02_rosgs/rivz_duaro.png" width="480">
+<img src="/tutorials/01_02_rosgs/rviz_seed.png" width="480">
+<img src="/tutorials/01_02_rosgs/rviz_duaro.png" width="480">
 </div>
 <br/><br/>
 
