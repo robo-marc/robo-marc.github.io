@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NEDO特別講座キックオフシンポジウムビデオ講演を一般公開いたしました"
+title:  "【2月8日】NEDO特別講座キックオフシンポジウムビデオ講演を一般公開いたしました"
 date:   2021-02-08 00:00:005
 #image:  news.png
 categories:   Nedo
