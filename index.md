@@ -62,11 +62,12 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 
 <br/>
 
+<div class="news">
 <section>
   <ul>
- {% for post in site.posts %}
+  {% for post in site.posts limit:6 %}
     <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 </section>
-
+</div>
