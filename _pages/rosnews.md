@@ -10,7 +10,7 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 
-i### <span style="color:navy;">2021/1/29</span> 「NEDO特別講座キックオフシンポジウム開催」
+### <span style="color:navy;">2021/1/29</span> 「NEDO特別講座キックオフシンポジウム開催」
 ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開催するNEDO特別講座のキックオフシンポジウムを開催しました．<br/>
 開催日：2021年1月29日（金）公開<br/>
 開催方法：オンデマンド（動画配信ですので，29日以降時間を問わず視聴ができます）<br/>
@@ -25,6 +25,7 @@ i### <span style="color:navy;">2021/1/29</span> 「NEDO特別講座キックオ�
 <br/>
 <br/>
 
+- [Open Robotics and Canonical Announce ROS Extended Security Maintenance (ESM) ](https://www.openrobotics.org/blog/2021/4/5/hardened-ros-with-10-year-security-from-open-robotics-and-canonical]) 
 
 ### <span style="color:navy;">2021/1/21</span> 「今週の海外ROSニュース」
 海外の様々なROS関連のニュースをお伝えしていきます．
