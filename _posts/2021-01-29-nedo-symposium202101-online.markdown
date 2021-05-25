@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NEDO特別講座キックオフシンポジウをオンライン・オンデマンド方式で開催"
+title:  "【1月29日】NEDO特別講座キックオフシンポジウをオンライン・オンデマンド方式で開催"
 date:   2021-01-29 00:00:005
 #image:  news.png
 categories:   Nedo

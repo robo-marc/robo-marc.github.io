@@ -14,3 +14,23 @@
 
 // import custom variables and mixins to extend BS4
 @import "lone-wolf-theme";
+
+.table-alt {
+    width: 100%;
+    border-spacing: 10;
+    border-collapse: separate;
+    th,table td {
+      padding: 30px 40px 30px;
+      text-align: center;
+    }
+    tr:nth-child(odd) {
+      background-color: #eee
+    }
+  }
+.center{
+  text-align: center;
+}
+.news {
+  font-size: 22px;
+  font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif";
+}
