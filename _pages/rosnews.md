@@ -25,6 +25,7 @@ permalink: /rosnews/
 <br/>
 <br/>
 
+- [Open Robotics and Canonical Announce ROS Extended Security Maintenance (ESM) ](https://www.openrobotics.org/blog/2021/4/5/hardened-ros-with-10-year-security-from-open-robotics-and-canonical]) 
 
 ### <span style="color:navy;">2021/1/21</span> 「今週の海外ROSニュース」
 海外の様々なROS関連のニュースをお伝えしていきます．
