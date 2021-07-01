@@ -10,6 +10,17 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 
+### <span style="color:navy;">2021/7/8</span> Rclshark
+
+ROS用WireShark?
+ROS2において、headlessなボードCPUのIPアドレスを特定するツールとして、日本人が作者のrclsharkというツールが公開されています。
+ROS2のDDSの仕組みを利用して、ROSノードのリストを探し出してIPアドレスを特定することができるようです。
+
+<img src="https://storage.googleapis.com/zenn-user-upload/26e5cfa762e4cf736cb38559.png" width="800">
+
+- [Zennページ](https://zenn.dev/array/articles/9fd8cb5941bb94)
+- [Github](https://github.com/Ar-Ray-code/rclshark)
+
 ### <span style="color:navy;">2021/1/29</span> 「NEDO特別講座キックオフシンポジウム開催」
 ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開催するNEDO特別講座のキックオフシンポジウムを開催しました．<br/>
 開催日：2021年1月29日（金）公開<br/>
