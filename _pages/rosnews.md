@@ -9,6 +9,7 @@ permalink: /rosnews/
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
+----------
 
 ### <span style="color:navy;">2021/7/8</span> Rclshark
 
@@ -20,6 +21,38 @@ ROS2のDDSの仕組みを利用して、ROSノードのリストを探し出し�
 
 - [Zennページ](https://zenn.dev/array/articles/9fd8cb5941bb94)
 - [Github](https://github.com/Ar-Ray-code/rclshark)
+
+----------
+
+### <span style="color:navy;">2021/7/2</span> ROS2 メモリプロファイルレポート (Discourse)
+
+(https://discourse.ros.org/t/ros2-memory-usage-no-dds/21206)
+
+ROS2 Memory Usage (no DDS) というタイトルで、ROS2のDDS部分を除くメモリ使用量の分析レポートが7月2日に[投稿](https://discourse.ros.org/t/ros2-memory-usage-no-dds/21206)されていました。
+
+#### ROS2 の基本メモリ使用量 ≒ ４MB
+レポートでは、DDSのライブラリを除くROS2のベースとなるライブラリ (rclcpp.so) と pub/sub 機能が使用するメモリ使用量が約４MB、以降1ノードあたり約10kB程度のメモリ使用量増加が認められたと述べられています。
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/0d18d1ac0701ecd617982fe933d3bd3c9d77660b.png">
+
+詳細は、[Discourse](https://discourse.ros.org/t/ros2-memory-usage-no-dds/21206)を御覧ください。
+
+----------
+
+
+### <span style="color:navy;">2021/6/9</span> ROSビジュアライズ開発環境 Foxglove Studio (Discourse)
+
+Foxglove が開発している Foxglove Studio が [Discourse](https://discourse.ros.org/t/foxglove-studio-blog-ros-tutorials-more/20838) で紹介されていました。
+TypeScriptベースの今風なかっこいいビジュアルのツールです。画像、グラフ、LiDAR表示、トピック表示等、開発時・デバッグ時に必要そうなツールが一通り揃っているようです。
+ブラウザ上でも動作する模様。
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/8/828faf17535d55ca9c089c007fac04d3095498e9.jpeg" width="800">
+
+詳細は、[Discourse](https://discourse.ros.org/t/foxglove-studio-blog-ros-tutorials-more/20838)および、[公式サイト](https://foxglove.dev/) を御覧ください。
+
+- [公式サイト](https://foxglove.dev/) 
+
+----------
 
 ### <span style="color:navy;">2021/1/29</span> 「NEDO特別講座キックオフシンポジウム開催」
 ロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開催するNEDO特別講座のキックオフシンポジウムを開催しました．<br/>
@@ -38,6 +71,8 @@ ROS2のDDSの仕組みを利用して、ROSノードのリストを探し出し�
 
 - [Open Robotics and Canonical Announce ROS Extended Security Maintenance (ESM) ](https://www.openrobotics.org/blog/2021/4/5/hardened-ros-with-10-year-security-from-open-robotics-and-canonical]) 
 
+----------
+
 ### <span style="color:navy;">2021/1/21</span> 「今週の海外ROSニュース」
 海外の様々なROS関連のニュースをお伝えしていきます．
 
@@ -53,6 +88,8 @@ ROS News Letter
 めのソフトウェアシステムの開発について述べています。
 <br/>
 <br/>
+
+----------
 
 ### <span style="color:navy;">2021/1/14</span> 「今週の海外ROSニュース」
 海外の様々なROS関連のニュースをお伝えしていきます．
@@ -82,6 +119,8 @@ ROS1との比較や性能評価等の分析が含まれています。以下の�
 
 <br/>
 <br/>
+
+----------
 
 ### <span style="color:navy;">2020/11/10</span> 「ROS教育の提供を行う企業」
 
