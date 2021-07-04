@@ -11,7 +11,7 @@ permalink: /rosnews/
 
 ----------
 
-### <span style="color:navy;">2021/7/8</span> Rclshark
+### <span style="color:navy;">2021/7/8</span> [Rclshark(https://zenn.dev/array/articles/9fd8cb5941bb94)
 
 ROS用WireShark?
 ROS2において、headlessなボードCPUのIPアドレスを特定するツールとして、日本人が作者のrclsharkというツールが公開されています。
@@ -24,7 +24,7 @@ ROS2のDDSの仕組みを利用して、ROSノードのリストを探し出し�
 
 ----------
 
-### <span style="color:navy;">2021/7/2</span> ROS2 メモリプロファイルレポート (Discourse)
+### <span style="color:navy;">2021/7/2</span> [ROS2 メモリプロファイルレポート (Discourse)](https://discourse.ros.org/t/ros2-memory-usage-no-dds/21206)
 
 (https://discourse.ros.org/t/ros2-memory-usage-no-dds/21206)
 
@@ -40,7 +40,7 @@ ROS2 Memory Usage (no DDS) というタイトルで、ROS2のDDS部分を除く�
 ----------
 
 
-### <span style="color:navy;">2021/6/9</span> ROSビジュアライズ開発環境 Foxglove Studio (Discourse)
+### <span style="color:navy;">2021/6/9</span> [ROSビジュアライズ開発環境 Foxglove Studio (Discourse)](https://discourse.ros.org/t/foxglove-studio-blog-ros-tutorials-more/20838)
 
 Foxglove が開発している Foxglove Studio が [Discourse](https://discourse.ros.org/t/foxglove-studio-blog-ros-tutorials-more/20838) で紹介されていました。
 TypeScriptベースの今風なかっこいいビジュアルのツールです。画像、グラフ、LiDAR表示、トピック表示等、開発時・デバッグ時に必要そうなツールが一通り揃っているようです。
