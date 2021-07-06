@@ -11,7 +11,16 @@ permalink: /rosnews/
 
 ----------
 
-### <span style="color:navy;">2021/7/8</span> [Rclshark(https://zenn.dev/array/articles/9fd8cb5941bb94)
+### <span style="color:navy;">2021/7/28</span> [ROSCon JPプログラムが公開されました］(https://roscon.jp/)
+
+ROSCon JPが2021年9月16日(木)に東京で開催されます。
+すでにプログラムが発表されており、Apex.AI, Inc., Jan Becker氏による基調講演「自動車・スマート機器・IoTのためのROS 2に基づく安全認証取得済みフレームワーク」や、Samsung Research AmericaのSteve Macenski氏による基調講演「ROS 2のナビゲーションフレームワーク」など注目の講演が予定されています。
+本NEDO特別講座のメンバーである、東京大学の岡田先生も「GGC (ガンダム GLOBAL CHALLENGE) リサーチ オープンシミュレータの開発と公開」について発表されます。
+- [ROSCon JP 2021](https://roscon.jp)
+
+----------
+
+### <span style="color:navy;">2021/7/8</span> [Rclshark](https://zenn.dev/array/articles/9fd8cb5941bb94)
 
 ROS用WireShark?
 ROS2において、headlessなボードCPUのIPアドレスを特定するツールとして、日本人が作者のrclsharkというツールが公開されています。
