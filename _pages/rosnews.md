@@ -18,6 +18,8 @@ ROSCon JPが2021年9月16日(木)に東京で開催されます。
 本NEDO特別講座のメンバーである、東京大学の岡田先生も「GGC (ガンダム GLOBAL CHALLENGE) リサーチ オープンシミュレータの開発と公開」について発表されます。
 - [ROSCon JP 2021](https://roscon.jp)
 
+<a href="https://roscon.jp"><img src="https://roscon.jp/2021/img/ROSConJP21_lowres.jpg" width="480"></a>
+
 ----------
 
 ### <span style="color:navy;">2021/7/8</span> [Rclshark](https://zenn.dev/array/articles/9fd8cb5941bb94)
