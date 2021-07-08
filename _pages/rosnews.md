@@ -11,7 +11,7 @@ permalink: /rosnews/
 
 ----------
 
-### <span style="color:navy;">2021/7/18</span> [ROSCon JPプログラムが公開されました］(https://roscon.jp/)
+### <span style="color:navy;">2021/7/18</span> [ROSCon JPプログラムが公開されました](https://roscon.jp/)
 
 ROSCon JPが2021年9月16日(木)に東京で開催されます。
 すでにプログラムが発表されており、Apex.AI, Inc., Jan Becker氏による基調講演「自動車・スマート機器・IoTのためのROS 2に基づく安全認証取得済みフレームワーク」や、Samsung Research AmericaのSteve Macenski氏による基調講演「ROS 2のナビゲーションフレームワーク」など注目の講演が予定されています。
