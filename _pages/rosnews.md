@@ -11,6 +11,49 @@ permalink: /rosnews/
 
 ----------
 
+### <span style="color:navy;">2021/8/19</span> [ROSConは中止されROS World2021(バーチャル会議)開催](https://discourse.ros.org/t/roscon-2021-cancelled-ros-world-2021-announcement/21929)
+
+ROSCon 2021は対面での通常開催が予定されていましたが、Covid-19の影響によりキャンセルされました。代わりに、仮想イベントとしてROS World2021が 10月20−21日に開催されることとなりました。
+詳細
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/1/1d816c0e182278141c88039ba5eb3435a2bdad39_2_500x500.png" width="800">
+
+詳細は[こちらから](https://discourse.ros.org/t/roscon-2021-cancelled-ros-world-2021-announcement/21929)
+
+----------
+
+### <span style="color:navy;">2021/5月頃から</span> [ROS2移行戦略 (ROS discourseより)](https://discourse.ros.org/t/ros2-transition-strategy/9154)
+
+- ROS-iからの問題提起
+  - ROS1/2のリポジトリ構成について
+  - 2つの方法案
+    - Core,ros1ラッパー,ros2ラッパーを別々のリポジトリに配置
+    - Core+ros1,core+ros2をブランチで管理
+- 意見
+  - 別々のコードベースを同一repoで管理すべきではない(ros1/ros2)
+  - コアライブラリ＋ROSラッパー構成
+    - 個別のリポジトリ(lib, ros1wrap, ros2warap)がいいのでは無いか？
+    - 共有コードが多い場合→同一repoがいいのでは？
+    - コア, ros1wrap/ros2wrap で分ける
+  - ROS1/ROS2を共存させるときどうするか？
+  - タグ(ros1_3.2.1, ros2_2.2.1)をつけては？
+など、いろいろな意見がかわされていた。
+
+----------
+
+### <span style="color:navy;">2021/8/8</span> [ROS NEWS (ROS discourseより)](https://discourse.ros.org/t/ros-news-for-the-week-of-8-8-2021/21840)
+
+- Rollingロゴ発表
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/f/feac87b8a1623876569f1b6831c7e6f483608535.png" width="640">
+- ROSConの早期登録まもなく終了
+- 8/19 ROS-i会議
+- 9/16 [ROSConJP](http://roscon.jp/)
+- [9/21-24 ROS2-Industrial Training (Fraunhofer IPA)](https://www.ipa.fraunhofer.de/en/Events/2021/ros2-industrial_training.html)
+- 10/21 [ROSCon](https://roscon.ros.org/)
+
+----------
+
+
 ### <span style="color:navy;">2021/7/18</span> [ROSCon JPプログラムが公開されました](https://roscon.jp/)
 
 ROSCon JPが2021年9月16日(木)に東京で開催されます。
