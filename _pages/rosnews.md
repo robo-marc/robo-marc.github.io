@@ -16,7 +16,7 @@ permalink: /rosnews/
 ROSCon 2021は対面での通常開催が予定されていましたが、Covid-19の影響によりキャンセルされました。代わりに、仮想イベントとしてROS World2021が 10月20−21日に開催されることとなりました。
 詳細
 
-<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/1/1d816c0e182278141c88039ba5eb3435a2bdad39_2_500x500.png" width="800">
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/1/1d816c0e182278141c88039ba5eb3435a2bdad39_2_500x500.png" width="400">
 
 詳細は[こちらから](https://discourse.ros.org/t/roscon-2021-cancelled-ros-world-2021-announcement/21929)
 
@@ -44,7 +44,7 @@ ROSCon 2021は対面での通常開催が予定されていましたが、Covid-
 ### <span style="color:navy;">2021/8/8</span> [ROS NEWS (ROS discourseより)](https://discourse.ros.org/t/ros-news-for-the-week-of-8-8-2021/21840)
 
 - Rollingロゴ発表
-<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/f/feac87b8a1623876569f1b6831c7e6f483608535.png" width="640">
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/f/feac87b8a1623876569f1b6831c7e6f483608535.png" width="400">
 - ROSConの早期登録まもなく終了
 - 8/19 ROS-i会議
 - 9/16 [ROSConJP](http://roscon.jp/)
