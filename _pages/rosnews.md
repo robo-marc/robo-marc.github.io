@@ -14,6 +14,8 @@ permalink: /rosnews/
 
 [Intel Cancelling its Realsense business: Alternatives? ](https://discourse.ros.org/t/intel-cancelling-its-realsense-business-alternatives/21881) というトピックが ROS Discourseに上がっていました。
 
+<img src="https://images.squarespace-cdn.com/content/v1/51df34b1e4b08840dcfd2841/1629316481122-3NO3JY5GJ8FBWPI8N3V6/depth-camera-d455-intel-realsense.jpg?format=500w" width="400">
+
 Intel が最近 Realsense のサポートの終了を正式にアナウンスし、
 Realsense を多用していたロボット業界などで波紋が広がっています。
 ROSコミュニティでも、この発表を残念がっている人が多数いるようで、
