@@ -37,6 +37,16 @@ Realsenseのだいたいカメラとして上がっていたものは、
 参考になりそうです。
 
 - [ROS-i 3Dカメラリスト](https://rosindustrial.org/3d-camera-survey)
+----------
+
+### <span style="color:navy;">2021/9/16</span> [ROSCon JP](https://roscon.jp/)
+
+ROSCon JP 2021 が76名の参加者、18社のスポンサーを集めて、
+9月16日にオフライン開催されたとのことです。
+
+<img src="https://roscon.jp/2021/img/ROSCon_JP_2021_group_photo_scaled.jpg" width="480">
+
+発表スライドとビデオは10月中旬ごろにアップロードされるとのことです。
 
 ----------
 
