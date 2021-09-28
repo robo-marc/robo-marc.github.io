@@ -8,6 +8,76 @@ permalink: /rosnews/
 # ROS Watch
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
+----------
+
+### <span style="color:navy;">2021/9/24</span> [Intel Realsenseの代替カメラ？](https://discourse.ros.org/t/intel-cancelling-its-realsense-business-alternatives/21881)
+
+[Intel Cancelling its Realsense business: Alternatives? ](https://discourse.ros.org/t/intel-cancelling-its-realsense-business-alternatives/21881) というトピックが ROS Discourseに上がっていました。
+
+Intel が最近 Realsense のサポートの終了を正式にアナウンスし、
+Realsense を多用していたロボット業界などで波紋が広がっています。
+ROSコミュニティでも、この発表を残念がっている人が多数いるようで、
+このような[トピック](https://discourse.ros.org/t/intel-cancelling-its-realsense-business-alternatives/21881)が上がっています。
+
+Realsenseのだいたいカメラとして上がっていたものは、
+
+- Orbecc
+- Ovc, https://github.com/osrf/ovc
+- Kinect2.0, Azure Kinect
+- ASUS XtionPro
+- Ifm
+- ZED
+- MultiSense
+- Ensenso
+
+などが有り、価格と性能面で完全に Realsense の代替となるかは難しいかもしれません。
+また、すでにいくつかのカメラは製造終了となっているものもあるようです。
+
+また、ROS-Industrialでは以下のページで3Dカメラの情報を収集しているとのことで、
+参考になりそうです。
+
+- [ROS-i 3Dカメラリスト](https://rosindustrial.org/3d-camera-survey)
+
+----------
+
+### <span style="color:navy;">2021/9/24</span> [メールを使ってROS2メッセージを行うパッケージ: rmw_email](https://discourse.ros.org/t/ros-2-over-email-rmw-email-an-rmw-implementation/22360)
+
+メールを使ってROS2メッセージ通信を行うパッケージ rmw_email が公開されています。
+研究プロジェクトとして開発されたこのパッケージは、
+ROS2で導入された通信ミドルウェア部分の抽象化が正しく機能するか、
+について検証するために、実際にROS2のメッセージをメールとして送受信する
+通信レイヤを実装したものです。
+
+メッセージのレイテンシは実験結果から4秒から8秒だそうで実用的にはあまり意味がありませんが、
+ROS2の抽象レイヤがちゃんと実装されていることの証左になりそうです。
+
+<img src="https://christophebedard.com/assets/img/rmw-email/perf_comparison_nort.png" width="400">
+
+なお、OpenRTM-aistでは、OMGの標準仕様レベルでポート間通信の抽象化がなされており、
+共有メモリ通信、ダイレクト通信、MQTT、（廃止されましたが直接TCP通信）なども実装されてきましたが、
+OpenRTM2.0からは、この仕組がより洗練され、ROSやROS2、UDP、などのプロトコルも
+使用できるようになります。
+
+- [GitHub](https://github.com/christophebedard/rmw_email)
+
+----------
+
+### <span style="color:navy;">2021/5月頃から</span> [ROS2移行戦略 (ROS discourseより)](https://discourse.ros.org/t/ros2-transition-strategy/9154)
+
+- ROS-iからの問題提起
+  - ROS1/2のリポジトリ構成について
+  - 2つの方法案
+    - Core,ros1ラッパー,ros2ラッパーを別々のリポジトリに配置
+    - Core+ros1,core+ros2をブランチで管理
+- 意見
+  - 別々のコードベースを同一repoで管理すべきではない(ros1/ros2)
+  - コアライブラリ＋ROSラッパー構成
+    - 個別のリポジトリ(lib, ros1wrap, ros2warap)がいいのでは無いか？
+    - 共有コードが多い場合→同一repoがいいのでは？
+    - コア, ros1wrap/ros2wrap で分ける
+  - ROS1/ROS2を共存させるときどうするか？
+  - タグ(ros1_3.2.1, ros2_2.2.1)をつけては？
+など、いろいろな意見がかわされていた。
 
 ----------
 
