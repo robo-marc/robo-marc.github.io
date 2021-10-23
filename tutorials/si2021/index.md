@@ -1,4 +1,4 @@
-# SI2020 「NEDO特別講座：ロボット共通プラットフォーム講習会」
+# SI2021 「NEDO特別講座：ロボット共通プラットフォーム講習会」
 
 
 <!-- 本講習会は2020年12月19日にオンラインにて開催し、9名の受講者にお越しいただきました。ありがとうございました。-->
@@ -14,8 +14,8 @@ NEDO「ロボット活用型市場化技術開発プロジェクト（市場化�
 ### 日時・場所
 - 日時：2021年12月18日（土）13:00－15:55(予定)
 - 場所：Zoomによるオンライン開催
-  - SI2020の特別セッションとして実施
-  - [SI2020 特別セッション3](https://www.sice-si.org/conf/si2021/event.html) 
+  - SI2021の特別セッションとして実施
+  - [SI2021 特別セッション3](https://www.sice-si.org/conf/si2021/event.html) 
 - 聴講料：無料
   - 必須ではありませんが可能な限りSI2021への参加登録をお願いします．
   - SI2021の参加登録を行わない場合，本講習会以外のSI2021の行事には参加できません．
@@ -92,8 +92,8 @@ Tork制作のMoveIt! チュートリアルは以下のページにあります�
   
 # 講習会の様子
 
-<div align="center"><img src="si2020/si2020_galleryview.png" width="740"></div>
+<div align="center"><img src="si2021/si2021_galleryview.png" width="740"></div>
 <br/>
-<div align="center"><img src="si2020/si2020_moveit.png" width="740"></div>
+<div align="center"><img src="si2021/si2021_moveit.png" width="740"></div>
 
 -->
