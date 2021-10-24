@@ -8,6 +8,137 @@ permalink: /rosnews/
 # ROS Watch
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
+
+----------
+
+### <span style="color:navy;">2021/11/17</span> [Remote Warehouse Real Robot Lab](https://discourse.ros.org/t/ros2-remote-warehouse-real-robot-lab-for-industrial-training/23139)
+
+Construct+Robotnikによる、遠隔からリアルなロボットに接続して実験ができるラボ立ち上げのお知らせ。
+
+- ROS1+ROS2で産業用物流ロボット用ラボを立ち上げ
+- リモートからラボに接続して練習可能
+- ROSスキルの習得、最新技術へのキャッチアップ等を目的とする
+- 提供ロボットシステム
+  - RB-1BASE移動ロボットで自律ナビゲーションの練習
+  - UR3eを使用してPointCloud＋協働型アームによるマニピュレーションの練習
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/a05b97afb5557d357c0d0f51538488a9119c9bc1.jpeg" width="300"/>
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/a05e6fc2e6f0267111dae8c4f3c1f82b32299832.jpeg" width="300"/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KjWX7M9SdFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [Construct](https://www.theconstructsim.com/)
+- [Robotnik](https://robotnik.eu/)
+
+----------
+
+### <span style="color:navy;">2021/11/8</span> [ROS2のmacOSサポート](https://discourse.ros.org/t/macos-support-in-ros-2-galactic-and-beyond/17891/32)
+
+#### 課題
+
+ROS2からは、macOSがTier1 platform (正式サポートOS) とされてきたが、以下のような課題があり、開発側はmacOSをTier1から外したいとの提案がある。 (2020年12月)
+主な課題としては、
+
+- SIP (System Integrity Protection) を無効にする必要がある
+- RViz2やRQtは動作しない （Qtがうまく動かない）
+- 依存パッケージをHomebrewのものを利用するとつらい→Homebrewの更新頻度が早い
+
+#### 意見
+
+- macOSの最小構成を提供してほしい(GUI抜き）
+- Docker+novncクライアントを組み合わせてmacOSから使えば？
+- M1 Macは非常に高速であり、ぜひ使いたい
+- SIPに引っかかるため、回避が必要（方法はドキュメント化されている）
+- M1 Big Surでrviz2が動作
+  - http://mamykin.com/posts/building-ros2-on-macos-big-sur-m1/
+- CycloneDDSはM1 Macをサポート、評価レポート↓
+  - https://osrf.github.io/TSC-RMW-Reports/humble/eclipse-cyclonedds-report.html#appendix-b-performance-summary-per-platform
+- 開発にAWS を使っている。Azureの場合Apple M1のAgentが無いのでコンパイルできない。
+
+----------
+
+### <span style="color:navy;">2021/10/30</span> [DDS for Unity](https://discourse.ros.org/t/dds-for-unity/22925)
+
+DDS for Unity (OSS)が以下のサイトでリリースされている。
+- https://bitbucket.org/edhage/dds-for-unity/src/master/
+
+DDS for UnityはUnityにDDS通信機能を追加するライブラリであり、もともとはUnityで作成されたデジタルツインとシミュレータをROS2と統合ゴするために作成された。
+
+ROSにおいてシミュレータの一つとしてUnityを使用可能であり、Unity内のロボットに指令を送ったり、Unity内のカメラからjpeg-videoをROS2側にストリーミングすることなどが可能。
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/9/9b690cf58da01d76d3c9816a859d62df624e166c.jpeg", width="650"/>
+
+
+----------
+
+
+### <span style="color:navy;">2021/10/26</span> [ROS2の速度について](https://discourse.ros.org/t/ros2-speed/20162/15)
+
+- **質問**
+
+ROS1で9000Hzまで可能なpublisherが、ROS2では1000Hz以上速度が上がらない→ROS2の方が遅いのか？
+
+- **回答**
+- ROS2ではエグゼキュータがデータのpublishまでは行わないのでは？
+- FastRTPSでは同期モードと非同期モードがある、CycloneDDSは同期モードのみサポート
+- 実験例
+  - ROS1: 1kHz, 650MB/s で送信可能
+  - ROS2(CycloneDDS): 31Hz, 27MB/s
+  - ROS2(FastRTPS):950Hz, 550MB/s, CPU使用率95%
+- band幅測定ツールの提案あり
+- 設定変更により改善
+  - UDPソケットバッファを64MBに設定、MsgTypeをルーブ外で割当
+  - Cycloneの場合MaxMessageSizeを大きな値に設定
+  - 以上で、FastRTPS/Cycloneともｄにだいぶ早くはなる（でもROS1には及ばない）
+  - 別スレッド参照：ROS2 default Behavior (Wifi) https://discourse.ros.org/t/ros2-default-behavior-wifi/13460/37
+  - 固定長の16bytesほどのmsg→130kHz程度で送信可能
+- CDRマーシャリングは可変長配列の場合ROS1のそれよりだいぶ遅い（プロファイラで検証）
+- マーシャリングが遅い問題はすぐには解決できないが、チューニングについてはドキュメント化
+  - https://github.com/ros2/ros2_documentation/blob/rolling/source/How-To-Guides/DDS-tuning.rst
+
+#### 雑感
+ROS2で使われている DDS (Data Distribution Service) は、さまざまなネットワークの状況に対応するため、さまざまな調整パラメータが存在し、望むパフォーマンスを引き出すためには、チューニングを施す必要がある。チューニング方法に関してはいかにまとめられている。
+
+- https://github.com/ros2/ros2_documentation/blob/rolling/source/How-To-Guides/DDS-tuning.rst
+
+ROS1は多くのユーザ環境では無調整でかなりのスループット性能が出、低レイテンシでの通信も可能であるため、DDSはパフォーマンスを上げるためには面倒なチューニングが必要。
+
+DDSでは、データのシリアライズ（マーシャリングと呼ぶ）方法に、CORBAと互換な CDR (Common Data representation) 方式が利用されており、互換性やデータ形式の柔軟性のために、マーシャリングに時間がかかる問題がある。CORBAやDDSの実装によりそのパフォーマンスはさまざまであるが、いずれにしろ、処理的にはそこそこ重いものになっているのは事実。上記スレッドでも述べられている通り、通信ミドルウェアのコア部分であり、標準準拠の部分でもあるため、パフォーマンスの改善は容易ではない。
+
+----------
+
+### <span style="color:navy;">2021/10/16</span> [TSC meeting 10/28](https://discourse.ros.org/t/ros-2-tsc-meeting-minutes-2021-10-28/22947)
+
+ROS TSC (Technical Steering Committee) ミーティングが10/28に開催されました。
+
+- [Contribution Report](https://discourse.ros.org/uploads/short-url/setqXfGx9Z1dHh4DMU1rS0ePuq6.pdf)
+
+Contribution Reportにおいては、ADLINK, Amazon, Apex.AI, Bosch, Canonical, eProsima, Intel, iRobot, LG, Microsoft, Open Robotics, PickNik, ROBOTIS, Rover Robotics, ROS-I, Samsung, Sony, GVSC, Royota RI, Wind River からのそれぞれのContributionのレポートが行われました。
+
+#### WGレポート
+各WGからは以下のような報告がなされました。
+
+- Control→品質改善@Galactic, Foxy → Rollingへ
+- Embedded→micro-ROS, embeddedRTPS
+- Manipulatioin→Moveit2リファクタリング
+- Middleware→ミーティング、QoSの課題、ROS_LOCALHOST_ONLYの実装方法
+- Navigation→VSLAM統合、振る舞い実装方法の投票：BehaviorTreesが人気、Windows互換性が統合
+- Rust→2種類のRust ROSクライアントライブラリの協力方法について議論
+- Safety→Northstar Roboticsの安全管理ノード（認証品質）
+- Tool→スナップショットメカニズム(ros2bag)完了→Rollingへ
+- WrbTool→FoxgloveのROS2動作テストROS1からの移植
+
+----------
+
+### <span style="color:navy;">2021/10/16</span> [ROSConJPのビデオ・スライドが公開されました](https://roscon.jp/)
+
+ROSCon JPは、ことしはリアルな会議として2021年9月16日(木)に東京で開催されました。
+当日の発表の様子を撮影したビデオとスライドが[ROSConJPのページ](https://roscon.jp/)において公開されました。
+
+<img src="https://roscon.jp/2021/img/ROSConJP21_lowres.jpg" width="400">
+
+
+
 ----------
 
 ### <span style="color:navy;">2021/9/24</span> [Intel Realsenseの代替カメラ？](https://discourse.ros.org/t/intel-cancelling-its-realsense-business-alternatives/21881)
