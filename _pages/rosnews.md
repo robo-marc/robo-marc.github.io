@@ -50,9 +50,9 @@ ROS2からは、macOSがTier1 platform (正式サポートOS) とされてきた
 - M1 Macは非常に高速であり、ぜひ使いたい
 - SIPに引っかかるため、回避が必要（方法はドキュメント化されている）
 - M1 Big Surでrviz2が動作
-  - http://mamykin.com/posts/building-ros2-on-macos-big-sur-m1/
+  - [http://mamykin.com/posts/building-ros2-on-macos-big-sur-m1/](http://mamykin.com/posts/building-ros2-on-macos-big-sur-m1/)
 - CycloneDDSはM1 Macをサポート、評価レポート↓
-  - https://osrf.github.io/TSC-RMW-Reports/humble/eclipse-cyclonedds-report.html#appendix-b-performance-summary-per-platform
+  - [https://osrf.github.io/TSC-RMW-Reports/humble/eclipse-cyclonedds-report.html#appendix-b-performance-summary-per-platform](https://osrf.github.io/TSC-RMW-Reports/humble/eclipse-cyclonedds-report.html#appendix-b-performance-summary-per-platform)
 - 開発にAWS を使っている。Azureの場合Apple M1のAgentが無いのでコンパイルできない。
 
 ----------
@@ -60,13 +60,13 @@ ROS2からは、macOSがTier1 platform (正式サポートOS) とされてきた
 ### <span style="color:navy;">2021/10/30</span> [DDS for Unity](https://discourse.ros.org/t/dds-for-unity/22925)
 
 DDS for Unity (OSS)が以下のサイトでリリースされている。
-- https://bitbucket.org/edhage/dds-for-unity/src/master/
+- [https://bitbucket.org/edhage/dds-for-unity/src/master/](https://bitbucket.org/edhage/dds-for-unity/src/master/)
 
 DDS for UnityはUnityにDDS通信機能を追加するライブラリであり、もともとはUnityで作成されたデジタルツインとシミュレータをROS2と統合ゴするために作成された。
 
 ROSにおいてシミュレータの一つとしてUnityを使用可能であり、Unity内のロボットに指令を送ったり、Unity内のカメラからjpeg-videoをROS2側にストリーミングすることなどが可能。
 
-<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/9/9b690cf58da01d76d3c9816a859d62df624e166c.jpeg", width="650"/>
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/9/9b690cf58da01d76d3c9816a859d62df624e166c.jpeg" width="650"/>
 
 
 ----------
@@ -90,16 +90,15 @@ ROS1で9000Hzまで可能なpublisherが、ROS2では1000Hz以上速度が上が
   - UDPソケットバッファを64MBに設定、MsgTypeをルーブ外で割当
   - Cycloneの場合MaxMessageSizeを大きな値に設定
   - 以上で、FastRTPS/Cycloneともｄにだいぶ早くはなる（でもROS1には及ばない）
-  - 別スレッド参照：ROS2 default Behavior (Wifi) https://discourse.ros.org/t/ros2-default-behavior-wifi/13460/37
+  - [別スレッド参照：ROS2 default Behavior (Wifi)](https://discourse.ros.org/t/ros2-default-behavior-wifi/13460/37)
   - 固定長の16bytesほどのmsg→130kHz程度で送信可能
 - CDRマーシャリングは可変長配列の場合ROS1のそれよりだいぶ遅い（プロファイラで検証）
-- マーシャリングが遅い問題はすぐには解決できないが、チューニングについてはドキュメント化
-  - https://github.com/ros2/ros2_documentation/blob/rolling/source/How-To-Guides/DDS-tuning.rst
+- [マーシャリングが遅い問題はすぐには解決できないが、チューニングについてはドキュメント化](https://github.com/ros2/ros2_documentation/blob/rolling/source/How-To-Guides/DDS-tuning.rst)
 
 #### 雑感
 ROS2で使われている DDS (Data Distribution Service) は、さまざまなネットワークの状況に対応するため、さまざまな調整パラメータが存在し、望むパフォーマンスを引き出すためには、チューニングを施す必要がある。チューニング方法に関してはいかにまとめられている。
 
-- https://github.com/ros2/ros2_documentation/blob/rolling/source/How-To-Guides/DDS-tuning.rst
+- [https://github.com/ros2/ros2_documentation/blob/rolling/source/How-To-Guides/DDS-tuning.rst](https://github.com/ros2/ros2_documentation/blob/rolling/source/How-To-Guides/DDS-tuning.rst)
 
 ROS1は多くのユーザ環境では無調整でかなりのスループット性能が出、低レイテンシでの通信も可能であるため、DDSはパフォーマンスを上げるためには面倒なチューニングが必要。
 
