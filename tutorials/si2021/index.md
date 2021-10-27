@@ -22,7 +22,8 @@ NEDO「ロボット活用型市場化技術開発プロジェクト（市場化�
 <!-- - 参加者：9名，講師: 2名 -->
 
 - 申し込み：
-  - [登録フォーム (Google フォーム)](https://forms.gle/vETxhD5x2ZnQtBCS7)
+  - 申込みは12月14日に締め切らせていただきました。
+<!--   - [登録フォーム (Google フォーム)](https://forms.gle/vETxhD5x2ZnQtBCS7) -->
 
 
 # プログラム
@@ -67,12 +68,14 @@ USBメモリから起動してUbuntu環境を利用することができます�
 - Ubuntu 18.04 + ROS Melodic (duAro, NEXTAGEのみ同梱)
   - [DVD用ISOイメージ](https://openrtm.org/pub/NEDO_tutorial/ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso) (約5GB)
   - MD5 SUM: 383e48206736f81e7142473d564e3bee
+<!--
 - Ubuntu 16.04 + ROS Kinetic版 (duAro, SeedNoid, NEXTAGE等すべて含まれます)
   - [USBメモリイメージ (7zip圧縮)](https://openrtm.org/pub/NEDO_tutorial/NEDO_USB_Image.7z) (約25GB)
   - MD5: cfd74c56ccd71db1ad046e955a83f538
   - 32GBバイトUSBメモリ用イメージのため非常に大きなファイルです
+-->
 
-いずれの場合も，USBメモリに書き込む際は以下のマニュアルをお読みください．
+USBメモリに書き込む際は以下のマニュアルをお読みください．
 
 - [起動可能なUSBメモリ作成方法](usbimage_howto)
 
