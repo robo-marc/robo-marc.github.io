@@ -30,8 +30,8 @@ NEDO「ロボット活用型市場化技術開発プロジェクト（市場化�
 
 本講習会は[NEDO特別講座 ROS MoveIt! チュートリアル](https://robo-marc.github.io/moveit_tutorial/)を使用して行います．
 
-| 13:00-13:50 | NEDO市場化プロジェクトおよび[ROSの概要](https://robo-marc.github.io/moveit_tutorial/ros_overview)|
-| 14:00-14:50 | [NEDO ROSセット 基本設定](https://robo-marc.github.io/moveit_tutorial/rosset_setting) <br/> [NEDO ROSセット シミュレータの利用](https://robo-marc.github.io/moveit_tutorial/rosset_simulator)|
+| 13:00-13:50 | NEDO市場化プロジェクトおよび[ROSの概要](https://robo-marc.github.io/moveit_tutorial/ros_overview) <br/> [レジュメ(PDF)](211218-01.pdf)|
+| 14:00-14:50 | [NEDO ROSセット 基本設定](https://robo-marc.github.io/moveit_tutorial/rosset_setting) <br/> [レジュメ(PDF)](211218-02.pdf)<br/> [NEDO ROSセット シミュレータの利用](https://robo-marc.github.io/moveit_tutorial/rosset_simulator)|
 | 15:00-15:55 | [MoveIt!プログラミングの基礎](https://robo-marc.github.io/moveit_tutorial/program_basic) |
 
 <!--
@@ -65,7 +65,7 @@ VMwareなどから起動できるように前もってご準備ください．
 USBメモリから起動してUbuntu環境を利用することができます．
 以下の2種類の起動可能なイメージを用意しています．（講習会ではISOイメージを使用）
 
-- Ubuntu 18.04 + ROS Melodic (duAro, NEXTAGEのみ同梱)
+- Ubuntu 18.04 + ROS Melodic
   - [DVD用ISOイメージ](https://openrtm.org/pub/NEDO_tutorial/ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso) (約5GB)
   - MD5 SUM: 383e48206736f81e7142473d564e3bee
 
