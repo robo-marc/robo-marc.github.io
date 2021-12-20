@@ -61,7 +61,6 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 <!-- div align="center"><a href="https://forms.gle/NKYo9Bmg5tibHNYq8"><img src="/tutorials/figs/button_regist_tiny.png" width="300"></a></div -->
 
 
-
 ### News
 
 <div align="center"><img src="/figs/news-small.png" width="100%"></div>
