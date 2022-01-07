@@ -60,7 +60,7 @@ NEDO「ロボット活用型市場化技術開発プロジェクト（市場化�
 以下の開設に従って，講習会に使用するISOイメージをダウンロードし
 VMwareなどから起動できるように前もってご準備ください．
 
-- [ISOイメージ・VMwareのセットアップ](vmware_howto)
+- [ISOイメージ・VMwareのセットアップ](/tutorials/vmware_howto)
 
 ## USBメモリからの起動について
 
@@ -80,7 +80,7 @@ USBメモリから起動してUbuntu環境を利用することができます�
 
 USBメモリに書き込む際は以下のマニュアルをお読みください．
 
-- [起動可能なUSBメモリ作成方法](usbimage_howto)
+- [起動可能なUSBメモリ作成方法](/tutorials/usbimage_howto)
 
 # 参考資料
 NEDO市場化プロジェクトでは，ROSおよびMoveIt!をインストールせずに試用できるUSBメディアを開発しました．
