@@ -1,0 +1,49 @@
+﻿---
+layout: page
+---
+# NEDO特別講座シンポジウム 2022 視聴リンク一覧
+
+* 提供: NEDO特別講座プロジェクト
+
+## 概要
+ロボット革命・産業IoTイニシアティブ協議会(RRI)・調査検討委員会、およびNEDO特別講座では、これらの会議体で議論・作成されたガイドラインなど成果の普及促進ために、本オンラインシンポジウムにおいて、これらガイドラインの解説を行っております。
+
+RRI調査検討委員会では、サービスロボット等の新しいロボット分野の開発・導入効率化に資する様々な活動を行っています。オープンソースソフトウェア(OSS)を活用した開発効率化や、OSS利用に伴う様々な課題解決に関する検討、安全、セキュリティ、標準化等を目指した議論に基づき、様々なガイドラインや標準仕様書作成、標準化団体への提案等を行っています。
+
+本シンポジウムでは、こうした議論から作成された様々なガイドライン、事例紹介、標準化活動紹介等のため、オンライン・オンデマンドのシンポジウムを開催することといたしました。
+
+コンテンツは順次追加・公開されますので、お時間のあるときに自由にご覧ください。
+
+
+# 目次
+
+<!-- TOC -->
+
+- [概要](#概要)
+- [プログラム](#プログラム)
+    - [ROS2ハードウェアIPとROSサポート提供](#ros2ハードウェアipとrosサポート提供)
+    - [OSS活用のためのライセンス解説](#oss活用のためのライセンス解説)
+
+<!-- /TOC -->
+
+## プログラム
+
+### ROS2ハードウェアIPとROSサポート提供
+
+- 講演: 竹岡尚三様 (株)アックス
+
+(株)アックスによる、ROS2プロトコルのハードウェア化事例紹介、および企業がOSS利用する際に課題となる様々なサポートサービスの提供に関するご紹介。OSSに長年携わってきたアックス社からみた、OSSとの関わり方についての知見についてもご紹介頂いています。
+
+<iframe width="480"
+src="https://www.youtube.com/embed/GR9N9mS95WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OSS活用のためのライセンス解説
+
+- 講演: 安藤慶昭様 産業技術総合研究所
+
+OSS活用のためのライセンス解説コースオープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
