@@ -53,6 +53,11 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 
 <!-- This is Web page to publish R&D result by “NEDO’s Technology Development Project for Robot Commercialization Applications” (FY2017-2019) and “NEDO Course (NEDO Kouza)”.-->
 
+### NEDO講座シンポジウム２０２２
+RRI (ロボット革命・産業IoTイニシアティブ協議会) と共同で、同協議会の調査検討委員会の成果物や議論を紹介するオンラインシンポジウムを開催しております。コンテンツは随時公開しており、YouTubeでいつでもご覧いただけます。
+
+- [NEDO講座シンポジウム２０２２](/symposium2022/)
+
 ### ロボット共通ソフトウェア技術講座
 <!-- 2021年3月26日より、NEDO特別講座が提供する「ロボット共通ソフトウェア技術講座」のオンデマンド配信を開始いたしました。-->
 これまで事前登録が必要でした、「ロボット共通ソフトウェア技術講座」のオンデマンド配信を一般公開いたしました。
