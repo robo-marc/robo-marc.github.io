@@ -34,22 +34,21 @@ RRI調査検討委員会では、サービスロボット等の新しいロボ�
 
 ### 2.1. ROS2ハードウェアIPとROSサポート提供
 
-- 講演: 竹岡尚三様 (株)アックス
+- 講演: 竹岡尚三 氏 ((株)アックス), RRI ロボットOSSサポート委員会
 - [講演資料(PDF)](axe_takeoka.pdf)
 
 (株)アックスによる、ROS2プロトコルのハードウェア化事例紹介、および企業がOSS利用する際に課題となる様々なサポートサービスの提供に関するご紹介。OSSに長年携わってきたアックス社からみた、OSSとの関わり方についての知見についてもご紹介頂いています。
 
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/GR9N9mS95WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align: center;"><iframe width="640" src="https://www.youtube.com/embed/GR9N9mS95WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### 2.2. OSS活用のためのライセンス解説
 
-- 講演: 安藤慶昭様 産業技術総合研究所
+- 講演: 安藤慶昭 氏 (産業技術総合研究所), RRI ロボットライセンス・特許調査検討委員会
 - [講演資料(PDF)](aist_ando.pdf)
 
 OSS活用のためのライセンス解説コースオープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align: center;"><iframe width="560" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### 2.3. サービスロボットAI性能評価基準調査検討委員会（予定）
 
