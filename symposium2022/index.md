@@ -3,7 +3,7 @@ layout: page
 title: Symposium2022
 permalink: /symposium2022/
 ---
-# NEDO特別講座シンポジウム 2022 視聴リンク一覧
+<div align="center"><img src="/symposium2022/button.png" width="100%"></div>
 
 * 提供: NEDO特別講座プロジェクト
 
