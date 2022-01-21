@@ -39,7 +39,9 @@ RRI調査検討委員会では、サービスロボット等の新しいロボ�
 
 (株)アックスによる、ROS2プロトコルのハードウェア化事例紹介、および企業がOSS利用する際に課題となる様々なサポートサービスの提供に関するご紹介。OSSに長年携わってきたアックス社からみた、OSSとの関わり方についての知見についてもご紹介頂いています。
 
-<div style="text-align: center;"><iframe width="640" src="https://www.youtube.com/embed/GR9N9mS95WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div style="text-align: center;"><iframe width="640" height="360" src="https://www.youtube.com/embed/GR9N9mS95WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br/>
 
 ### 2.2. OSS活用のためのライセンス解説
 
@@ -48,11 +50,15 @@ RRI調査検討委員会では、サービスロボット等の新しいロボ�
 
 OSS活用のためのライセンス解説コースオープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。
 
-<div style="text-align: center;"><iframe width="560" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div style="text-align: center;"><iframe width="560" height="360" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br/>
 
 ### 2.3. サービスロボットAI性能評価基準調査検討委員会（予定）
 
 - 講演: 
+
+<br/>
 
 ### 2.4. ロボット安全設計開発調査検討委員会（予定）
 
