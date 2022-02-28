@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  " 【5月1日】NEDO特別講座 シンポジウム 2022 コンテンツ公開"
-date:   2021-05-01 00:00:000
+date:   2022-05-01 00:00:000
 #image:  news.png
 categories:   Nedo
 

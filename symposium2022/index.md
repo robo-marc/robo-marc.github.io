@@ -50,7 +50,7 @@ RRI調査検討委員会では、サービスロボット等の新しいロボ�
 
 OSS活用のためのライセンス解説コースオープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情にも考慮しつつ、解説いたします。
 
-<div style="text-align: center;"><iframe width="560" height="360" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div style="text-align: center;"><iframe width="640" height="360" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <br/>
 
