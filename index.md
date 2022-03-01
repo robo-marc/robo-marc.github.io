@@ -29,7 +29,7 @@ feature_rows:
     img_alt: "ROS News"
   - title: "ロボット共通ソフトウェア技術講座"
     excerpt: "ロボット共通ソフトウェア技術講座"
-    url: "/tutorials/"
+    url: "/tutorials/list"
     img_path: "feature_rows/rt-software-course.png"
     img_alt: "ロボット共通ソフトウェア技術講座"
 #  - title: "symposium2021"
@@ -57,6 +57,8 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 RRI (ロボット革命・産業IoTイニシアティブ協議会) と共同で、同協議会の調査検討委員会の成果物や議論を紹介するオンラインシンポジウムを開催しております。コンテンツは随時公開しており、YouTubeでいつでもご覧いただけます。
 
 <div align="center"><a href="/symposium2022"><img src="/symposium2022/button.png" width="100%"></a></div>
+
+<br/>
 
 ### ロボット共通ソフトウェア技術講座
 <!-- 2021年3月26日より、NEDO特別講座が提供する「ロボット共通ソフトウェア技術講座」のオンデマンド配信を開始いたしました。-->
