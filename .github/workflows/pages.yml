@@ -22,4 +22,4 @@ jobs:
         with:
           target_branch: 'gh-pages'
         env:
-          INPUT_TOKEN: ${{ secrets.JEKYLL_PAT }}
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
