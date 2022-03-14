@@ -40,7 +40,7 @@ GEM
     gemoji (3.0.1)
     html-pipeline (2.14.0)
       activesupport (>= 2)
-      nokogiri (>= 1.21.5)
+      nokogiri (>= 1.12.5)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
