@@ -11,6 +11,22 @@ permalink: /rosnews/
 
 ----------
 
+### <span style="color:navy;">2022/01/21</span> [ROS2 Manipulation Basics](https://discourse.ros.org/t/new-ros-course-ros-2-manipulation-basics/23889)
+
+- Construct社が提供するROSのMoveItのチュートリアルコース
+  - コースの詳細ページ：https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros2-manipulation-basics/ 
+- コンテンツ
+  - ROS2におけるMoveIt!パッケージ設定方法
+  - C++でプログラムからROS2/MoveIt!使用方法
+  - Visionを使用しROS2で赤い箱の座標を出力する方法
+  - ROS2でピックアンドプレースタスクを実行する方法
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/0a8bc4e5c73de58ab81ff59b89c24727c2454ae0.jpeg" width="640" >
+
+
+----------
+
+
 ### <span style="color:navy;">2021/11/17</span> [Remote Warehouse Real Robot Lab](https://discourse.ros.org/t/ros2-remote-warehouse-real-robot-lab-for-industrial-training/23139)
 
 Construct+Robotnikによる、遠隔からリアルなロボットに接続して実験ができるラボ立ち上げのお知らせ。
