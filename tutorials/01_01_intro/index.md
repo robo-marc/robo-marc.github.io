@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # ROS体験コース
 
 <!-- TOC -->

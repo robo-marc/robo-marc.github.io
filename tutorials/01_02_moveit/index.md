@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # MoveIt!体験コース
 
 <!-- TOC -->

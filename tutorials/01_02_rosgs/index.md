@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # ROS入門講座
 
 <!-- TOC -->

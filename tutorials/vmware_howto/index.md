@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # VMware による NEDO ROSセットの起動
 
 NEDO特別講座で提供している起動可能なROS入りUbuntu LinuxのISOイメージ
