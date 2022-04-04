@@ -10,6 +10,27 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/01/２８</span> [Open-RMF紹介](https://www.open-rmf.org/)
+
+- Open Robotics Middleware Framework
+  - ロボット相互運用のための共通フレームワーク
+  - Webページ: https://www.open-rmf.org/ 
+  - GitHubページ: https://github.com/open-rmf 
+- ROS2ベースのロボットフレームワーク
+  - 移動ロボット制御
+  - フリートコントロール
+  - 屋内外の複数の移動ロボット制御
+  - タスクディスパッチャ
+  - など
+- 環境
+  - Ubuntu 20.04
+  - ROS2 Galactic
+  - Gazebo 11.1.0
+
+<img src="https://images.squarespace-cdn.com/content/v1/61db8bd1ef81823364c61569/1642406607420-IO4RMPEEM5HB8IY2H0KD/rmf-web+for+website.gif?format=2500w" width="800"/>
+
+
+----------
 ### <span style="color:navy;">2022/01/19</span> [ROS 2 Embedded WG meetings](https://discourse.ros.org/t/ros-2-embedded-wg-meetings/15460)
 
 - Micro-ROS official page
