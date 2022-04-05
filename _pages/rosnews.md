@@ -10,7 +10,31 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/01/21</span> [Get ROS2 Industrial Ready Online Workshop 2022](https://discourse.ros.org/t/final-call-for-participation-get-ros2-industrial-ready-online-workshop/23993)
 
+- ROS2: 2023年までにROSを置き換える予定
+  - 2022年2月21日−23日
+- WS：対象者
+  - 開発者・研究者、企業、エンジニア、ROS1→ROS2移行したい人
+- トレーニング内容
+  - ROS2でパッケージ、ノード、トピック、サービス、およびアクションを作成する方法
+  - 新しいコルコンユニバーサルビルディングシステムの管理
+  - ROS2Pythonのトピックパブリッシャーとサブスクライバー
+  - ROS2のノードの管理：ライフサイクル、エグゼキュータ、コールバックグループ
+  - ROS1およびROS2とのハイブリッドアプリケーション
+  - ROS2でのデバッグツールの使用
+  - ROS2ローカリゼーション
+  - ROS2パスプランニング
+  - ROS2マッピング
+  - ROS2 + DDS
+  - ROS2障害物回避
+  - MoveIt2を使用したROS2アームの計画と把握
+- 主催
+  - Robotnik
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/0a8bc4e5c73de58ab81ff59b89c24727c2454ae0.jpeg" width="640" >
+
+-----------
 ### <span style="color:navy;">2022/01/21</span> [ROS2 Manipulation Basics](https://discourse.ros.org/t/new-ros-course-ros-2-manipulation-basics/23889)
 
 - Construct社が提供するROSのMoveItのチュートリアルコース
@@ -20,9 +44,6 @@ permalink: /rosnews/
   - C++でプログラムからROS2/MoveIt!使用方法
   - Visionを使用しROS2で赤い箱の座標を出力する方法
   - ROS2でピックアンドプレースタスクを実行する方法
-
-<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/0a8bc4e5c73de58ab81ff59b89c24727c2454ae0.jpeg" width="640" >
-
 
 ----------
 
