@@ -31,6 +31,8 @@ permalink: /rosnews/
   - MoveIt2を使用したROS2アームの計画と把握
 - 主催
   - Robotnik
+
+
 ![ros2industrialready](https://user-images.githubusercontent.com/11814060/181394596-01423741-bd51-4da2-bf6a-707a4925e79e.png)
 
 -----------
