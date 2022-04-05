@@ -44,6 +44,8 @@ permalink: /rosnews/
   - Visionを使用しROS2で赤い箱の座標を出力する方法
   - ROS2でピックアンドプレースタスクを実行する方法
 
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/0a8bc4e5c73de58ab81ff59b89c24727c2454ae0.jpeg" width="640" >
+
 ----------
 
 
