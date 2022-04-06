@@ -10,7 +10,22 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
-### <span style="color:navy;">2022/01/21</span> [Get ROS2 Industrial Ready Online Workshop 2022](https://discourse.ros.org/t/final-call-for-participation-get-ros2-industrial-ready-online-workshop/23993)
+### <span style="color:navy;">2022/01/19</span> [ROS 2 Embedded WG meetings](https://discourse.ros.org/t/ros-2-embedded-wg-meetings/15460)
+
+- Micro-ROS official page
+  - https://micro-ros.github.io/
+- Embedded Working Group meeting #16 from January 2022
+  - micro-ROS meets Azure RTOS IoT by Benjamin Cabé from Microsoft
+    - Azure RTOS IoT: IEC 61508 SIL 4、IEC 62304 Class C、ISO 26262 ASIL D 認証取得済み
+    - Thread, File, GUI, Network, USB等のコンポーネントを提供、多くのMCUをサポート
+  - Learn about ROSbot XL: micro-ROS based autonomous robot platform by Dominik Nowak from Husarion
+  - Latest enhancements
+    - CAN/FD transport, Espressif ESP32S3 micro-ROS support,
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gpcbcitIcJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----------
+### <span style="color:navy;">2022/01/25</span> [Get ROS2 Industrial Ready Online Workshop 2022](https://discourse.ros.org/t/final-call-for-participation-get-ros2-industrial-ready-online-workshop/23993)
 
 - ROS2: 2023年までにROSを置き換える予定
   - 2022年2月21日−23日
