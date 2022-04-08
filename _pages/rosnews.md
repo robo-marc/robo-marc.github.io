@@ -10,6 +10,64 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/0３/07</span> [ROSCon’22 Kyoto](https://discourse.ros.org/t/new-working-group-proposal-hardware-interface-working-group/23774)
+
+- 開催日時: 10月19日〜21日＠京都
+  - IROS2022 10/23〜10/27
+- 現在Call for Contents中（〆切5/6、notification7/18）
+  - Day 0: ワークショップ
+  - Day1,2: 通常会議（講演）
+    - 新しいパッケージ/フレームワーク
+    - 既存のパッケージの洞察/改善
+    - 独自のROS展開/ユースケースに関するケーススタディ
+    - 特定のロボット、センサー、プラットフォームの開発
+    - コンテスト/コラボレーション/イニシアチブ
+    - 商業/研究/教育環境におけるROS
+    - 標準/ベストプラクティス/開発ツール
+
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/f/fbc30fe743c92971c0794aa143288f00784bf0bf.png" width="400"/>
+
+----------
+### <span style="color:navy;">2022/01/29</span> [HW IF ワーキング立ち上げに関する議論](https://discourse.ros.org/t/new-working-group-proposal-hardware-interface-working-group/23774)
+
+- 一般的なメッセージインターフェイスおよび関連する動作
+- 同じハードウェア上の複数のドライバーの統合
+- メーカーによるデバイスへの組み込みリファレンス実装の開発
+- 既存の適用可能な標準の統合/組み込み
+
+- 成果物
+  - ハードウェアタイプ/クラス別の上記のリファレンス実装
+  - 既存の標準の組み込み
+  - リファレンス実装を採用する際の障壁/OEMベンチマークの声
+  - パイロットROS2実装
+
+以上がSwRI/ROS-IのMatt R.から提案された
+
+
+----------
+### <span style="color:navy;">2022/02/11</span> [Ros2_control unsmooth motion](https://discourse.ros.org/t/ros2-control-unsmooth-motion/24301)
+
+ROS2_controlの制御においてスムースでない動作が見られる問題についてのROS discourseのスレッド
+
+- KUKA LBR をFast Robot Interfaceで制御
+  - joint_trajectory_controller / JointTrajectoryController でMoveIt2で制御
+  - Ros2_control制御周期200Hzまではなめらかだが、200Hz(5ms)を超えると軌道がなめらかではなくなる
+  - → ruckig を使用して軌道平滑化をしている？
+  - ROS1のros_controlではううまく言っている。
+  - Ros2_control_nodeはRT_PREEMPT パッチでリアルタイム実行している。
+  - 正弦波を入力すると0となる
+- コメント・回答
+  - Read/writeのようなブロッキング呼び出しはないか？
+    - Sleepは削除した
+  - control_msgs::action::FollowJointTrajectory を各ステップで送信してはいけない
+  - position_controllers/JointGroupPositionController を変わりに使用してみては？
+  - Ruckigはデフォルトでは使用されない
+- 解決
+  - position_controllers/JointGroupPositionControllerを使用し、ロボットのコントローラ周期とros2_controlの周期を合わせるとなめらかに動作した
+
+
+----------
 ### <span style="color:navy;">2022/01/２８</span> [Open-RMF紹介](https://www.open-rmf.org/)
 
 - Open Robotics Middleware Framework
