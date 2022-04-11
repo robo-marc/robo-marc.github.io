@@ -10,6 +10,28 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/0３/07</span> [Micro-ROSを使って開発する理由](https://discourse.ros.org/t/what-is-the-convenience-of-building-a-system-based-on-micro-ros-compared-to-not-using-micro-ros/24504)
+
+Micro-ROSを使って開発する理由についての質問と議論がROS Discourseにてありました。
+
+- 質問
+  - Arduinoベースでロボットを開発中
+  - Micro-ROSを使うのと使わないのとの違いは？
+  - ROS2を使わない場合でもMicro-ROSを使う理由は？
+  - なにか適切なチュートリアルはありますか？
+  - → ROS2、rviz, TF よくわからない
+- 回答
+  - Rviz→visualizationの部分を簡単にできるよ！
+  - 組み込みでROS2を使うならMicro-ROSが必要、でもROS2を使わないのであればMicro-ROSもいらないのでは？
+  - 通信部分が楽にできるよ
+  - Micro-ROSはROSの起動機能をサポートしてないよ
+  - Micro-ROSのデモあります↓
+    - https://github.com/micro-ROS/micro-ROS_crazyflie_demo
+
+<a href="https://micro.ros.org/"><img src="https://micro.ros.org/img/micro-ROS_big_logo.png" width="640"/></a>
+
+
+----------
 ### <span style="color:navy;">2022/0３/07</span> [ROSCon’22 Kyoto](https://discourse.ros.org/t/new-working-group-proposal-hardware-interface-working-group/23774)
 
 - 開催日時: 10月19日〜21日＠京都
