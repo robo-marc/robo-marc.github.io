@@ -10,6 +10,16 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/0３/07</span> [Fusion2urfdに関するブログ記事](https://yoichi-41.hatenablog.com/entry/ros2_fusion2urdf)
+
+FUsion360のモデルをfusion2urdfというツールを使ってURDFに変換しROS2でシミュレーションすることに関する日本語のブログ記事
+
+- fusion2urdfを使って変換したモデルを動かすために気をつけること
+- ROS2で、Fusion360で作ったモデルをurdfに変換して、シミュレーションを行う方法
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ついにfusion2urdfを使って変換したデータがrviz2で動いた！ただし一緒にやってる友達の画面上で <a href="https://t.co/NvgyL5bgeJ">pic.twitter.com/NvgyL5bgeJ</a></p>&mdash; パスコンパス@C100土-西そ20b (@pscmps) <a href="https://twitter.com/pscmps/status/1500461954351386625?ref_src=twsrc%5Etfw">March 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+----------
 ### <span style="color:navy;">2022/0３/07</span> [Micro-ROSを使って開発する理由](https://discourse.ros.org/t/what-is-the-convenience-of-building-a-system-based-on-micro-ros-compared-to-not-using-micro-ros/24504)
 
 Micro-ROSを使って開発する理由についての質問と議論がROS Discourseにてありました。
