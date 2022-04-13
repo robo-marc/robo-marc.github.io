@@ -10,6 +10,30 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/0３/07</span> [移動ロボット用におけるPTP（Precision Time Protocol）利用について](https://discourse.ros.org/t/experience-with-ptp-precision-time-protocol-for-mobile-robots/24707)
+
+- Precision Time Protocol（IEEE 1588v2）
+  - コンピュータネットワーク全体でクロックを同期させるために使用される通信プロトコル
+  - マイクロ秒以下の精度のクロック同期できる
+- 移動ロボットでPTPを使い始めたがうまく行かない
+  - PTPは通常、有線接続を前提としている→移動ロボットはワイヤレス接続
+  - ロボット間の時刻同期：NTPの10〜100ミリ秒の精度で一応はOK
+  - ロボット内部の複数のコンピュター間：PTPによるマイクロ秒前後の同期が必要
+    - センサフュージョン、etc.
+  - NTPクライアント＝PTPマスター、PTP配下のノードはPTPマスターに動悸させたい
+  - 問題
+    - PTPはP2PまたはE2E (End to end) 遅延メカニズムを前提とする、P2Pは2台だけ、→E2E
+    - スイッチ：小型の4ポートGbEハブ→PTPのP2P/E2Eクロックを透過するはず
+    - NIC：パケットタイムスタンプをサポートするNICが必要だが、どれかわからない
+    - PTP同期できたかどうか判断しロボットをスタートさせるのが難しい
+- 回答
+  - OusterLIDARでPTPを使用して10〜100us同期できた、GNSSクロックを使ったほうが簡単
+  - 高い精度が必要な場合、ハードとファームの組み合わせでPTPを実装（ハード間の相互運用性検証が必要、コンピュータ、スイッチ、センサーがすべてHWでPTPをサポートするものが必要）
+  - ソフトウェアPTPであれば特別なハードは不要（ただし10〜100us、かつジッタが大きい）
+  - モジュラーロボット間での時刻同期についての論文
+    - https://arxiv.org/pdf/1809.07295.pdf
+
+----------
 ### <span style="color:navy;">2022/0３/07</span> [Fusion2urfdに関するブログ記事](https://yoichi-41.hatenablog.com/entry/ros2_fusion2urdf)
 
 FUsion360のモデルをfusion2urdfというツールを使ってURDFに変換しROS2でシミュレーションすることに関する日本語のブログ記事
