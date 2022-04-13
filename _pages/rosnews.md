@@ -10,7 +10,7 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
-### <span style="color:navy;">2022/0３/07</span> [移動ロボット用におけるPTP（Precision Time Protocol）利用について](https://discourse.ros.org/t/experience-with-ptp-precision-time-protocol-for-mobile-robots/24707)
+### <span style="color:navy;">2022/0３/17</span> [移動ロボット用におけるPTP（Precision Time Protocol）利用について](https://discourse.ros.org/t/experience-with-ptp-precision-time-protocol-for-mobile-robots/24707)
 
 - Precision Time Protocol（IEEE 1588v2）
   - コンピュータネットワーク全体でクロックを同期させるために使用される通信プロトコル
@@ -34,7 +34,7 @@ permalink: /rosnews/
     - https://arxiv.org/pdf/1809.07295.pdf
 
 ----------
-### <span style="color:navy;">2022/0３/07</span> [Fusion2urfdに関するブログ記事](https://yoichi-41.hatenablog.com/entry/ros2_fusion2urdf)
+### <span style="color:navy;">2022/03/07</span> [Fusion2urfdに関するブログ記事](https://yoichi-41.hatenablog.com/entry/ros2_fusion2urdf)
 
 FUsion360のモデルをfusion2urdfというツールを使ってURDFに変換しROS2でシミュレーションすることに関する日本語のブログ記事
 
@@ -44,7 +44,7 @@ FUsion360のモデルをfusion2urdfというツールを使ってURDFに変換�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ついにfusion2urdfを使って変換したデータがrviz2で動いた！ただし一緒にやってる友達の画面上で <a href="https://t.co/NvgyL5bgeJ">pic.twitter.com/NvgyL5bgeJ</a></p>&mdash; パスコンパス@C100土-西そ20b (@pscmps) <a href="https://twitter.com/pscmps/status/1500461954351386625?ref_src=twsrc%5Etfw">March 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ----------
-### <span style="color:navy;">2022/0３/07</span> [Micro-ROSを使って開発する理由](https://discourse.ros.org/t/what-is-the-convenience-of-building-a-system-based-on-micro-ros-compared-to-not-using-micro-ros/24504)
+### <span style="color:navy;">2022/03/07</span> [Micro-ROSを使って開発する理由](https://discourse.ros.org/t/what-is-the-convenience-of-building-a-system-based-on-micro-ros-compared-to-not-using-micro-ros/24504)
 
 Micro-ROSを使って開発する理由についての質問と議論がROS Discourseにてありました。
 
@@ -66,7 +66,7 @@ Micro-ROSを使って開発する理由についての質問と議論がROS Disc
 
 
 ----------
-### <span style="color:navy;">2022/0３/07</span> [ROSCon’22 Kyoto](https://discourse.ros.org/t/new-working-group-proposal-hardware-interface-working-group/23774)
+### <span style="color:navy;">2022/03/07</span> [ROSCon’22 Kyoto](https://discourse.ros.org/t/roscon-2022-call-for-proposals/24600)
 
 - 開催日時: 10月19日〜21日＠京都
   - IROS2022 10/23〜10/27
