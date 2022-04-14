@@ -28,7 +28,7 @@ permalink: /rosnews/
 <img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/5/5e3501e053f02e73c747206941768699f0b87708.gif" width="400"/>
 
 ----------
-### <span style="color:navy;">2022/0３/17</span> [移動ロボット用におけるPTP（Precision Time Protocol）利用について](https://discourse.ros.org/t/experience-with-ptp-precision-time-protocol-for-mobile-robots/24707)
+### <span style="color:navy;">2022/03/17</span> [移動ロボット用におけるPTP（Precision Time Protocol）利用について](https://discourse.ros.org/t/experience-with-ptp-precision-time-protocol-for-mobile-robots/24707)
 
 - Precision Time Protocol（IEEE 1588v2）
   - コンピュータネットワーク全体でクロックを同期させるために使用される通信プロトコル
