@@ -10,6 +10,24 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/04/12</span> [myCobot： オープンソース6自由度ロボットアーム](https://discourse.ros.org/t/mycobot-an-open-source-6-dof-robotic-arm-powered-by-ros/25084)
+
+- myCobot: Elephantroboticsの小型ロボット
+- GitHub: https://github.com/elephantrobotics
+移動ロボットでPTPを使い始めたがうまく行かない
+- 4つのバージョン
+  - M5stack	
+  - Raspberry Pi
+  - Jetson Nano
+  - Arduino
+- Working range 280mm
+- Payload 250g
+- ROS1で動作、ROS2も準備中
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/097a6e777bc9341729de6052a7c6814bb1b608e8.gif" width="400"/>
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/5/5e3501e053f02e73c747206941768699f0b87708.gif" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/0３/17</span> [移動ロボット用におけるPTP（Precision Time Protocol）利用について](https://discourse.ros.org/t/experience-with-ptp-precision-time-protocol-for-mobile-robots/24707)
 
 - Precision Time Protocol（IEEE 1588v2）
@@ -66,6 +84,8 @@ Micro-ROSを使って開発する理由についての質問と議論がROS Disc
 
 
 ----------
+
+
 ### <span style="color:navy;">2022/03/07</span> [ROSCon’22 Kyoto](https://discourse.ros.org/t/roscon-2022-call-for-proposals/24600)
 
 - 開催日時: 10月19日〜21日＠京都
