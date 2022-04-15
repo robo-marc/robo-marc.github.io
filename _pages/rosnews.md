@@ -10,7 +10,7 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
-### <span style="color:navy;">2022/04/12</span> [Nav2 (ROS2 navigation stack) と NVIDIA Isaac の統合](https://discourse.ros.org/t/integrating-nav2-navigation-stack-with-nvidia-isaac-ros-gems/25186
+### <span style="color:navy;">2022/04/21</span> [Nav2 (ROS2 navigation stack) と NVIDIA Isaac の統合](https://discourse.ros.org/t/integrating-nav2-navigation-stack-with-nvidia-isaac-ros-gems/25186
 )
 
 - Nav2のNVIDIA Isaac Simへの統合
