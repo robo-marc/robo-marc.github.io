@@ -10,6 +10,25 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/04/12</span> [Nav2 (ROS2 navigation stack) と NVIDIA Isaac の統合](https://discourse.ros.org/t/integrating-nav2-navigation-stack-with-nvidia-isaac-ros-gems/25186
+)
+
+- Nav2のNVIDIA Isaac Simへの統合
+- NVIDIA Isaac Sim
+  - 基盤：Omniverse
+  - ロボティクス シミュレーション アプリケーション
+  - 合成データ生成ツール
+- IsaacSimとNav2を統合
+  - NVIDIA Blog
+  - https://developer.nvidia.com/blog/integrating-the-nav2-stack-with-nvidia-isaac-ros-gems/
+  - フォークリフトのフォーク部分を画像認識：学習
+  - フォークを回避して走行（コストマップへの反映）
+
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/8/895d188275cfe3f8c8c02f6a80a844bdcc97f76c.png" width="400"/>
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/d/dc08299c3c39be5287737370dee519bcd4b50bb6.png" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/04/12</span> [myCobot： オープンソース6自由度ロボットアーム](https://discourse.ros.org/t/mycobot-an-open-source-6-dof-robotic-arm-powered-by-ros/25084)
 
 - myCobot: Elephantroboticsの小型ロボット
