@@ -10,6 +10,22 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/04/11</span> [(ROS Newsより） Open Robotics の GoC (Google Summer of Code) のプロジェクトについて](https://github.com/osrf/osrf_wiki/wiki/GSoC)
+
+- Project List
+  - Gazebo and Ignition
+    - Gazeboにおけるメッシュフォーマットのローディング機能のサポート
+    - Ignition レンダリングライブラリをベースとしたrvizの開発
+    - Mininet-WiFi Ignition
+    - Texture Domain Randomization
+    - 新しいignition projectのためのツール開発
+- ROS2
+  - Prototype multi-transport support in ROS 2
+  - 現状ROS2では1つのロードされたRMW実装のみをサポートするが、同時に複数のトランスポート（ex. 共有メモリとDDS等）をサポートするようにする。
+  - 予想サイズ350h
+    - → OpenRTM2の相互運用機能と同じもの？
+
+----------
 ### <span style="color:navy;">2022/04/21</span> [Nav2 (ROS2 navigation stack) と NVIDIA Isaac の統合](https://discourse.ros.org/t/integrating-nav2-navigation-stack-with-nvidia-isaac-ros-gems/25186
 )
 
