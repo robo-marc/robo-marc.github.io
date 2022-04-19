@@ -10,6 +10,18 @@ permalink: /rosnews/
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
 ----------
+### <span style="color:navy;">2022/04/13</span> [New Ignition releases 2022-04-13 (Fortress, Edifice)](https://community.gazebosim.org/t/new-ignition-releases-2022-04-13-fortress-edifice/1367)
+
+- Edifice終了→Fortressへ
+- ハイライト
+  - オンデマンドで画像キャプチャが可能にIMUセンサは任意の参照フレームでプリセットをサポート
+  - センサは実行時に有効・無効にできる
+- Ignition Gazebo 6.8.0
+  - 23のPR→様々な機能追加
+
+<img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/original/1X/fc2246f7777b1e607bfc6f5ccb53c01c66935bde.gif" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/04/11</span> [(ROS Newsより） Open Robotics の GoC (Google Summer of Code) のプロジェクトについて](https://github.com/osrf/osrf_wiki/wiki/GSoC)
 
 - Project List
