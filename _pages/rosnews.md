@@ -11,6 +11,11 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/04/13</span> [(ROS NEWS 4/11より) あなたのパッケージをROS2へアップグレードしてください！！（ROS2移行の呼びかけ？）](https://docs.ros.org/en/foxy/Contributing/Migration-Guide.html)
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/e/e4fbcda6004cfa1bd38e8f01595d22623da86f84.png" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/04/13</span> [Open Roboticsの求人](https://discourse.ros.org/t/multiple-positions-at-open-robotics/25154)
 
 - Open Robotics: 企業、アカデミック、政府と協力してロボットOSS・ハード開発をサポート
