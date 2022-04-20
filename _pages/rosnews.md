@@ -9,6 +9,27 @@ permalink: /rosnews/
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
+
+----------
+### <span style="color:navy;">2022/04/13</span> [Open Roboticsの求人](https://discourse.ros.org/t/multiple-positions-at-open-robotics/25154)
+
+- Open Robotics: 企業、アカデミック、政府と協力してロボットOSS・ハード開発をサポート
+- 開発対象
+  - ROSコア
+  - Gazebo
+  - Open-RMF
+  - 一般的なメッセージインターフェイスおよび関連する動作
+- オフィス
+  - マウンテンビュー、カリフォルニア、シンガポール
+- 職種
+  - DevOpsエンジニア：Linux / Cloud
+  - ソフトウェアエンジニア：ロボット工学
+  - ソフトウェアWebエンジニア：フロントエンド開発者
+
+
+<img src="https://www.robotics247.com/images/article/Open_RMF_floors.png" width="400"/>
+
+
 ----------
 ### <span style="color:navy;">2022/04/13</span> [New Ignition releases 2022-04-13 (Fortress, Edifice)](https://community.gazebosim.org/t/new-ignition-releases-2022-04-13-fortress-edifice/1367)
 
