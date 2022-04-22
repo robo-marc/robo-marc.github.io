@@ -11,7 +11,24 @@ permalink: /rosnews/
 
 
 ----------
-### <span style="color:navy;">2022/04/13</span> [(ROS NEWS 4/11より) あなたのパッケージをROS2へアップグレードしてください！！（ROS2移行の呼びかけ？）](https://docs.ros.org/en/foxy/Contributing/Migration-Guide.html)
+### <span style="color:navy;">2022/6/10</span> [ABBロボットROS2ドライバー](https://discourse.ros.org/t/a-ros2-driver-for-abb-manipulators/25990)
+
+- PickNikRoboticsとOptimaxSystemsInc.がABBロボットのROS2ドライバをリリース
+- 2つの異なるシミレーションモード
+- ROSでのシミュレーション用にros2_controlドライバーをエミュレート
+  - ABB独自のRobotStudioソフトウェアと通信
+  - IRB 1200-5/0.9マニピュレーター対応
+- GitHub
+  - https://github.com/PickNikRobotics/abb_ros2
+  
+- おまけ
+  - TurtleBot3 ROS2 Humble対応
+  - https://github.com/ROBOTIS-GIT/turtlebot3
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/5/56dddad54409be2326678cf5e14b2e55995168b0_2_676x500.png" width="400"/>
+
+----------
+### <span style="color:navy;">2022/04/11</span> [(ROS NEWS 4/11より) あなたのパッケージをROS2へアップグレードしてください！！（ROS2移行の呼びかけ？）](https://docs.ros.org/en/foxy/Contributing/Migration-Guide.html)
 
 <img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/e/e4fbcda6004cfa1bd38e8f01595d22623da86f84.png" width="400"/>
 
