@@ -11,6 +11,39 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/06/20</span> [pyrobosim](https://community.gazebosim.org/t/new-releases-2022-06-13-fortress-citadel/1463)
+
+- ROS2対応の行動プロトタイピング用2D移動ロボットシミュレータ
+  - MITで開発された古い2Dの移動ロボットシミュレータをROS2対応に
+  - シンプルなポイントロボットシミュレーター
+
+- https://github.com/sea-bass/pyrobosim
+- https://pyrobosim.readthedocs.io/en/latest/
+
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/acdcbb3d6b259ffbd57c61467852877ac005a230.gif" width="400"/>
+
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/7/7855e891e73bda561a42acadf99d14239c23a1cf_2_423x500.png" width="400"/>
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/7/7855e891e73bda561a42acadf99d14239c23a1cf_2_423x500.png" width="400"/>
+
+
+----------
+### <span style="color:navy;">2022/06/13</span> [Gazeboリリース (6/13) (Fortress, Citadel)](https://community.gazebosim.org/t/new-releases-2022-06-13-fortress-citadel/1463)
+
+- Gazeboリリース 2022/6/13
+  - 主な新機能
+  - 押し出し2Dポリラインジオメトリサポート→
+  - エレベーターシステム→
+  - JSON形式でメッセージを出力する
+
+
+<img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/original/1X/6744ff5c56b0de8266eb5e6944d3a66b4aa21b9f.gif" width="400"/>
+
+
+<img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/original/1X/08c2f8d3ff1b67dd45fab4b67fdf3b4d2c5b6d27.gif" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/6/10</span> [ABBロボットROS2ドライバー](https://discourse.ros.org/t/a-ros2-driver-for-abb-manipulators/25990)
 
 - PickNikRoboticsとOptimaxSystemsInc.がABBロボットのROS2ドライバをリリース
