@@ -11,6 +11,23 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/06/24</span> [ROSConJPプログラムリリース](https://roscon.jp/2022_en/#program)
+
+- ROSConJP 2022/10/19 @京都国際会館
+  - ROSCon 10/19-21
+- 基調講演
+  - 基調講演１: Airpeak S1ドローンのオーバービューとソニーでのROSの活用：藤田智哉、小林大 (ソニー)
+  - 基調講演２: Open-RMFによるマルチフリートオペレーション：Michael Grey & Morgan Quigley (Open Robotics)
+- その他講演
+  - Unreal Engineを用いたROS 2分散シミュレータの構築
+  - ROSとNode-REDの組み合わせによるIT-OT連携システム開発の効率化
+  - SROS 2 with OIDC(OpenID Connect) :ロボットと人を安全に繋ぐ技術
+
+<img src="https://roscon.jp/2022_en/img/ROSConJP22_lowres.jpg" width="400"/>
+
+
+
+----------
 ### <span style="color:navy;">2022/06/20</span> [pyrobosim](https://community.gazebosim.org/t/new-releases-2022-06-13-fortress-citadel/1463)
 
 - ROS2対応の行動プロトタイピング用2D移動ロボットシミュレータ
