@@ -11,6 +11,113 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/06/22</span> [Humble / 22.04 RollingのFast-DDS通信障害](https://discourse.ros.org/t/nav2-issues-with-humble-binaries-due-to-fast-dds-rmw-regression/26128)
+
+- Humble / 22.04 RollingがFast-DDSに移行して以来、通信障害に関連する問題が増加
+  - Fast-DDSのRMWレイヤーがリグレッションを起こしている
+  - FastDDS without Discovery Server?
+    - https://discourse.ros.org/t/fastdds-without-discovery-server/26117
+    - FastDDS✕、CycloneDDS○
+    - FastDDSだとトピックに接続できないことが75％くらいの確率で発生する wo Discovery Server
+  - Nav2 lifecycle manager won't startup nodes
+    - https://github.com/ros-planning/navigation2/issues/2917
+    - Nav2のライフサイクルノードのステートが切り替わらない
+    - callback_group_からコールバックを削除すると解決
+    - FastDDSとCycloneDDSで挙動が異なる、タイマーの呼び出しタイミングの問題？
+  - lifecycle manager wait for service should have a finite, or at least configurable, timeout
+    - https://github.com/ros-planning/navigation2/issues/3033
+    - ライフサイクルマネージャーに、エラーが発生している管理ノードを指定するとライフサイクルサービスが適切に作成されない
+    - ライフサイクルマネージャがタイムアウトすべきところでデッドロックする
+    - これもFastDDSが問題？
+
+
+----------
+### <span style="color:navy;">2022/05/21</span> [DDSよるネットワークの停止問題](https://discourse.ros.org/t/unconfigured-dds-considered-harmful-to-networks/25689/15)
+
+- ROS2において設定が不十分の場合ネットワークが落ちる問題に遭遇
+  - DDSを適切に設定しないと、マルチキャストパケットによりパケットフラッディングが発生する
+- 解決策：export ROS_LOCALHOST_ONLY=1あるいは↓
+  - ホスト間通信ができなくなる
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<CycloneDDS xmlns="https://cdds.io/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdds.io/config https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/master/etc/cyclonedds.xsd">
+　　<Domain id="any">
+　　　　<General>
+　　　　　　<NetworkInterfaceAddress>lo</NetworkInterfaceAddress>
+　　　　　　<AllowMulticast>false</AllowMulticast>
+　　　　</General>
+　　　　<Discovery>
+　　　　　　<ParticipantIndex>auto</ParticipantIndex>
+　　　　　　<Peers>
+　　　　　　　<Peer Address="localhost"/>
+　　　　　　</Peers>
+　　　　　　<MaxAutoParticipantIndex>120</MaxAutoParticipantIndex>
+　　　　</Discovery>
+　　</Domain>
+</CycloneDDS>
+```
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/5/565445a8478a24296181b440895cf402ecb9c8e3.png" width="400"/>
+
+- https://docs.ros.org/en/foxy/Tutorials/Advanced/Discovery-Server/Discovery-Server.html
+
+- 独自調査：DDSのDiscoveryは色々大変
+- DDSのディスカバリ
+  - Simple Discovery Protocol (SDP) DDS標準
+    - ノード数増→パケット数増大、マルチキャスト→WiFi　✕
+  - Discovery Service 非標準 (FastDDS only)
+    - パケット数減→帯域節約、SPOF
+    - V1, V2あり
+  - Cloud Discovery 非標準 (RIT only)
+
+- V1
+<img src="https://docs.ros.org/en/foxy/_images/ds_explanation.svg" width="400"/>
+
+- V2
+<img src="https://docs.ros.org/en/foxy/_images/ds1vs2.svg" width="400"/>
+
+- Discovery Protocolによるパケット数の違い
+<img src="https://docs.ros.org/en/foxy/_images/discovery_server_v2_performance.svg" width="400"/>
+
+- ↑のtutorialではFastDDSのDiscovery Serviceを設定する方法を解説
+  - SDPに比べて、パケット数を半分以下にすることができる
+  - V2なら15分の1にすることができる
+  - でも、もともとDDSを導入したのはSPOFをなくすためでは？
+- Discovery Server
+  - 複数利用可能、冗長構成、バックアップ構成は可能
+  - SDPは使わずSDを使うべきか
+
+----------
+### <span style="color:navy;">2022/06/24</span> [DDSよるネットワークの停止問題](https://discourse.ros.org/t/unconfigured-dds-considered-harmful-to-networks/25689/15)
+
+- ROS2において設定が不十分の場合ネットワークが落ちる問題に遭遇
+  - DDSを適切に設定しないと、マルチキャストパケットによりパケットフラッディングが発生する
+- 解決策：export ROS_LOCALHOST_ONLY=1あるいは↓
+  - ホスト間通信ができなくなる
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<CycloneDDS xmlns="https://cdds.io/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdds.io/config https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/master/etc/cyclonedds.xsd">
+　　<Domain id="any">
+　　　　<General>
+　　　　　　<NetworkInterfaceAddress>lo</NetworkInterfaceAddress>
+　　　　　　<AllowMulticast>false</AllowMulticast>
+　　　　</General>
+　　　　<Discovery>
+　　　　　　<ParticipantIndex>auto</ParticipantIndex>
+　　　　　　<Peers>
+　　　　　　　<Peer Address="localhost"/>
+　　　　　　</Peers>
+　　　　　　<MaxAutoParticipantIndex>120</MaxAutoParticipantIndex>
+　　　　</Discovery>
+　　</Domain>
+</CycloneDDS>
+```
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/5/565445a8478a24296181b440895cf402ecb9c8e3.png" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/06/24</span> [ROSConJPプログラムリリース](https://roscon.jp/2022_en/#program)
 
 - ROSConJP 2022/10/19 @京都国際会館
@@ -24,8 +131,6 @@ permalink: /rosnews/
   - SROS 2 with OIDC(OpenID Connect) :ロボットと人を安全に繋ぐ技術
 
 <img src="https://roscon.jp/2022_en/img/ROSConJP22_lowres.jpg" width="400"/>
-
-
 
 ----------
 ### <span style="color:navy;">2022/06/20</span> [pyrobosim](https://community.gazebosim.org/t/new-releases-2022-06-13-fortress-citadel/1463)
