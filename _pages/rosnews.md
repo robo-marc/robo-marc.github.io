@@ -145,8 +145,6 @@ permalink: /rosnews/
 
 <img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/acdcbb3d6b259ffbd57c61467852877ac005a230.gif" width="400"/>
 
-
-<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/7/7855e891e73bda561a42acadf99d14239c23a1cf_2_423x500.png" width="400"/>
 <img src="https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/7/7855e891e73bda561a42acadf99d14239c23a1cf_2_423x500.png" width="400"/>
 
 
