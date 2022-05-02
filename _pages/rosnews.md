@@ -11,6 +11,41 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/07/22</span> [Fast DDS Visualizer](https://github.com/lardemua/atom)
+
+- Fast DDS Visualizer
+  - データをリアルタイムの2Dチャートで視覚化するグラフィカルデスクトップアプリケーションをリリース
+  - データの抽出とその監視をリアルタイムで実行可能
+- 仕様
+  - Windows and Linux
+  - ライセンス：Apache 2.0, GPL 3.0 OSS
+  - 無料で使用可能
+  - ダウンロード時に氏名e-mail登録を求められる
+
+<img src="https://eprosima.com/images/Products/FastDDSVisualizer.png" width="400"/>
+
+
+
+----------
+### <span style="color:navy;">2022/07/22</span> [ATOM Calibration](https://github.com/lardemua/atom)
+
+- ATOM Calibration
+  - マルチセンサー、マルチモーダル、ロボットシステム用の一連のキャリブレーションツール
+  - キャリブレーション手順のすべてのステップを容易にするためのいくつかのスクリプトを提供
+  - 今の所ROS1のみ
+  - 今後ROS2サポート予定
+  - YouTubeにて動画リスト提供
+    - https://www.youtube.com/watch?v=BYs1-H9vh0s&list=PLQN09mzV5mbI4h5IQt3Eu9kugSk-08mnY
+
+
+
+<img src="https://github.com/lardemua/atom/blob/noetic-devel/docs/atom_logo.png?raw=true/375/215" width="400"/>
+
+<img src="https://github.com/lardemua/atom/raw/noetic-devel/docs/OverviewATOMMMTBot_compressed.gif" width="400"/>
+
+
+
+----------
 ### <span style="color:navy;">2022/06/22</span> [Humble / 22.04 RollingのFast-DDS通信障害](https://discourse.ros.org/t/nav2-issues-with-humble-binaries-due-to-fast-dds-rmw-regression/26128)
 
 - Humble / 22.04 RollingがFast-DDSに移行して以来、通信障害に関連する問題が増加
