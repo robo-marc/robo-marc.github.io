@@ -11,6 +11,22 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/07/11</span> [Fast DDS Visualizer](https://github.com/Serafadam/depthai_ros_driver)
+
+- DepthAI
+  - SpatialAIプラットフォーム
+  - Intel Movidius VPUを利用
+  - OAKカメラシリーズで利用可能
+- DepthAI ROS2ドライバー
+  - DepthAIをROS2で利用可能
+  - 深度、RGB、モノラルカメラ出力
+  - .h264ストリームを記録
+  - X86 PC, ARMベースシステム対応
+  - ROS2 Galactic, ROS2 Humble
+
+<img src="https://github.com/Serafadam/depthai_ros_driver/raw/galactic/docs/example.gif" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/07/22</span> [Fast DDS Visualizer](https://github.com/lardemua/atom)
 
 - Fast DDS Visualizer
