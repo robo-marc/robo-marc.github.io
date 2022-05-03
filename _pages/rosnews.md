@@ -11,6 +11,20 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/07/11</span> [ROS Learning Series (YouTube)](https://www.youtube.com/playlist?list=PL0sla3wvhSnYV_idE4zRxh0ZClVGA9KiK)
+
+- Robotics with Sakshayが提供するチュートリアルビデオ
+- 6本のビデオ
+  - Introduction
+  - Simulation Turtlebot3
+  - ROS Concepts
+  - Custom Mobile Robot
+  - MoveIt! Robot Manipulation
+  - ROS2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aNOiMyaq8dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----------
 ### <span style="color:navy;">2022/07/11</span> [Fast DDS Visualizer](https://github.com/Serafadam/depthai_ros_driver)
 
 - DepthAI
