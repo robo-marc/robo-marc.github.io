@@ -11,6 +11,41 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/07/11</span> [PlanSys2](https://plansys2.github.io/)
+
+- PlanSys2
+  - PDDLベースのプランニングシステム
+- 主に4つのノードから構成される
+  - Domain Expert
+    - PDDLモデル情報（タイプ、述語、関数、およびアクション）
+  - Problem Export
+    - モデルを構成する現在のインスタンス、Predicate、関数、および目標
+  - Planner
+    - ドメインおよびProblem Expertsに含まれる情報を使用して、計画（一連のアクション）を生成
+  - Executor
+    - プランを取得し、アクションパフォーマー（各アクションを実装するROS2ノード）をアクティブ化し実行
+  - プラン→ビヘイビアツリーに変換して実行
+
+<img src="https://plansys2.github.io/_images/plansys2_arch.png" width="400"/>
+<img src="https://plansys2.github.io/_images/plansys2_arch2.png" width="400"/>
+
+----------
+### <span style="color:navy;">2022/07/11</span> [PlotJuggler](https://github.com/facontidavide/PlotJuggler/releases/tag/3.5.0)
+
+- 高速で強力かつ 直感的な時系列を視覚化するツール
+- ドラッグアンドドロップのユーザーインターフェイス
+- ファイルからのデータロード
+- データのライブストリーミングに接続可能
+- ビジュアライゼーションレイアウト・構成を保存、再利用可能
+- OpenGLによる高速なビジュアライゼーション
+- 微分、移動平均、積分など変換可能
+- プラグインを使用して簡単に拡張できます
+
+
+<img src="https://user-images.githubusercontent.com/2822888/178490207-00e98610-5de7-4ffc-b94c-eab6396f8829.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/2822888/178490594-1436544e-5972-4ebf-9ca9-7dcd99d47030.png" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/07/11</span> [ROS Learning Series (YouTube)](https://www.youtube.com/playlist?list=PL0sla3wvhSnYV_idE4zRxh0ZClVGA9KiK)
 
 - Robotics with Sakshayが提供するチュートリアルビデオ
