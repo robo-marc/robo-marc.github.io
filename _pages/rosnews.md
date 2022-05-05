@@ -172,12 +172,15 @@ permalink: /rosnews/
   - Cloud Discovery 非標準 (RIT only)
 
 - V1
+
 <img src="https://docs.ros.org/en/foxy/_images/ds_explanation.svg" width="400"/>
 
 - V2
+
 <img src="https://docs.ros.org/en/foxy/_images/ds1vs2.svg" width="400"/>
 
 - Discovery Protocolによるパケット数の違い
+
 <img src="https://docs.ros.org/en/foxy/_images/discovery_server_v2_performance.svg" width="400"/>
 
 - ↑のtutorialではFastDDSのDiscovery Serviceを設定する方法を解説
