@@ -359,7 +359,6 @@ permalink: /rosnews/
 
 - myCobot: Elephantroboticsの小型ロボット
 - GitHub: https://github.com/elephantrobotics
-移動ロボットでPTPを使い始めたがうまく行かない
 - 4つのバージョン
   - M5stack	
   - Raspberry Pi
@@ -399,7 +398,7 @@ permalink: /rosnews/
 ----------
 ### <span style="color:navy;">2022/03/07</span> [Fusion2urfdに関するブログ記事](https://yoichi-41.hatenablog.com/entry/ros2_fusion2urdf)
 
-FUsion360のモデルをfusion2urdfというツールを使ってURDFに変換しROS2でシミュレーションすることに関する日本語のブログ記事
+Fusion360のモデルをfusion2urdfというツールを使ってURDFに変換しROS2でシミュレーションすることに関する日本語のブログ記事
 
 - fusion2urdfを使って変換したモデルを動かすために気をつけること
 - ROS2で、Fusion360で作ったモデルをurdfに変換して、シミュレーションを行う方法
