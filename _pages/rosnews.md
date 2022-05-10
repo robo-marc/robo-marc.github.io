@@ -116,16 +116,16 @@ permalink: /rosnews/
 - Humble / 22.04 RollingがFast-DDSに移行して以来、通信障害に関連する問題が増加
   - Fast-DDSのRMWレイヤーがリグレッションを起こしている
   - FastDDS without Discovery Server?
-    - https://discourse.ros.org/t/fastdds-without-discovery-server/26117
+    - [https://discourse.ros.org/t/fastdds-without-discovery-server/26117](https://discourse.ros.org/t/fastdds-without-discovery-server/26117)
     - FastDDS✕、CycloneDDS○
     - FastDDSだとトピックに接続できないことが75％くらいの確率で発生する wo Discovery Server
   - Nav2 lifecycle manager won't startup nodes
-    - https://github.com/ros-planning/navigation2/issues/2917
+    - [https://github.com/ros-planning/navigation2/issues/2917)](https://github.com/ros-planning/navigation2/issues/2917)
     - Nav2のライフサイクルノードのステートが切り替わらない
     - callback_group_からコールバックを削除すると解決
     - FastDDSとCycloneDDSで挙動が異なる、タイマーの呼び出しタイミングの問題？
   - lifecycle manager wait for service should have a finite, or at least configurable, timeout
-    - https://github.com/ros-planning/navigation2/issues/3033
+    - [https://github.com/ros-planning/navigation2/issues/3033](https://github.com/ros-planning/navigation2/issues/3033)
     - ライフサイクルマネージャーに、エラーが発生している管理ノードを指定するとライフサイクルサービスが適切に作成されない
     - ライフサイクルマネージャがタイムアウトすべきところでデッドロックする
     - これもFastDDSが問題？
