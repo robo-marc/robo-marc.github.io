@@ -160,7 +160,7 @@ permalink: /rosnews/
 
 <img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/5/565445a8478a24296181b440895cf402ecb9c8e3.png" width="400"/>
 
-- https://docs.ros.org/en/foxy/Tutorials/Advanced/Discovery-Server/Discovery-Server.html
+- [https://docs.ros.org/en/foxy/Tutorials/Advanced/Discovery-Server/Discovery-Server.html](https://docs.ros.org/en/foxy/Tutorials/Advanced/Discovery-Server/Discovery-Server.html)
 
 - 独自調査：DDSのDiscoveryは色々大変
 - DDSのディスカバリ
