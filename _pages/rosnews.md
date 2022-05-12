@@ -242,8 +242,8 @@ permalink: /rosnews/
   - MITで開発された古い2Dの移動ロボットシミュレータをROS2対応に
   - シンプルなポイントロボットシミュレーター
 
-- https://github.com/sea-bass/pyrobosim
-- https://pyrobosim.readthedocs.io/en/latest/
+- [https://github.com/sea-bass/pyrobosim](https://github.com/sea-bass/pyrobosim)
+- [https://pyrobosim.readthedocs.io/en/latest/](https://pyrobosim.readthedocs.io/en/latest/)
 
 
 <img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/acdcbb3d6b259ffbd57c61467852877ac005a230.gif" width="400"/>
@@ -346,7 +346,7 @@ permalink: /rosnews/
   - 合成データ生成ツール
 - IsaacSimとNav2を統合
   - NVIDIA Blog
-  - https://developer.nvidia.com/blog/integrating-the-nav2-stack-with-nvidia-isaac-ros-gems/
+  - [https://developer.nvidia.com/blog/integrating-the-nav2-stack-with-nvidia-isaac-ros-gems/](https://developer.nvidia.com/blog/integrating-the-nav2-stack-with-nvidia-isaac-ros-gems/)
   - フォークリフトのフォーク部分を画像認識：学習
   - フォークを回避して走行（コストマップへの反映）
 
@@ -393,7 +393,7 @@ permalink: /rosnews/
   - 高い精度が必要な場合、ハードとファームの組み合わせでPTPを実装（ハード間の相互運用性検証が必要、コンピュータ、スイッチ、センサーがすべてHWでPTPをサポートするものが必要）
   - ソフトウェアPTPであれば特別なハードは不要（ただし10〜100us、かつジッタが大きい）
   - モジュラーロボット間での時刻同期についての論文
-    - https://arxiv.org/pdf/1809.07295.pdf
+    - [https://arxiv.org/pdf/1809.07295.pdf](https://arxiv.org/pdf/1809.07295.pdf)
 
 ----------
 ### <span style="color:navy;">2022/03/07</span> [Fusion2urfdに関するブログ記事](https://yoichi-41.hatenablog.com/entry/ros2_fusion2urdf)
@@ -422,7 +422,7 @@ Micro-ROSを使って開発する理由についての質問と議論がROS Disc
   - 通信部分が楽にできるよ
   - Micro-ROSはROSの起動機能をサポートしてないよ
   - Micro-ROSのデモあります↓
-    - https://github.com/micro-ROS/micro-ROS_crazyflie_demo
+    - [https://github.com/micro-ROS/micro-ROS_crazyflie_demo](https://github.com/micro-ROS/micro-ROS_crazyflie_demo)
 
 <a href="https://micro.ros.org/"><img src="https://micro.ros.org/img/micro-ROS_big_logo.png" width="640"/></a>
 
