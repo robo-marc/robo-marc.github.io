@@ -136,7 +136,7 @@ permalink: /rosnews/
 
 - ROS2において設定が不十分の場合ネットワークが落ちる問題に遭遇
   - DDSを適切に設定しないと、マルチキャストパケットによりパケットフラッディングが発生する
-- 解決策：export ROS_LOCALHOST_ONLY=1あるいは↓
+- 解決策：export ROS_LOCALHOST_ONLY=1に設定、あるいは以下のように設定↓
   - ホスト間通信ができなくなる
 
 ```xml
