@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Symposium2022
+permalink: /symposium2022/
 ---
 # NEDO特別講座シンポジウム 2022 視聴リンク一覧
 

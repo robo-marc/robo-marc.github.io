@@ -1,5 +1,7 @@
 ---
 layout: page
+title: ロボット共通ソフトウェア技術講座 受講申し込み
+permalink: /tutorials/
 ---
 # ロボット共通ソフトウェア技術講座 受講申し込み
 
