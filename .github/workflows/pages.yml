@@ -20,6 +20,6 @@ jobs:
       # Standard usage
       - uses: helaili/jekyll-action@v2
         with:
-          target_branch: 'gh-pages'
+          target_branch: 'gh-pages2'
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
