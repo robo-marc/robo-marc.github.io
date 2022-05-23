@@ -36,7 +36,7 @@ RRI調査検討委員会では、サービスロボット等の新しいロボ�
 
 (株)アックスによる、ROS2プロトコルのハードウェア化事例紹介、および企業がOSS利用する際に課題となる様々なサポートサービスの提供に関するご紹介。OSSに長年携わってきたアックス社からみた、OSSとの関わり方についての知見についてもご紹介頂いています。
 
-<iframe width="480"
+<iframe width="560" height="315" 
 src="https://www.youtube.com/embed/GR9N9mS95WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1.2. OSS活用のためのライセンス解説
