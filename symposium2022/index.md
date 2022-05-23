@@ -23,6 +23,8 @@ RRI調査検討委員会では、サービスロボット等の新しいロボ�
 - [プログラム](#プログラム)
     - [ROS2ハードウェアIPとROSサポート提供](#ros2ハードウェアipとrosサポート提供)
     - [OSS活用のためのライセンス解説](#oss活用のためのライセンス解説)
+    - [サービスロボットAI性能評価基準調査検討委員会から（予定）](#サービスロボットai性能評価基準調査検討委員会から予定)
+    - [ロボット安全設計開発調査検討委員会（予定）](#ロボット安全設計開発調査検討委員会予定)
 
 <!-- /TOC -->
 
@@ -45,5 +47,12 @@ OSS活用のためのライセンス解説コースオープンソースのラ�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k_LlKQS6GEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### サービスロボットAI性能評価基準調査検討委員会から（予定）
 
+- 講演: 
 
+### ロボット安全設計開発調査検討委員会（予定）
+
+-講演:
+
+オープンソースソフトウェア活用の状況を踏まえ、現有の課題を広く収集して共有し、問題を分析してその本質にできるだけ迫り、浮き彫りとなった問題を少しでも解決する方向に導くための方策としての「自立型生活支援ロボットの安全開発ガイド」について紹介します。
