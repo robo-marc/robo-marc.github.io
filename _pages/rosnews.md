@@ -11,6 +11,27 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/08/30</span> [GAZEBO Garden、Ignition名称廃止](https://community.gazebosim.org/t/gazebo-garden-tshirts-available/1575)
+
+- Ignitionという名称を廃止
+  - Gazeboの新アーキテクチャ採用→Ignition
+  - Ignition, Gazebo, Ignition-Gazeboなど紛らわしい
+  - Ignitionの商標問題が発覚
+- 変更されるもの
+  - Ignition → Gazebo, ign → gz に一律変更
+  - Webサイト
+  - GitHub Organization とリポジトリ
+  - 名前空間、コマンドラインツール、ライブラリ、ディレクトリ、API、ファイル
+  - UI
+  - ドキュメント
+- タイムライン
+  - GardenはエイリアスでIgnitionを継続
+  - Citadel, Fortressは引き続きサポート
+  - 将来のリリース：Ignitionエイリアスはすべて削除
+
+<img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/optimized/2X/0/0b993ff9951456ca96093e6ea266dd02b2634fd9_2_389x500.png" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/07/11</span> [PlanSys2](https://plansys2.github.io/)
 
 - PlanSys2
@@ -28,7 +49,6 @@ permalink: /rosnews/
 
 <img src="https://plansys2.github.io/_images/plansys2_arch.png" width="400"/>
 <img src="https://plansys2.github.io/_images/plansys2_arch2.png" width="400"/>
-
 ----------
 ### <span style="color:navy;">2022/07/11</span> [PlotJuggler](https://github.com/facontidavide/PlotJuggler/releases/tag/3.5.0)
 
