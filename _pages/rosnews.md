@@ -11,6 +11,26 @@ permalink: /rosnews/
 
 
 ----------
+### <span style="color:navy;">2022/09/06</span> [NASA の次の宇宙飛行コンピュータ](https://www.theregister.com/2022/09/06/nasas_spaceflight_computer_risc_v/)
+
+- チップメーカーSiFiveが同社の RISC-V 互換 CPU コアが、発表されたばかりの NASA の高性能宇宙飛行コンピュータ (HPSC: High-Performance Spaceflight Computer) のメインCPUとなることを発表 (9/6)
+- NASAのHPSCは長らく(20年以上)PowerPCを使用
+  - PowerPCエンジニアの不足
+- SiFiveのHPSCプロセッサ
+  - RISC-V4コア
+  - AI/MLに最適化されたX280ベクトル演算8コア
+- RISC-V
+  - オープンソース、ロイヤリティフリーなISAを持つCPU IP
+  - 様々な拡張性を有するCPUアーキテクチャ
+- 対宇宙環境性能・対放射線性能
+  - アーキテクチャ上の改良
+  - チップ設計上の改良
+  - プロセス上の改良などが必要
+
+
+<img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/optimized/2X/0/0b993ff9951456ca96093e6ea266dd02b2634fd9_2_389x500.png" width="400"/>
+
+----------
 ### <span style="color:navy;">2022/08/30</span> [GAZEBO Garden、Ignition名称廃止](https://community.gazebosim.org/t/gazebo-garden-tshirts-available/1575)
 
 - Ignitionという名称を廃止
