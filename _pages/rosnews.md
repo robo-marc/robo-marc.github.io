@@ -30,6 +30,26 @@ permalink: /rosnews/
 
 <img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/optimized/2X/0/0b993ff9951456ca96093e6ea266dd02b2634fd9_2_389x500.png" width="400"/>
 
+
+----------
+### <span style="color:navy;">2022/09/05</span> [パスタロボット TechMagic](https://thespoon.tech/a-robot-powered-pasta-restaurant-in-tokyo-is-just-the-beginning-for-startup-techmagic/)
+
+- プロントが丸の内にパスタロボットの店舗をオープン
+- ロボット：TechMagic社のP-Robo
+  - パスタ自動調理ロボット
+  - 1皿/min 以上の速度で調理可能
+  - 特許技術
+- TechMagic社
+  - 2,300 万ドル（約30億）の資金を調達
+  - 調理ロボット主体で開発
+    - P-ROBO
+    - W-ROBO：食器洗浄・仕分け
+    - M-ROBO：惣菜盛り付け等
+    - D-ROBO：飲料給仕
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ORGKYiMimK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ----------
 ### <span style="color:navy;">2022/08/30</span> [GAZEBO Garden、Ignition名称廃止](https://community.gazebosim.org/t/gazebo-garden-tshirts-available/1575)
 
