@@ -9,7 +9,6 @@ permalink: /rosnews/
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
-
 ----------
 ### <span style="color:navy;">2022/09/06</span> [NASA の次の宇宙飛行コンピュータ](https://www.theregister.com/2022/09/06/nasas_spaceflight_computer_risc_v/)
 
@@ -70,6 +69,26 @@ permalink: /rosnews/
   - 将来のリリース：Ignitionエイリアスはすべて削除
 
 <img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/optimized/2X/0/0b993ff9951456ca96093e6ea266dd02b2634fd9_2_389x500.png" width="400"/>
+
+
+
+----------
+### <span style="color:navy;">2022/08/29</span> [海上・砂浜清掃ロボット BeBot、Pixie Drone](https://www.therobotreport.com/meijer-deploys-bebot-pixie-drone-to-clean-up-the-beaches-of-the-great-lakes/)
+
+- SearialCleaners社のBeBot、Pixie Droneは砂浜や水上のクリーナーロボット
+- BeBot:遠隔操作の砂浜清掃ロボット
+  - 1 時間あたり 32,000 平方フィート（約3000m^2）の清掃能力
+- Pixie Drone
+  - リモート制御の水上ドローン
+  - 1 回あたり最大200ポンド（約90kg）のゴミを収集
+- 五大湖のゴミ収集に活用
+  - Meijer（中西部の小売業者）の取り組み
+  - 大湖プラスチック クリーンアップ プログラム
+  - マイクロプラスチック問題に対処
+
+
+<img src="https://www.therobotreport.com/wp-content/uploads/2022/08/featured-web-meijer-robots.jpg" width="400"/>
+
 
 ----------
 ### <span style="color:navy;">2022/07/11</span> [PlanSys2](https://plansys2.github.io/)
