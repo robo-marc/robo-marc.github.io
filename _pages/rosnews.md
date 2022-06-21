@@ -27,9 +27,6 @@ permalink: /rosnews/
   - プロセス上の改良などが必要
 
 
-<img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/optimized/2X/0/0b993ff9951456ca96093e6ea266dd02b2634fd9_2_389x500.png" width="400"/>
-
-
 ----------
 ### <span style="color:navy;">2022/09/05</span> [パスタロボット TechMagic](https://thespoon.tech/a-robot-powered-pasta-restaurant-in-tokyo-is-just-the-beginning-for-startup-techmagic/)
 
