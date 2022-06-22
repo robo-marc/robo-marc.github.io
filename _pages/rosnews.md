@@ -9,6 +9,16 @@ permalink: /rosnews/
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
+
+
+----------
+### <span style="color:navy;">2022/09/16</span> [ROSを使っている会社のリスト ros-robotics-companies](https://github.com/vmayoral/ros-robotics-companies)
+
+- ROSを使っている会社のリスト
+  - GitHubリポジトリ上で公開
+    - https://github.com/vmayoral/ros-robotics-companies
+  - 現在348社登録済み
+
 ----------
 ### <span style="color:navy;">2022/09/06</span> [NASA の次の宇宙飛行コンピュータ](https://www.theregister.com/2022/09/06/nasas_spaceflight_computer_risc_v/)
 
@@ -45,6 +55,21 @@ permalink: /rosnews/
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ORGKYiMimK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+----------
+### <span style="color:navy;">2022/09/03</span> [myAGV: Elephanto Robotics](https://discourse.ros.org/t/the-highest-cost-performance-mobile-robotic-platform-for-individual-developers/27198)
+
+- Elephant RoboticsのAGV
+  - メカナムホイールの全方向移動ロボット
+  - RaspberryPi 4で制御
+  - ROSサポート（ROS2はまだ）
+  - ペイロード 2kg
+  - LiDAR, IMU
+
+
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/a408bd0ddffdd6ad49ece39faf4fb48f590ac875.png" width="400"/>
+
 
 ----------
 ### <span style="color:navy;">2022/08/30</span> [GAZEBO Garden、Ignition名称廃止](https://community.gazebosim.org/t/gazebo-garden-tshirts-available/1575)
