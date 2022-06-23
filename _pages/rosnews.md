@@ -11,6 +11,19 @@ permalink: /rosnews/
 
 
 
+
+----------
+### <span style="color:navy;">2022/09/16</span> [AuthROS:イーサリアムに基づくROSシステム間での安全なデータ共有](https://arxiv.org/abs/2208.14269)
+
+- AuthROS:イーサリアムに基づくROSシステム間での安全なデータ共有
+- 安全なデータ共有フレームワーク
+- ROS ノード間で交換される機密データの不変性とセキュリティを保証
+- SM2 鍵交換と SM4 平文暗号化メカニズム
+- 800KB の暗号化データから 6.34ms でダイジェストを生成
+- 安全なデータ交換、データ操作の検出、および Node Forging 攻撃保護を実現
+
+
+
 ----------
 ### <span style="color:navy;">2022/09/16</span> [ROSを使っている会社のリスト ros-robotics-companies](https://github.com/vmayoral/ros-robotics-companies)
 
