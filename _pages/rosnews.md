@@ -11,6 +11,19 @@ permalink: /rosnews/
 
 
 
+----------
+### <span style="color:navy;">2022/09/16</span> [ロボット工学アルゴリズムの Python コード コレクション PythonRobotics](https://arxiv.org/abs/2208.14269)
+
+- ロボット工学アルゴリズムの Python コード コレクション
+  - https://github.com/AtsushiSakai/PythonRobotics
+- 特徴：
+  - 各アルゴリズムの基本的な考え方を提示するコード
+  - 広く使用されている実用的なアルゴリズム集
+  - 依存ライブラリが少ない
+
+
+
+
 
 ----------
 ### <span style="color:navy;">2022/09/16</span> [AuthROS:イーサリアムに基づくROSシステム間での安全なデータ共有](https://arxiv.org/abs/2208.14269)
