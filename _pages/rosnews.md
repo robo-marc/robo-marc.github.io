@@ -11,6 +11,22 @@ permalink: /rosnews/
 
 
 
+
+----------
+### <span style="color:navy;">2022/09/16</span> [eCal](https://github.com/eclipse-ecal/ecal), [Iceoryx](https://github.com/eclipse-iceoryx/iceoryx)
+
+- 最新の通信ミドルウェア (pub/sub)
+- eCAL
+  - https://github.com/eclipse-ecal/ecal
+  - enhanced Communication Abstraction Layer. 
+  - A fast publish-subscribe cross-plattform middleware using Shared Memory and UDP
+- Iceoryx
+  - https://github.com/eclipse-iceoryx/iceoryx
+  - Eclipse iceoryx™  プロジェクト
+  - true zero-copy
+  - DDSよりだいぶ早い模様
+
+
 ----------
 ### <span style="color:navy;">2022/09/16</span> [ロボット工学アルゴリズムの Python コード コレクション PythonRobotics](https://arxiv.org/abs/2208.14269)
 
