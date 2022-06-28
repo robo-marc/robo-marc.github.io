@@ -9,9 +9,6 @@ permalink: /rosnews/
 
 このページでは、ROSやロボットミドルウェアに関するさまざまなニュースを発信しています。
 
-
-
-
 ----------
 ### <span style="color:navy;">2022/09/16</span> [eCal](https://github.com/eclipse-ecal/ecal), [Iceoryx](https://github.com/eclipse-iceoryx/iceoryx)
 
@@ -26,7 +23,6 @@ permalink: /rosnews/
   - true zero-copy
   - DDSよりだいぶ早い模様
 
-
 ----------
 ### <span style="color:navy;">2022/09/16</span> [ロボット工学アルゴリズムの Python コード コレクション PythonRobotics](https://arxiv.org/abs/2208.14269)
 
@@ -37,10 +33,6 @@ permalink: /rosnews/
   - 広く使用されている実用的なアルゴリズム集
   - 依存ライブラリが少ない
 
-
-
-
-
 ----------
 ### <span style="color:navy;">2022/09/16</span> [AuthROS:イーサリアムに基づくROSシステム間での安全なデータ共有](https://arxiv.org/abs/2208.14269)
 
@@ -50,8 +42,6 @@ permalink: /rosnews/
 - SM2 鍵交換と SM4 平文暗号化メカニズム
 - 800KB の暗号化データから 6.34ms でダイジェストを生成
 - 安全なデータ交換、データ操作の検出、および Node Forging 攻撃保護を実現
-
-
 
 ----------
 ### <span style="color:navy;">2022/09/16</span> [ROSを使っている会社のリスト ros-robotics-companies](https://github.com/vmayoral/ros-robotics-companies)
@@ -78,7 +68,6 @@ permalink: /rosnews/
   - チップ設計上の改良
   - プロセス上の改良などが必要
 
-
 ----------
 ### <span style="color:navy;">2022/09/05</span> [パスタロボット TechMagic](https://thespoon.tech/a-robot-powered-pasta-restaurant-in-tokyo-is-just-the-beginning-for-startup-techmagic/)
 
@@ -98,7 +87,6 @@ permalink: /rosnews/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ORGKYiMimK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ----------
 ### <span style="color:navy;">2022/09/03</span> [myAGV: Elephanto Robotics](https://discourse.ros.org/t/the-highest-cost-performance-mobile-robotic-platform-for-individual-developers/27198)
 
@@ -111,7 +99,6 @@ permalink: /rosnews/
 
 
 <img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/a408bd0ddffdd6ad49ece39faf4fb48f590ac875.png" width="400"/>
-
 
 ----------
 ### <span style="color:navy;">2022/08/30</span> [GAZEBO Garden、Ignition名称廃止](https://community.gazebosim.org/t/gazebo-garden-tshirts-available/1575)
@@ -134,8 +121,6 @@ permalink: /rosnews/
 
 <img src="https://global.discourse-cdn.com/standard10/uploads/gazebo/optimized/2X/0/0b993ff9951456ca96093e6ea266dd02b2634fd9_2_389x500.png" width="400"/>
 
-
-
 ----------
 ### <span style="color:navy;">2022/08/29</span> [海上・砂浜清掃ロボット BeBot、Pixie Drone](https://www.therobotreport.com/meijer-deploys-bebot-pixie-drone-to-clean-up-the-beaches-of-the-great-lakes/)
 
@@ -152,7 +137,6 @@ permalink: /rosnews/
 
 
 <img src="https://www.therobotreport.com/wp-content/uploads/2022/08/featured-web-meijer-robots.jpg" width="400"/>
-
 
 ----------
 ### <span style="color:navy;">2022/07/11</span> [PlanSys2](https://plansys2.github.io/)
