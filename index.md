@@ -53,6 +53,13 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 
 <!-- This is Web page to publish R&D result by “NEDO’s Technology Development Project for Robot Commercialization Applications” (FY2017-2019) and “NEDO Course (NEDO Kouza)”.-->
 
+### SI2022 ロボット共通プラットフォーム講習会
+本講習会では、市場化プロジェクトにおいて開発された、ロボット共通ソフトウェア実行環境を活用し、MoveIt!を用いて小型ロボットアームの実機を制御する方法について学ぶことができます。ご登録方法などの詳細につきましては、下記Webサイトをご参照ください。
+
+<div align="center"><a href="/tutorials/si2022"><img src="/tutorials/si2022/si2022_banner_small.png" width="100%"></a></div>
+
+<br/>
+
 ### NEDO講座シンポジウム２０２２
 RRI (ロボット革命・産業IoTイニシアティブ協議会) と共同で、同協議会の調査検討委員会の成果物や議論を紹介するオンラインシンポジウムを開催しております。コンテンツは随時公開しており、YouTubeでいつでもご覧いただけます。
 
