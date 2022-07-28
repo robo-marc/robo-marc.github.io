@@ -31,8 +31,7 @@ permalink: /rosnews/
   - MoveIt2を使用したROS2アームの計画と把握
 - 主催
   - Robotnik
-
-<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/0a8bc4e5c73de58ab81ff59b89c24727c2454ae0.jpeg" width="640" >
+![ros2industrialready](https://user-images.githubusercontent.com/11814060/181394596-01423741-bd51-4da2-bf6a-707a4925e79e.png)
 
 -----------
 ### <span style="color:navy;">2022/01/21</span> [ROS2 Manipulation Basics](https://discourse.ros.org/t/new-ros-course-ros-2-manipulation-basics/23889)
