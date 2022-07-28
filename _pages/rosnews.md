@@ -66,6 +66,8 @@ Construct+Robotnikによる、遠隔からリアルなロボットに接続し�
 - [Construct](https://www.theconstructsim.com/)
 - [Robotnik](https://robotnik.eu/)
 
+<img src="https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/0/0a8bc4e5c73de58ab81ff59b89c24727c2454ae0.jpeg" width="640" >
+
 ----------
 
 ### <span style="color:navy;">2021/11/8</span> [ROS2のmacOSサポート](https://discourse.ros.org/t/macos-support-in-ros-2-galactic-and-beyond/17891/32)
