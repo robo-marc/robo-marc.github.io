@@ -3,7 +3,7 @@ layout: page
 title: Symposium2023
 permalink: /symposium2023/
 ---
-<div align="center"><img src="/symposium2022/button.png" width="100%"></div>
+<div align="center"><img src="/symposium2023/symposium2023.png" width="100%"></div>
 
 # NEDO特別講座　最終成果報告会
 
@@ -12,11 +12,11 @@ permalink: /symposium2023/
 # 目次
 <!-- TOC -->
 
-- [NEDO特別講座　最終成果報告会](#nedo%E7%89%B9%E5%88%A5%E8%AC%9B%E5%BA%A7%E3%80%80%E6%9C%80%E7%B5%82%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E4%BC%9A)
-- [目次](#%E7%9B%AE%E6%AC%A1)
-    - [1. 目的](#1-%E7%9B%AE%E7%9A%84)
-    - [2. 趣旨と講演概要](#2-%E8%B6%A3%E6%97%A8%E3%81%A8%E8%AC%9B%E6%BC%94%E6%A6%82%E8%A6%81)
-    - [3. 日時・場所](#3-%E6%97%A5%E6%99%82%E3%83%BB%E5%A0%B4%E6%89%80)
+- [1. 目的](#1-%E7%9B%AE%E7%9A%84)
+- [2. 趣旨と講演概要](#2-%E8%B6%A3%E6%97%A8%E3%81%A8%E8%AC%9B%E6%BC%94%E6%A6%82%E8%A6%81)
+- [3. 日時・場所](#3-%E6%97%A5%E6%99%82%E3%83%BB%E5%A0%B4%E6%89%80)
+- [4. ．内容](#4-%EF%BC%8E%E5%86%85%E5%AE%B9)
+- [5. 講演プログラム](#5-%E8%AC%9B%E6%BC%94%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0)
 
 <!-- /TOC -->
 
