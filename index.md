@@ -56,7 +56,7 @@ NEDO特別講座 (2020-2022年度) および、そのコアプロジェクト (N
 ### ロボット共通プラットフォーム講習会2023
 本講習会では、市場化プロジェクトにおいて開発された、ロボット共通ソフトウェア実行環境を活用し、MoveIt!を用いて小型ロボットアームの実機を制御する方法について学ぶことができます。ご登録方法などの詳細につきましては、下記Webサイトをご参照ください。
 
-<div align="center"><a href="/tutorials/marc2023"><img src="/tutorials/marc20232/marc2023.png" width="100%"></a></div>
+<div align="center"><a href="/tutorials/marc2023"><img src="/tutorials/marc2023/marc2023.png" width="100%"></a></div>
 
 <br/>
 
