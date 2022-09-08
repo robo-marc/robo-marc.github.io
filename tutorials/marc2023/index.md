@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<div align="center"><a href="/tutorials/marc2023"><img src="/tutorials/marc20232/marc2023.png" width="100%"></a></div>
+<div align="center"><a href="/tutorials/marc2023"><img src="/tutorials/marc2023/marc2023.png" width="100%"></a></div>
 
 # NEDO特別講座：ロボット共通プラットフォーム講習会
 
