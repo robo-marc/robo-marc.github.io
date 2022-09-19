@@ -44,8 +44,9 @@ NEDO「ロボット活用型市場化技術開発プロジェクト（市場化�
 本講習会では、基本的にWebページ上のテキストで実習を進めますが、PDF冊子版のテキストもありますので、あらかじめ印刷して手元に置いておいても良いかもしれません。
 
 - [講習会テキスト(PDF)](/tutorials/marc2023/tutorial-melodic-mycobot-0.1.1.pdf)
-<!--
 
+
+<!--
 ## スライド
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/KLiujICoS2pgT8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/nedo-moveit-1" title="NEDO講座 MoveIt! チュートリアル 第1部" target="_blank">NEDO講座 MoveIt! チュートリアル 第1部</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
 -->
