@@ -14,14 +14,14 @@ Windows上で動作させたまま、仮想マシン上でROS入りUbuntu Linux�
 <!-- TOC -->
 
 - [1. VMware Workstation Player](#1-vmware-workstation-player)
-    - [1.1. VMware Workstation Player のダウンロード](#11-vmware-workstation-player-のダウンロード)
-    - [1.2. VMware Workstation Player のインストール](#12-vmware-workstation-player-のインストール)
-- [2. ISOイメージからの起動](#2-isoイメージからの起動)
-    - [2.1. ISOイメージのダウンロード](#21-isoイメージのダウンロード)
-    - [2.2. MD5 SUM の確認の仕方](#22-md5-sum-の確認の仕方)
-    - [2.3. VMware 仮想マシンの作成](#23-vmware-仮想マシンの作成)
-    - [2.4. NEDO ROSセットの起動](#24-nedo-rosセットの起動)
-- [3. その他の仮想マシンプラットフォーム](#3-その他の仮想マシンプラットフォーム)
+    - [1.1. VMware Workstation Player のダウンロード](#11-vmware-workstation-player-%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89)
+    - [1.2. VMware Workstation Player のインストール](#12-vmware-workstation-player-%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+- [2. ISOイメージからの起動](#2-iso%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%8B%E3%82%89%E3%81%AE%E8%B5%B7%E5%8B%95)
+    - [2.1. ISOイメージのダウンロード](#21-iso%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89)
+    - [2.2. MD5 SUM の確認の仕方](#22-md5-sum-%E3%81%AE%E7%A2%BA%E8%AA%8D%E3%81%AE%E4%BB%95%E6%96%B9)
+    - [2.3. VMware 仮想マシンの作成](#23-vmware-%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E3%81%AE%E4%BD%9C%E6%88%90)
+    - [2.4. NEDO ROSセットの起動](#24-nedo-ros%E3%82%BB%E3%83%83%E3%83%88%E3%81%AE%E8%B5%B7%E5%8B%95)
+- [3. その他の仮想マシンプラットフォーム](#3-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0)
     - [3.1. VirtualBox](#31-virtualbox)
     - [3.2. Parallels Desktop](#32-parallels-desktop)
 
@@ -48,7 +48,7 @@ Windows用とLinux用があります。
 
 <div align="center">
 <a href="https://www.vmware.com/jp/products/workstation-player/workstation-player-evaluation.html">
-<img src="figs/vmware_download.png">
+<img src="figs/vmware_download17.png">
 </a>
 </div>
 <div style="text-align: center;">クリックするとダウンロードページに飛びます</div>
