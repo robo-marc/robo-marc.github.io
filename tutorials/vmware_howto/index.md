@@ -2,10 +2,10 @@
 layout: page
 ---
 
-# VMware による NEDO ROSセットの起動
+# VMware による NEDO ROSイメージの起動
 
 NEDO特別講座で提供している起動可能なROS入りUbuntu LinuxのISOイメージ
-(NEDO ROSセットと呼びます) は、DVD-Rなどに書き込んでLive DVD (HDDに
+(NEDO ROSイメージと呼びます) は、DVD-Rなどに書き込んでLive DVD (HDDに
 インストールせずに利用する形態のDVD)として利用するものですが、仮想マ
 シンを利用することで、WindowsやMac上でUbuntu Linuxを起動することがで
 きます。講習会では、TV会議システムを利用しますので、TV会議システムは
@@ -36,9 +36,9 @@ Windows上で動作させたまま、仮想マシン上でROS入りUbuntu Linux�
 VMware Workstation Player (以下VMware Playerと略します) は、VMware社
 から販売されている仮想化ソフトウェアの一つです。VMware Playerは、非
 商用利用に限って無償で利用することができます。Windows上でROSがインス
-トールされたNEDO ROSセットを起動する方法としては一番おすすめの方法で
+トールされたNEDO ROSイメージを起動する方法としては一番おすすめの方法で
 す。以下では、VMware PlayerをWindows PCにインストールして、VMware
-Player上でNEDO ROSセットを起動する方法を説明します。なお、すでに
+Player上でNEDO ROSイメージを起動する方法を説明します。なお、すでに
 VMwareをお持ちの場合は、改めてVMware Playerをダウンロード・インス
 トールする必要はありません。有償のVMware Workstationを代わりに利用す
 ることができます。
