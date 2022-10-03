@@ -74,7 +74,8 @@ NEDO「ロボット活用型市場化技術開発プロジェクト（市場化�
 VMwareなどから起動できるように前もってご準備ください．
 - 本講習会で使用するISOイメージ
   - [ubuntu-18.04.6-nedo-desktop-amd64_mycobot.iso](https://openrtm.org/pub/NEDO_tutorial/ubuntu-18.04.6-nedo-desktop-amd64_mycobot.iso)
-- [ISOイメージ・VMwareのセットアップ](/tutorials/vmware_howto)
+- Windows上にVMware PlayerをインストールしISOイメージを起動する方法の説明
+  - [ISOイメージ・VMwareのセットアップ](/tutorials/vmware_howto)
 
 <!--
 ## USBメモリからの起動について
