@@ -1,0 +1,9 @@
+<launch>
+  <node name="uvc_camera_node" pkg="uvc_camera" type="uvc_camera_node" />
+  <node name="web_video_server_node" pkg="web_video_server" type="web_video_server" />
+  <node name="preprocess_node" pkg="object_detector" type="preprocess.py" />
+  <node name="object_detector_ssd_node" pkg="object_detector" type="object_detector_ssd.py">
+      <param name="model_path" value="~/catkin_ws/src/object_detector/lib/SSD/" />
+  </node>
+  <node name="annotation_node" pkg="object_detector" type="annotation.py" />
+</launch>

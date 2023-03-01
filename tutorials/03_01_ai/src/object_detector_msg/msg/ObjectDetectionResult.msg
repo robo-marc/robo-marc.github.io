@@ -1,0 +1,1 @@
+DetectedObject[] detected_objects

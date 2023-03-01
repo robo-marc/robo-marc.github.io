@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lone Wolf Theme | A simple bootstrap based jekyll theme.</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Lone Wolf Theme" />
+<meta name="author" content="mani_d2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A simple bootstrap based jekyll theme." />
+<meta property="og:description" content="A simple bootstrap based jekyll theme." />
+<meta property="og:site_name" content="Lone Wolf Theme" />
+<meta property="og:image" content="/assets/images/nedo-logo.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="/assets/images/nedo-logo.png" />
+<meta property="twitter:title" content="Lone Wolf Theme" />
+<meta name="twitter:site" content="@mani_d2" />
+<meta name="twitter:creator" content="@mani_d2" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"mani_d2"},"description":"A simple bootstrap based jekyll theme.","headline":"Lone Wolf Theme","image":"/assets/images/nedo-logo.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/nedo-logo.png"},"name":"mani_d2"},"url":"/usbimage_howto/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="alternate" type="application/rss+xml" title="Lone Wolf Theme"
+        href="/feed.xml">
+
+
+    <!-- styles start -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- styles end -->
+</head>
+
+
+<body>
+  <!-- page container -->
+  <div class="page-container">
+    <!-- page header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <nav class="container">
+    <!-- site home -->
+    <a class="navbar-brand" href="/">
+      <img src="/assets/images/nedo-logo.png" alt="Lone Wolf Theme logo" height="32" width="32">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <!-- TODO add theme version dropdown here --><li class="nav-item">
+          <a class="nav-link" href="/" >Home</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/project_overview/" >Project Overview</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/team/" >Team</a>
+        </li></ul>
+      
+    </div>
+  </nav>
+</header>
+
+    <!-- page content -->
+    <main class="page-content" role="main">
+      <section class="container">
+  <!--h1></h1-->
+  <article>
+    <h1 id="起動可能なusbメモリ作成方法">起動可能なUSBメモリ作成方法</h1>
+
+<p>NEDO講座等の講習会で配布する起動可能なUSBメモリは、自分で作成することができます。
+ここでは、当サイトからイメージファイルをダウンロードし、起動可能なUSBメモリを作成する方法を解説します。</p>
+
+<h2 id="概要">概要</h2>
+
+<p>起動可能なUSBメモリの作成手順は以下のとおりです。</p>
+
+<ul>
+  <li>USBメモリを準備する</li>
+  <li>USBに書き込むイメージファイルをダウンロードする</li>
+  <li>イメージ書き込みツールをダウンロードする</li>
+  <li>USBメモリにイメージファイルを書き込む</li>
+  <li>起動準備</li>
+  <li>起動確認</li>
+</ul>
+
+<h1 id="作成手順">作成手順</h1>
+
+<h2 id="usbメモリを準備する">USBメモリを準備する</h2>
+
+<p>まず、空のUSBメモリを用意します。
+USBメモリのサイズは32GB以上のものをご用意ください。（当サイトで配布しているUSBメモリは32GB構成で作成されているため）</p>
+
+<h2 id="イメージファイルのダウンロード">イメージファイルのダウンロード</h2>
+
+<p>まずはじめに、USBメモリに書き込むイメージファイルをダウンロードします。</p>
+
+<ul>
+  <li><a href="https://openrtm.org/pub/NEDO_tutorial/NEDO_USB_Image.7z">USBメモリイメージファイル (7zip圧縮)</a> (約25GB)
+    <ul>
+      <li>MD5: cfd74c56ccd71db1ad046e955a83f538</li>
+    </ul>
+  </li>
+</ul>
+
+<p>イメージファイルはUSBメモリと同じサイズ、つまり32GB程度あるため、
+ダウンロードするには相応の時間がかかります。
+また、イメージファイルは圧縮されているため、ダウンロードして展開するためには
+最低64GB程度のハードディスクの空き容量が必要になります。</p>
+
+<h3 id="7zipファイルの展開">7zipファイルの展開</h3>
+
+<p>拡張子 <strong>7z</strong> のファイルは７ｚｉｐ形式で圧縮されているため、</p>
+
+<ul>
+  <li><a href="https://sevenzip.osdn.jp/">7zip</a>
+    <ul>
+      <li><a href="https://ja.osdn.net/dl/sevenzip/7z1900-x64.exe/">7-Zip 19.00 ダウンロード</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>等をダウンロードし、ファイルを展開してください。
+展開すると、**NEDO_USB_Image.img＊＊ というファイルができます。</p>
+
+<h2 id="イメージ書き込みツールのダウンロード">イメージ書き込みツールのダウンロード</h2>
+
+<h3 id="windows-の場合">Windows の場合</h3>
+
+<p>Windowsにおいては、起動可能なUSBイメージを書込み可能な様々なツールがありますが、ここでは
+Rufus (ルーファス) を例に取り説明します。Rufusは以下のページからダウンロードできます。</p>
+
+<ul>
+  <li>Rufus Webページ: <a href="https://rufus.ie/">https://rufus.ie/</a>
+    <ul>
+      <li>Rufus 3.13: <a href="https://github.com/pbatard/rufus/releases/download/v3.13/rufus-3.13.exe">rufus-3.13.exe</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Rufusはインストールの必要はありません。そのまま起動可能です。
+起動すると以下のような画面が現れますので、</p>
+
+<ol>
+  <li>USBメモリを選択</li>
+  <li>書き込むイメージファイル “NEDO_USB_Image.img” を選択</li>
+  <li>状態を確認：「準備完了」ならOK</li>
+  <li>スタートボタンを押して書き込み開始</li>
+</ol>
+
+<p><img src="/assets/images/si2020/Rufus_window.png" width="800" align="center" /></p>
+
+<p>書き込みを開始すると、以下の用にプログレスバーに書き込み完了までの時間が表示され、書き込み作業が進行します。
+だいたい、20～30分程度かかるでしょう。気長に待ってください。</p>
+
+<p><img src="/assets/images/si2020/Rufus_writing.png" width="434" align="center" /></p>
+
+<h3 id="macの場合">Macの場合</h3>
+
+<p>MacでUSBメモリにイメージを書き込むためには、新規にツールをインストールする必要はありません。
+ただし、7zip圧縮ファイルを回答するには、The Unarchiver をApp Storeからインストールしてください。</p>
+
+<p>USBメモリをさすと、通常自動的にマウントされます。ターミナルを開いて、mountコマンドをうち確認します。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ mount
+/dev/disk1s1 on / (apfs, local, read-only, journaled)
+devfs on /dev (devfs, local, nobrowse)
+  : 中略
+/dev/disk3s1 on /Volumes/USB DISK (msdos, local, nodev, nosuid, noowners)
+$ 
+</code></pre></div></div>
+
+<p>USBメモリは <strong>/dev/disk3</strong> というデバイスで、
+<strong>/Volume/USB DISK</strong> というディレクトリにマウントされていることがわかります。</p>
+
+<p>イメージファイルを展開したディレクトリまで移動し、<strong>dd</strong> というコマンドで書き込みを行います。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ diskutil umount /Volumes/USB\ DISK/ 
+Volume USB DISK on disk3s1 unmounted
+$ sudo dd if=NEDO_USB_Image.img of=/dev/rdisk3 bs=256m
+Password:
+120+0 records in
+120+0 records out
+32212254720 bytes transferred in 1175.989032 secs (27391629 bytes/sec)
+$ 
+</code></pre></div></div>
+<p>一つずつ説明します。</p>
+<ol>
+  <li>diskutilコマンドでUSBメモリ (/Volume/USB DISKにマウントされている) をアンマウントする</li>
+  <li>ddコマンドを、入力(if)にイメージファイルを指定、出力(of)にUSBメモリデバイス /disk/rdisk3) を指定して起動
+    <ul>
+      <li>/dev/disk3ではなく、/dev/rdisk3とするのは、raw ディスクへの書き込みのほうが早いため</li>
+      <li>bs=256m はブロックサイズを256MBにする指定、ある程度大きくしておくとバッファリングされるので早く書き込める</li>
+    </ul>
+  </li>
+  <li>ddコマンド終了
+    <ul>
+      <li>終了すると書き込んだバイト数や時間などが表示され終了</li>
+    </ul>
+  </li>
+  <li>USBメモリ抜いたら、起動させるPCに挿し起動させてみる</li>
+</ol>
+
+<h2 id="起動準備">起動準備</h2>
+
+<p>次にUSBメモリで起動させるPCの設定を行います。</p>
+
+<h3 id="bios設定画面の起動">BIOS設定画面の起動</h3>
+
+<p>まず、PCの電源を一旦切り、USBメモリをPCに挿入してからPCを再起動してみてください。
+運よく、Linuxの起動画面が表示されたら、そのPCはUSBメモリからも起動するように設定さています。</p>
+
+<p>もし、PCを再起動してもいつも通りに起動するようであれば、BIOSの設定からUSBからも起動するように設定する必要があります。
+BIOS設定はPCによって様々ですが、以下では Panasonic Let’s Note を例にとって説明します。</p>
+
+<p>まず、電源投入直後に現れる画面で、以下のように <strong>“Press F2 for Setup”</strong> のようなメッセージが出ていないか確認します。
+Let’s Note では <strong>“F2”</strong> キーでBIOSセットアップ画面に入ることができます。</p>
+
+<p><img src="/assets/images/si2020/biossetup_01.png" width="800" align="center" /></p>
+
+<p>以下のような画面が現れたら、起動またはBootと表示されているメニューがないか探してください。
+この例では、<strong>起動</strong> メニューが上部に確認できます。</p>
+
+<p><img src="/assets/images/si2020/biossetup_02.png" width="800" align="center" /></p>
+
+<p>横矢印 <strong>→</strong> キーで <strong>起動</strong>メニューに移動します。
+画面に<strong>UEFI</strong>や<strong>UEFI起動</strong> といった項目がない確認してください。</p>
+
+<p><img src="/assets/images/si2020/biossetup_03.png" width="800" align="center" /></p>
+
+<p>USBメモリから起動するにはUEFIによる起動を有効にする必要があります。
+以下の例は、無効になっていたUEFI起動を有効にしているところです。
+このほかに、起動するデバイスの順序を設定するメニューもあると思います。
+そこで、普段起動しているハードディスクよりも、USBメモリまたは
+UEFIデバイスからの起動の優先度を上げてあげる必要があるかもしれません。</p>
+
+<p><img src="/assets/images/si2020/biossetup_04.png" width="800" align="center" /></p>
+
+<p>設定が終わったら終了メニューに移動します。
+たいてい、設定を保存時して再起動するメニューがあるので、それを選択し再起動します。
+再起動する前に、USBメモリを挿入しておいてください。</p>
+
+<p><img src="/assets/images/si2020/biossetup_05.png" width="800" align="center" /></p>
+
+<p>USBメモリから起動すると、以下のようなUbuntu Linuxの GRUBの起動画面が表示されます。
+メニューにはいくつか種類がありますが、Persistent と書かれている起動メニューは、
+起動後のOS上で行った作業をUSBに保存することができるモードですので、
+通常、講習会で利用する際にはこのモードを利用してください。</p>
+
+<p><a href="/assets/images/si2020/ubuntu_boot_01.png"><img src="/assets/images/si2020/ubuntu_boot_01.png" width="800" align="center" /></a></p>
+
+<p>起動すると、以下のようなROSとTorkのロゴのデスクトップ壁紙と、デスクトップ上にKHI duAroや
+THKのSeedNoid、富士ソフトのFSRoboおよびNEXTAGEのアイコンがデスクトップ上に確認できます。
+この画面が出たら、起動可能なUSBメモリの作成は成功です。お疲れさまでした。</p>
+
+<p><a href="/assets/images/si2020/ubuntu_boot_02.png"><img src="/assets/images/si2020/ubuntu_boot_02.png" width="800" align="center" /></a></p>
+
+<p>以上が、起動可能なUSBメモリの作成方法でした。</p>
+
+
+  </article>
+</section>
+
+    </main>
+    <!-- page footer -->
+    
+
+
+
+<footer class="page-footer">
+    <div class="page-footer-owner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pb-3 text-center">
+                    <!-- owner info -->
+                    <p class="m-0">
+                        Owned by
+                        
+                            <strong>NEDO</strong>
+                        
+                    </p>
+                    <p class="m-0 font-italic"></p>
+                    <p class="m-0"><i class="fas fa-map-marker-alt"></i><span class="pl-1"></span>
+                    </p>
+                </div>
+                <div class="col-md-8 text-center">
+                    <!-- Social media links -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Social: </li>
+                        
+                    </ul>
+                    <!-- website feed links -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Feed: </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer-copyright">
+        <div class="container text-center">
+            <!-- copyright info -->
+            <p>Copyright &copy; NEDO, 2023. Website theme <a href="https://github.com/manid2/lone-wolf-theme/">LWT</a> for <a href="https://jekyllrb.com/">Jekyll.</a>
+            </p>
+        </div>
+    </div>
+</footer>
+  </div>
+  <!-- site scripts start -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
+
+<script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+<!-- site scripts end -->
+
+</body>
+
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lone Wolf Theme | A simple bootstrap based jekyll theme.</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Lone Wolf Theme" />
+<meta name="author" content="mani_d2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A simple bootstrap based jekyll theme." />
+<meta property="og:description" content="A simple bootstrap based jekyll theme." />
+<meta property="og:site_name" content="Lone Wolf Theme" />
+<meta property="og:image" content="/assets/images/nedo-logo.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="/assets/images/nedo-logo.png" />
+<meta property="twitter:title" content="Lone Wolf Theme" />
+<meta name="twitter:site" content="@mani_d2" />
+<meta name="twitter:creator" content="@mani_d2" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"mani_d2"},"description":"A simple bootstrap based jekyll theme.","headline":"Lone Wolf Theme","image":"/assets/images/nedo-logo.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/nedo-logo.png"},"name":"mani_d2"},"url":"/tutorials/03_01_ai/README/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="alternate" type="application/rss+xml" title="Lone Wolf Theme"
+        href="/feed.xml">
+
+
+    <!-- styles start -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- styles end -->
+</head>
+
+
+<body>
+  <!-- page container -->
+  <div class="page-container">
+    <!-- page header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <nav class="container">
+    <!-- site home -->
+    <a class="navbar-brand" href="/">
+      <img src="/assets/images/nedo-logo.png" alt="Lone Wolf Theme logo" height="32" width="32">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <!-- TODO add theme version dropdown here --><li class="nav-item">
+          <a class="nav-link" href="/" >Home</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/project_overview/" >Project Overview</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/team/" >Team</a>
+        </li></ul>
+      
+    </div>
+  </nav>
+</header>
+
+    <!-- page content -->
+    <main class="page-content" role="main">
+      <section class="container">
+  <!--h1></h1-->
+  <article>
+    <h1 id="物体検出システム構築チュートリアル">物体検出システム構築チュートリアル</h1>
+
+<p>NEDO特別講座 画像処理・AI技術活用コースのチュートリアルとなります。</p>
+
+<h2 id="実行環境">実行環境</h2>
+
+<ul>
+  <li>OS: Ubuntu 18.04 LTS</li>
+  <li>ROS: Melodic</li>
+</ul>
+
+<h2 id="画像認識ai実行環境構築">画像認識AI実行環境構築</h2>
+
+<p>以下の手順を参照して画像認識AIの実行環境を構築する</p>
+<ul>
+  <li><a href="https://github.com/robo-marc/robo-marc.github.io/blob/master/tutorials/tutorial202102/sec/setup-object-detection-lib.md">setup-object-detection-lib.md</a></li>
+</ul>
+
+<h2 id="ros環境構築">ROS環境構築</h2>
+<h3 id="rosのインストール">ROSのインストール</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># リポジトリ登録
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" &gt; /etc/apt/sources.list.d/ros-latest.list'
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+
+# aptをアップデート
+sudo apt update
+sudo apt upgrade
+
+# ROSをインストール
+sudo apt install ros-melodic-desktop-full
+
+# rosdepのインストール
+sudo apt install python-rosdep
+sudo rosdep init
+rosdep update
+
+# 環境変数設定
+echo "source /opt/ros/melodic/setup.bash" &gt;&gt; ~/.bashrc
+source ~/.bashrc
+
+# パッケージインストーラーをインストール
+sudo apt install python-rosinstall python-catkin-tools
+
+# ワークスペースを作成
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+catkin init
+
+# ビルド
+catkin build
+source devel/setup.bash
+echo "source ~/catkin_ws/devel/setup.bash" &gt;&gt; ~/.bashrc
+</code></pre></div></div>
+
+<h2 id="物体検出システムを構築する">物体検出システムを構築する</h2>
+
+<h3 id="ノード構成">ノード構成</h3>
+<ul>
+  <li>uvc_camera_node : カメラから画像を取得する</li>
+  <li>web_video_server_node : システム内を流れるImage topicを表示する</li>
+  <li>preprocess_node : 画像の前処理を行う</li>
+  <li>object_detector_yolo_node : YOLOv4-tinyで物体検出をする</li>
+  <li>annotation_node : 物体検出の結果を画像に描画する</li>
+</ul>
+
+<h3 id="メッセージ定義">メッセージ定義</h3>
+<ul>
+  <li>ObjectDetectionResult : 物体検出結果のメッセージ。
+物体検出結果はカスタムメッセージを自分で定義する</li>
+</ul>
+
+<h3 id="uvc_camera_nodeとweb_video_serverをインストールする">uvc_camera_nodeとweb_video_serverをインストールする</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install ros-melodic-web-video-server
+sudo apt install ros-melodic-uvc-camera
+</code></pre></div></div>
+
+<h3 id="カスタムメッセージを定義する">カスタムメッセージを定義する</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/catkin_ws/src
+catkin_create_pkg object_detector_msg rospy roscpp std_msgs
+cd object_detector_msg
+mkdir msg
+</code></pre></div></div>
+
+<p>object_detector_msg/msgディレクトリに以下のファイルを格納します。</p>
+<ul>
+  <li>DetectedObject.msg</li>
+  <li>ObjectDetectionResult.msg</li>
+</ul>
+
+<p>CMakeLists.txtを編集する</p>
+<ul>
+  <li>object_detector_msg/CMakeLists.txt
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find_package(catkin REQUIRED COMPONENTS
+roscpp
+rospy
+std_msgs
+message_generation
+)
+...
+add_message_files(
+FILES
+DetectedObject.msg
+ObjectDetectionResult.msg
+)
+...
+generate_messages(
+DEPENDENCIES
+std_msgs
+)
+...
+catkin_package(
+#  INCLUDE_DIRS include
+#  LIBRARIES object_detector_msg
+CATKIN_DEPENDS roscpp rospy std_msgs
+#  DEPENDS system_lib
+)
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>package.xmlを編集する</p>
+<ul>
+  <li>object_detector_msg/package.xml
+```
+    <h1 id="以下の二つを追記する">以下の二つを追記する</h1>
+  </li>
+</ul>
+<build_depend>message_generation</build_depend>
+<exec_depend>message_runtime</exec_depend>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ビルドする
+</code></pre></div></div>
+<p>catkin build
+. ~/catkin_ws/devel/setup.bash
+rosmsg show object_detector_msg/DetectedObject
+rosmsg show object_detector_msg/ObjectDetectionResult</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+### 物体検出パッケージを作成する
+</code></pre></div></div>
+<p>cd ~/catkin_ws/src
+catkin_create_pkg object_detector rospy roscpp std_msgs</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+YOLOの実装であるpytorch-YOLOv4をlibに配置する
+</code></pre></div></div>
+<p>cd ~/catkin_ws/src/object_detector
+mkdir lib
+cd lib
+git clone https://github.com/Tianxiaomo/pytorch-YOLOv4</p>
+<h1 id="重みをダウンロード">重みをダウンロード</h1>
+<p>mkdir weight
+cd weight
+wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ノードとlaunchファイルを配置する
+* object_detector/script/object_detector_yolo.py
+* object_detector/script/preprocess.py
+* object_detector/script/annotation.py
+* object_detector/launch/object_detector_yolo.launch
+
+CMakeList.txtを編集する
+* object_detector/CMakeLists.txt
+</code></pre></div></div>
+<p>find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+  object_detector_msg
+)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+package.xmlを編集する
+* object_detector/package.xml
+</code></pre></div></div>
+<buildtool_depend>object_detector_msg</buildtool_depend>
+<exec_depend>object_detector_msg</exec_depend>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+実行する
+</code></pre></div></div>
+<h1 id="pythonpathにyoloの実装へのパスを追加する">PYTHONPATHにYOLOの実装へのパスを追加する</h1>
+<p>export PYTHONPATH=~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4:$PYTHONPATH</p>
+
+<h1 id="各ノードに実行権限を設定する">各ノードに実行権限を設定する</h1>
+<p>cd ~/catkin_ws/src/object_detector/scripts
+chmod +x object_detector_yolo.py
+chmod +x preprocess.py
+chmod +x annotation.py</p>
+
+<h1 id="rospkgをインストールする">rospkgをインストールする</h1>
+<p>pip3 install rospkg</p>
+
+<p>catkin build
+source ~/catkin_ws/devel/setup.bash
+roslaunch object_detector object_detector_yolo.launch</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```localhost:8080```にブラウザでアクセスすることで、物体検出の結果を確認することができます。
+
+## 物体検出モデルをSSDに入れ替える
+ノードとlaunchファイルを配置配置する
+* object_detector/scripts/object_detector_ssd.py
+* object_detector/launch/object_detector_ssd.launch
+
+SSDの実装であるSSDをlibに配置する
+</code></pre></div></div>
+<p>cd ~/catkin_ws/src/object_detector/lib
+git clone https://github.com/lufficc/SSD
+cd SSD
+mkdir weight
+cd weight
+wget https://github.com/lufficc/SSD/releases/download/1.2/mobilenet_v2_ssd320_voc0712_v2.pth</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+実行する
+</code></pre></div></div>
+<h1 id="pythonpathにssdの実装へのパスを追加する">PYTHONPATHにSSDの実装へのパスを追加する</h1>
+<p>export PYTHONPATH=~/catkin_ws/src/object_detector/lib/SSD:$PYTHONPATH</p>
+
+<h1 id="launchファイルを実行する">launchファイルを実行する</h1>
+<p>roslaunch object_detector object_detector_ssd.launch</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+YOLOの時と同様に```localhost:8080```にブラウザでアクセスすることで、物体検出の結果を確認することができます。
+
+## 物体追跡機能を追加する
+
+物体追跡のライブラリをインストールする
+</code></pre></div></div>
+<p>pip3 install norfair</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ノードとlaunchファイルを配置する
+* object_detector/scripts/object_tracking.py
+* object_detector/launch/object_tracking.launch
+
+実行する
+</code></pre></div></div>
+<h1 id="pythonpathにyoloの実装へのパスを追加する-1">PYTHONPATHにYOLOの実装へのパスを追加する</h1>
+<p>export PYTHONPATH=~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4:$PYTHONPATH</p>
+
+<h1 id="launchファイルを実行">launchファイルを実行</h1>
+<p>roslaunch object_detector object_tracking.launch
+```</p>
+
+<p><code class="language-plaintext highlighter-rouge">localhost:8080</code>にブラウザでアクセスすることで、物体検出の結果を確認することができます。</p>
+
+  </article>
+</section>
+
+    </main>
+    <!-- page footer -->
+    
+
+
+
+<footer class="page-footer">
+    <div class="page-footer-owner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pb-3 text-center">
+                    <!-- owner info -->
+                    <p class="m-0">
+                        Owned by
+                        
+                            <strong>NEDO</strong>
+                        
+                    </p>
+                    <p class="m-0 font-italic"></p>
+                    <p class="m-0"><i class="fas fa-map-marker-alt"></i><span class="pl-1"></span>
+                    </p>
+                </div>
+                <div class="col-md-8 text-center">
+                    <!-- Social media links -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Social: </li>
+                        
+                    </ul>
+                    <!-- website feed links -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Feed: </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer-copyright">
+        <div class="container text-center">
+            <!-- copyright info -->
+            <p>Copyright &copy; NEDO, 2023. Website theme <a href="https://github.com/manid2/lone-wolf-theme/">LWT</a> for <a href="https://jekyllrb.com/">Jekyll.</a>
+            </p>
+        </div>
+    </div>
+</footer>
+  </div>
+  <!-- site scripts start -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
+
+<script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+<!-- site scripts end -->
+
+</body>
+
+</html>

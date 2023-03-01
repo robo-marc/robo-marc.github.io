@@ -1,0 +1,12 @@
+<launch>
+  <node name="uvc_camera_node" pkg="uvc_camera" type="uvc_camera_node" />
+  <node name="web_video_server_node" pkg="web_video_server" type="web_video_server" />
+  <node name="preprocess_node" pkg="object_detector" type="preprocess.py" />
+  <node name="object_detector_yolo_node" pkg="object_detector" type="object_detector_yolo.py">
+      <param name="model_path" value="~/catkin_ws/src/object_detector/lib/pytorch-YOLOv4/" />
+  </node>
+  <node name="object_tracking_node" pkg="object_detector" type="object_tracking.py" />
+  <node name="annotation_node" pkg="object_detector" type="annotation.py">
+      <remap from="object_detection_result" to="object_tracking_result" />
+  </node>
+</launch>

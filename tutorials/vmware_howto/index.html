@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lone Wolf Theme | A simple bootstrap based jekyll theme.</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Lone Wolf Theme" />
+<meta name="author" content="mani_d2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A simple bootstrap based jekyll theme." />
+<meta property="og:description" content="A simple bootstrap based jekyll theme." />
+<meta property="og:site_name" content="Lone Wolf Theme" />
+<meta property="og:image" content="/assets/images/nedo-logo.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="/assets/images/nedo-logo.png" />
+<meta property="twitter:title" content="Lone Wolf Theme" />
+<meta name="twitter:site" content="@mani_d2" />
+<meta name="twitter:creator" content="@mani_d2" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"mani_d2"},"description":"A simple bootstrap based jekyll theme.","headline":"Lone Wolf Theme","image":"/assets/images/nedo-logo.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/nedo-logo.png"},"name":"mani_d2"},"url":"/tutorials/vmware_howto/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="alternate" type="application/rss+xml" title="Lone Wolf Theme"
+        href="/feed.xml">
+
+
+    <!-- styles start -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- styles end -->
+</head>
+
+
+<body>
+  <!-- page container -->
+  <div class="page-container">
+    <!-- page header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <nav class="container">
+    <!-- site home -->
+    <a class="navbar-brand" href="/">
+      <img src="/assets/images/nedo-logo.png" alt="Lone Wolf Theme logo" height="32" width="32">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <!-- TODO add theme version dropdown here --><li class="nav-item">
+          <a class="nav-link" href="/" >Home</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/project_overview/" >Project Overview</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/team/" >Team</a>
+        </li></ul>
+      
+    </div>
+  </nav>
+</header>
+
+    <!-- page content -->
+    <main class="page-content" role="main">
+      <section class="container">
+  <!--h1></h1-->
+  <article>
+    <h1 id="vmware-による-nedo-rosイメージの起動">VMware による NEDO ROSイメージの起動</h1>
+
+<p>NEDO特別講座で提供している起動可能なROS入りUbuntu LinuxのISOイメージ
+(NEDO ROSイメージと呼びます) は、DVD-Rなどに書き込んでLive DVD (HDDに
+インストールせずに利用する形態のDVD)として利用するものですが、仮想マ
+シンを利用することで、WindowsやMac上でUbuntu Linuxを起動することがで
+きます。講習会では、TV会議システムを利用しますので、TV会議システムは
+Windows上で動作させたまま、仮想マシン上でROS入りUbuntu Linuxを動作さ
+せることをお勧めします。</p>
+
+<!-- TOC -->
+
+<ul>
+  <li><a href="#1-vmware-workstation-player">1. VMware Workstation Player</a>
+    <ul>
+      <li><a href="#11-vmware-workstation-player-%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">1.1. VMware Workstation Player のダウンロード</a></li>
+      <li><a href="#12-vmware-workstation-player-%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB">1.2. VMware Workstation Player のインストール</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-iso%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%A8%E7%A2%BA%E8%AA%8D">2. ISOイメージのダウンロードと確認</a>
+    <ul>
+      <li><a href="#21-iso%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">2.1. ISOイメージのダウンロード</a></li>
+      <li><a href="#22-md5-sum-%E3%81%AE%E7%A2%BA%E8%AA%8D%E3%81%AE%E4%BB%95%E6%96%B9">2.2. MD5 SUM の確認の仕方</a></li>
+    </ul>
+  </li>
+  <li><a href="#3-vmware%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E8%B5%B7%E5%8B%95%E7%A2%BA%E8%AA%8D">3. VMware仮想マシンの作成と起動確認</a>
+    <ul>
+      <li><a href="#31-vmware-%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E3%81%AE%E4%BD%9C%E6%88%90-hdd%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88">3.1. VMware 仮想マシンの作成 HDDにインストールしない場合</a>
+        <ul>
+          <li><a href="#311-nedo-ros%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E8%B5%B7%E5%8B%95">3.1.1. NEDO ROSイメージの起動</a></li>
+        </ul>
+      </li>
+      <li><a href="#32-vmware-%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E3%81%AE%E4%BD%9C%E6%88%90-hdd%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88">3.2. VMware 仮想マシンの作成 HDDにインストールする場合</a>
+        <ul>
+          <li><a href="#321-nedo-ros%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E8%B5%B7%E5%8B%95">3.2.1. NEDO ROSイメージの起動</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#4-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0">4. その他の仮想マシンプラットフォーム</a>
+    <ul>
+      <li><a href="#41-virtualbox">4.1. VirtualBox</a></li>
+      <li><a href="#42-parallels-desktop">4.2. Parallels Desktop</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!-- /TOC -->
+
+<h2 id="1-vmware-workstation-player">1. VMware Workstation Player</h2>
+
+<p>VMware Workstation Player (以下VMware Playerと略します) は、VMware社
+から販売されている仮想化ソフトウェアの一つです。VMware Playerは、非
+商用利用に限って無償で利用することができます。Windows上でROSがインス
+トールされたNEDO ROSイメージを起動する方法としては一番おすすめの方法で
+す。以下では、VMware PlayerをWindows PCにインストールして、VMware
+Player上でNEDO ROSイメージを起動する方法を説明します。なお、すでに
+VMwareをお持ちの場合は、改めてVMware Playerをダウンロード・インス
+トールする必要はありません。有償のVMware Workstationを代わりに利用す
+ることができます。</p>
+
+<h3 id="11-vmware-workstation-player-のダウンロード">1.1. VMware Workstation Player のダウンロード</h3>
+
+<p>WMware Workstation Playerは以下のページからダウンロードできます。
+Windows用とLinux用があります。</p>
+
+<ul>
+  <li><a href="https://www.vmware.com/jp/products/workstation-player.html">VMware Workstation Playerのダウンロード</a></li>
+</ul>
+
+<p><br /></p>
+<div align="center">
+<a href="https://www.vmware.com/jp/products/workstation-player.html">
+<img src="figs/vmware_download17.png" width="800" />
+</a>
+</div>
+<div style="text-align: center;">クリックするとダウンロードページに飛びます</div>
+<p><br /></p>
+
+<p>左上の「無償ダウンロード」ボタンを押すと以下のページに飛びます。</p>
+
+<p><br /></p>
+<div align="center">
+<a href="https://customerconnect.vmware.com/jp/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/16_0">
+<img src="figs/vmware_download_page.png" width="800" />
+</a>
+</div>
+<div style="text-align: center;">クリックするとダウンロードページに飛びます</div>
+<p><br /></p>
+
+<p>ここからVMware Workstation Player をダウンロードしてください。
+2023年2月現在のバージョンは 16.2.5 です。</p>
+
+<h3 id="12-vmware-workstation-player-のインストール">1.2. VMware Workstation Player のインストール</h3>
+
+<p>Windowsでのインストール方法を説明します。ダウンロードしたインストー
+ラを起動すると、以下のような画面が現れてインストールが開始されます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_installler.png" /></div>
+<p><br /></p>
+
+<p>特に注意する点はなく、指示通りに進めるとインストールは完了します。</p>
+
+<h2 id="2-isoイメージのダウンロードと確認">2. ISOイメージのダウンロードと確認</h2>
+
+<h3 id="21-isoイメージのダウンロード">2.1. ISOイメージのダウンロード</h3>
+
+<p>次に、以下のURLからNEDO ROSイメージのISOイメージをダウンロードします。</p>
+
+<!--
+- [ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso](https://openrtm.org/pub/NEDO_tutorial/ubuntu-18.04.5-nedo_marc-v2-desktop-amd64.iso)
+  - ファイルサイズ: 4.74 GB (5,092,319,232 バイト)
+  - MD5 SUM: 383e48206736f81e7142473d564e3bee
+-->
+
+<ul>
+  <li><a href="https://openrtm.org/pub/NEDO_tutorial/ubuntu-18.04.6-nedo-desktop-amd64_mycobot.iso">ubuntu-18.04.6-nedo-desktop-amd64_mycobot.iso</a>
+    <ul>
+      <li>ファイルサイズ: 約5GB (5,000,970,240 バイト)</li>
+      <li>MD5 SUM: 9c6ac7710109c1bfc6bc4bc214ff7b68</li>
+    </ul>
+  </li>
+</ul>
+
+<p>ダウンロード後、ファイルサイズが上記と同じになっているか確認してみて
+ください。ファイルサイズが同じであればたいていの場合は問題なくダウン
+ロードできています。上記のMD5 SUMというのはファイルのハッシュ値で
+す。もし、VMwareでうまく起動できない場合は、次の方法でファイルが正し
+くダウンロードできているか確認することもできます。</p>
+
+<h3 id="22-md5-sum-の確認の仕方">2.2. MD5 SUM の確認の仕方</h3>
+
+<p>サイズが大きいファイルをダウンロードした場合、まれにファイルが破損してい
+る場合があります。もし、うまく起動しない場合は、以下の方法でファイルに誤
+りがないかご確認ください。</p>
+
+<p>Windowsの場合は、エクスプローラーでISOファイルをダウンロードしたフォ
+ルダを開きます。エクスプローラのアドレスバーに <strong>cmd</strong> と入力して
+Enterを押してください。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/open_cmd.png" width="640" border="1" /></div>
+<p><br /></p>
+
+<p>そうすると、そのフォルダの位置でコマンドプロンプトが開きます。次に、
+以下のコマンドを入力します。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:\temp&gt;certutil -hashfile ubuntu-18.04.6-nedo-desktop-amd64_mycobot.iso MD5
+</code></pre></div></div>
+<p>MD5 SUMを計算するのには数分程度時間がかかります。しばらくすると、
+以下のような表示とともに、MD5 SUMが出力されます。</p>
+
+<p><br /></p>
+<div align="center">
+<a href="figs/md5_cmd.png"><img src="figs/md5_cmd.png" width="640" /></a>
+</div>
+<div style="text-align: center;">クリックすると拡大します</div>
+<p><br /></p>
+
+<p>出力されたMD5 SUMの値が、上記の値と同じか確認してください。MD5 SUMの
+値が異なる場合は、ファイルが壊れていますので破棄して再度ダウンロード
+してください。</p>
+
+<h2 id="3-vmware仮想マシンの作成と起動確認">3. VMware仮想マシンの作成と起動確認</h2>
+
+<p>ダウンロードしたISOイメージは、Live CDになっていますので、HDDにインス
+トールせずに使用することもできます。あるいは、HDDにインストールして、恒
+久的に使用することもできます。HDDにインストールした方が起動スピードなど
+は若干速くなります。</p>
+
+<p>ここでは、HDDにインストールしない場合を説明します。HDDにインストールする
+場合は、<a href="#32-vmware-%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E3%81%AE%E4%BD%9C%E6%88%90-hdd%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88">次の節</a>に飛んでください。</p>
+
+<h3 id="31-vmware-仮想マシンの作成-hddにインストールしない場合">3.1. VMware 仮想マシンの作成 (HDDにインストールしない場合)</h3>
+
+<p>VMware Player を起動します。スタートメニューから VMware Workstation 16
+Playerを起動するか、スタートメニュー横の検索窓で vmware などと入力する
+と、候補に VMware Workstation 16 Playerが現れますので、クリックして起動
+します。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_starting_vm.png" width="640" /></div>
+<p><br /></p>
+
+<p>以下のようなVMwareの画面が出ますので、右側の <strong>「新規仮想マシンの作成(N)」</strong>
+をクリックして、新規の仮想マシンを作成します。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_opened.png" width="495" /></div>
+<p><br /></p>
+
+<p>新規仮想マシン作成ウィザードが表示されますので、<strong>あとでOSをインストール</strong> をチェックし次に進みます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_install_later.png" width="495" /></div>
+<p><br /></p>
+
+<p>ゲストOSに <strong>Linux</strong>、バージョンに <strong>Ubuntu 64ビット</strong> が選択されていることを確認して次に進みます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_select_linux.png" width="495" /></div>
+<p><br /></p>
+
+<p><strong>「次に」</strong> ボタンをクリックすると、以下のように仮想ディスクサイズ
+を尋ねてきます。今回はLive CDイメージを利用するので、ディスクは使用
+しませんが、デフォルトのままにして次に進みます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_disksize.png" width="495" /></div>
+<p><br /></p>
+
+<p><strong>「次に」</strong> ボタンをクリックすると、以下のように準備完了と表示され
+ますが、ここで、ハードウェアを少しカスタマイズしておきます。
+<strong>「ハードウェアをカスタマイズ(C)…」</strong> をクリックします。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_finish.png" width="495" /></div>
+<p><br /></p>
+
+<p>すると、以下のように仮想マシンをカスタマイズする画面が表示されます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_customize.png" width="819" /></div>
+<p><br /></p>
+
+<p>ここで、メモリを可能であれば 4GB 程度に増やしておきます。ホスト側 (今
+使っている)PCのメモリに余裕があれば(16GB以上)、8GBに増やしてもよいで
+しょう。逆に、ホスト側のメモリに余裕がない(4GBしか装着していないな
+ど)場合は、2GBのままにしておいてください。ただ、この場合、VMwareの動
+作が遅くなる可能性がありますので、できるだけスペックに余裕のあるPCを
+使った方がよいでしょう。</p>
+
+<h4 id="311-nedo-rosイメージの起動">3.1.1. NEDO ROSイメージの起動</h4>
+
+<p>設定を保存し、新規仮想マシン作成ウィザードの完了ボタンを押すと、一旦以下
+のメニュー画面が表示されます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_ready.png" width="642" /></div>
+<p><br /></p>
+
+<p>ここで、左のメニューから先ほど作成した仮想マシンを選択し、右下の <strong>「仮想マシン設定の編集(D)」</strong> をクリックします。</p>
+
+<p>仮想マシン設定画面で、<strong>CD/DVD(SATA)</strong> を選択、<strong>ISOイメージファイルを使
+用する(M)</strong> を選択、<strong>参照(B)…</strong> ボタンをおして、先ほどダウンロードし
+たISOイメージを選択します。OKを押して、メインメニュー画面に戻ります。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_set_isoimage.png" width="642" /></div>
+<p><br /></p>
+
+<p>仮想マシンの起動を押すと、仮想マシンが起動します。順に以下のような画
+面が表示されます。起動には多少時間がかかりますので待ちます。途中
+Vmware Toolsのインストールを促されますが、無視してください。(「通
+知しない」ボタンをクリック)</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot0.png" width="642" /></div>
+<p><br /></p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot1.png" width="642" /></div>
+<p><br /></p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot2.png" width="642" /></div>
+<p><br /></p>
+
+<p>最終的に以下のような画面が表示されます。
+左側のリストの下の方に <strong>「日本語」</strong> がありますので、
+選択し、<strong>「Ubuntuを試す」</strong> をクリックしてください。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot3.png" width="642" /></div>
+<p><br /></p>
+
+<p>その後、<strong>Ubuntuへようこそ</strong> という画面が表示されますので、
+上部メニューの <strong>Ubuntuへようこそ</strong> から <strong>終了</strong> を選択します。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot4.png" width="642" /></div>
+<p><br /></p>
+
+<p>以下のUbuntu のデスクトップ画面が表示されたら準備完了です。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot5.png" width="642" /></div>
+<p><br /></p>
+
+<h3 id="32-vmware-仮想マシンの作成-hddにインストールする場合">3.2. VMware 仮想マシンの作成 (HDDにインストールする場合)</h3>
+
+<p>VMware Player を起動します。スタートメニューから VMware Workstation 16
+Playerを起動するか、スタートメニュー横の検索窓で vmware などと入力する
+と、候補に VMware Workstation 16 Playerが現れますので、クリックして起動
+します。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_starting_vm.png" width="640" /></div>
+<p><br /></p>
+
+<p>以下のようなVMwareの画面が出ますので、右側の <strong>「新規仮想マシンの作成(N)」</strong>
+をクリックして、新規の仮想マシンを作成します。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_opened.png" width="495" /></div>
+<p><br /></p>
+
+<ul>
+  <li><strong>インストーラディスクイメージファイル(M)(iso):</strong> をクリックし</li>
+  <li><strong>「参照(R)」</strong> ボタンをクリックし、先ほどダウンロードした iso イメージファイルを選択します。</li>
+</ul>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_select_iso.png" width="495" /></div>
+<p><br /></p>
+
+<p>すると以下のような画面になります。</p>
+
+<ul>
+  <li>フルネーム: tork</li>
+  <li>ユーザー名: tork</li>
+  <li>パスワード: password</li>
+  <li>確認: password</li>
+</ul>
+
+<p>と入力して次に進みます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_personalize.png" width="495" /></div>
+<p><br /></p>
+
+<p><strong>「次に」</strong> ボタンをクリックし、仮想マシン名を付けます。マシン名は
+何でも結構ですが、ここでは、 <strong>“NEDO講座ROSイメージ”</strong>という名前にして
+おきます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_vmname.png" width="495" /></div>
+<p><br /></p>
+
+<p><strong>「次に」</strong> ボタンをクリックすると、以下のように仮想ディスクサイズ
+を尋ねてきます。今回はLive CDイメージを利用するので、ディスクは使用
+しませんが、デフォルトのままにして次に進みます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_disksize.png" width="495" /></div>
+<p><br /></p>
+
+<p><strong>「次に」</strong> ボタンをクリックすると、以下のように準備完了と表示され
+ますが、ここで、ハードウェアを少しカスタマイズしておきます。
+<strong>「ハードウェアをカスタマイズ(C)…」</strong> をクリックします。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_finish.png" width="495" /></div>
+<p><br /></p>
+
+<p>すると、以下のように仮想マシンをカスタマイズする画面が表示されます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_customize.png" width="819" /></div>
+<p><br /></p>
+
+<p>ここで、メモリを可能であれば 4GB 程度に増やしておきます。ホスト側 (今
+使っている)PCのメモリに余裕があれば(16GB以上)、8GBに増やしてもよいで
+しょう。逆に、ホスト側のメモリに余裕がない(4GBしか装着していないな
+ど)場合は、2GBのままにしておいてください。ただ、この場合、VMwareの動
+作が遅くなる可能性がありますので、できるだけスペックに余裕のあるPCを
+使った方がよいでしょう。</p>
+
+<p>次に進むと、以下のようなインストール画面が表示されインストールが開始されます。</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_installing.png" width="819" /></div>
+<p><br /></p>
+
+<p>インストールにはしばらく時間がかかります。インストール終了後は、再起動してOSが起動することを確認してください。</p>
+
+<h4 id="321-nedo-rosイメージの起動">3.2.1. NEDO ROSイメージの起動</h4>
+
+<p>仮想マシンの起動を押すと、仮想マシンが起動します。順に以下のような画
+面が表示されます。起動には多少時間がかかりますので待ちます。途中
+Vmware Toolsのインストールを促されますが、無視してください。(「通
+知しない」ボタンをクリック)</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot0.png" width="642" /></div>
+<p><br /></p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot1.png" width="642" /></div>
+<p><br /></p>
+
+<p>最終的に以下のような画面が表示されます。以下のUbuntu のデスクトップ画面が表示されたら準備完了です。（メニューは英語かもしれません。）</p>
+
+<p><br /></p>
+<div align="center"><img src="figs/vmware_boot5.png" width="642" /></div>
+<p><br /></p>
+
+<h2 id="4-その他の仮想マシンプラットフォーム">4. その他の仮想マシンプラットフォーム</h2>
+
+<p>VMware の代わりに利用できる仮想マシンプラットフォームを紹介します。
+これらの仮想マシンプラットフォームを利用してもISOイメージを起動して
+講習会にて利用することができます。</p>
+
+<p>利用の仕方は上述のVMwareとほぼ同じで、</p>
+
+<ol>
+  <li>仮想マシンプラットフォームダウンロード</li>
+  <li>仮想マシンプラットフォームインストール</li>
+  <li>ISOイメージダウンロード</li>
+  <li>仮想マシンを新規に1つ作成</li>
+  <li>仮想マシンのCDドライブにISOファイルを割り当て</li>
+  <li>起動して利用</li>
+</ol>
+
+<p>という手順となりますので、適宜それぞれの環境で読み替えて行ってみてください。</p>
+
+<h3 id="41-virtualbox">4.1. VirtualBox</h3>
+
+<p>VirtalBoxはOracleが無償で公開している仮想マシンプラットフォームです。
+Windowsだけでなく、MacOS、Linuxの様々なディストリビューション等、
+多くの環境で動作させることができます。</p>
+
+<ul>
+  <li><a href="https://www.oracle.com/jp/virtualization/technologies/vm/downloads/virtualbox-downloads.html">VirtualBoxダウンロード</a></li>
+</ul>
+
+<p>VirtualBoxはMacOS上でも動作しますが、こちらで試した結果、ISOイメージ
+を起動してもかなり動作が重く、操作に支障があるレベルでした。マシンス
+ペックによってはスムーズに動作する可能性がありますが、その場合は、次
+のParallels Desktopの14日間のトライアル版を利用することをお勧めしま
+す。</p>
+
+<h3 id="42-parallels-desktop">4.2. Parallels Desktop</h3>
+
+<p>Parallels Desktopは Parallels社が販売しているMacOS専用の仮想マシンプ
+ラットフォームです。Parallelsには14日間の無償トライアルプログラムが
+用意されているので、講習会のために一次的に利用することができます。</p>
+
+<ul>
+  <li><a href="https://www.parallels.com/jp/products/desktop/trial/">Parallelsダウンロード</a></li>
+</ul>
+
+<p>なお、Apple M1チップを搭載したMacBook Pro, MacBook Air, Mac miniでは
+動作しませんのでご注意ください。</p>
+
+  </article>
+</section>
+
+    </main>
+    <!-- page footer -->
+    
+
+
+
+<footer class="page-footer">
+    <div class="page-footer-owner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pb-3 text-center">
+                    <!-- owner info -->
+                    <p class="m-0">
+                        Owned by
+                        
+                            <strong>NEDO</strong>
+                        
+                    </p>
+                    <p class="m-0 font-italic"></p>
+                    <p class="m-0"><i class="fas fa-map-marker-alt"></i><span class="pl-1"></span>
+                    </p>
+                </div>
+                <div class="col-md-8 text-center">
+                    <!-- Social media links -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Social: </li>
+                        
+                    </ul>
+                    <!-- website feed links -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Feed: </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer-copyright">
+        <div class="container text-center">
+            <!-- copyright info -->
+            <p>Copyright &copy; NEDO, 2023. Website theme <a href="https://github.com/manid2/lone-wolf-theme/">LWT</a> for <a href="https://jekyllrb.com/">Jekyll.</a>
+            </p>
+        </div>
+    </div>
+</footer>
+  </div>
+  <!-- site scripts start -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
+
+<script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+<!-- site scripts end -->
+
+</body>
+
+</html>

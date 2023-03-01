@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en_US" /><updated>2023-03-01T04:05:48+00:00</updated><id>/feed.xml</id><title type="html">Lone Wolf Theme</title><subtitle>A simple bootstrap based jekyll theme.</subtitle><author><name>mani_d2</name></author><entry><title type="html">【5月1日】NEDO特別講座 シンポジウム 2022 コンテンツ公開</title><link href="/nedo/symposium-update/" rel="alternate" type="text/html" title="【5月1日】NEDO特別講座 シンポジウム 2022 コンテンツ公開" /><published>2022-05-01T00:00:00+00:00</published><updated>2022-05-01T00:00:00+00:00</updated><id>/nedo/symposium-update</id><content type="html" xml:base="/nedo/symposium-update/"><![CDATA[<p><a href="/symposium2022/">【5月1日】NEDO特別講座 シンポジウム 2022 に講演を2件追加しました</a></p>
+
+<p>ロボット革命・産業IoTイニシアティブ協議会(RRI)・調査検討委員会、およびNEDO特別講座で議論・作成されたガイドラインを紹介するオンラインシンポジウムを開始しました。</p>
+
+<p>この度、以下の2つの講演を追加しました。</p>
+
+<h4 id="ros2ハードウェアipとrosサポート提供">ROS2ハードウェアIPとROSサポート提供</h4>
+<p>(株)アックスによる、ROS2プロトコルのハードウェア化事例紹介、および企業がOSS利用する際に課題となる様々なサポートサービスの提供に関するご紹介。</p>
+
+<h4 id="oss活用のためのライセンス解説">OSS活用のためのライセンス解説</h4>
+<p>OSS活用のためのライセンス解説コースオープンソースのライセンスの取り扱いについて、ロボットシステムに特有の事情を考慮した解説。</p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[【5月1日】NEDO特別講座 シンポジウム 2022 に講演を2件追加しました]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">【5月20日】NEDO特別講座「ロボット共通ソフトウェア技術講座」コース追加（2件）</title><link href="/nedo/tutorial-update/" rel="alternate" type="text/html" title="【5月20日】NEDO特別講座「ロボット共通ソフトウェア技術講座」コース追加（2件）" /><published>2021-05-20T00:00:00+00:00</published><updated>2021-05-20T00:00:00+00:00</updated><id>/nedo/tutorial-update</id><content type="html" xml:base="/nedo/tutorial-update/"><![CDATA[<p><a href="/tutorials/">【5月20日】NEDO特別講座「ロボット共通ソフトウェア技術講座」にコースを2件追加しました</a></p>
+
+<p>3月末から配信中のNEDO特別講座「ロボット共通ソフトウェア技術講座」には、多くのお申込み、ご視聴を頂いております。
+この度、以下の2つのコースを新規に追加しました。</p>
+
+<h4 id="ros入門講座">ROS入門講座</h4>
+<p>主に「ROSとは何か？」に注目し、技術的な側面ではなく、ROSを活用するために必要な背景知識の獲得を目標とした内容となっております。</p>
+
+<h4 id="moveit体験コース">MoveIt!体験コース</h4>
+<p>NEDO「ロボット活用型市場化技術開発プロジェクト（市場化プロジェクト）」(2017－2019年度)において開発された，ロボット共通ソフトウェアのUSB実行環境を活用して，いくつかのタイプのロボットアームをMoveIt!を用いて制御し，何らかの作業を行うロボットシステムとしてインテグレーションする方法について学ぶことができます．</p>
+
+<h3 id="開催概要">開催概要</h3>
+<ul>
+  <li>お申し込み
+    <ul>
+      <li>コースの詳細およびお申込みは<a href="/tutorials/">こちらのWebページ</a>をご参照ください。</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[【5月20日】NEDO特別講座「ロボット共通ソフトウェア技術講座」にコースを2件追加しました]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">【3月26日】NEDO特別講座「ロボット共通ソフトウェア技術講座」を開講しました</title><link href="/nedo/nedo-tutorial/" rel="alternate" type="text/html" title="【3月26日】NEDO特別講座「ロボット共通ソフトウェア技術講座」を開講しました" /><published>2021-03-06T00:00:00+00:00</published><updated>2021-03-06T00:00:00+00:00</updated><id>/nedo/nedo-tutorial</id><content type="html" xml:base="/nedo/nedo-tutorial/"><![CDATA[<p><a href="/tutorials/">【3月26日】NEDO特別講座「ロボット共通ソフトウェア技術講座」を開講しました</a></p>
+
+<p>NEDO特別講座が提供する「ロボット共通ソフトウェア技術講座」のオンデマンド配信を開始いたしました。</p>
+
+<h3 id="開催概要">開催概要</h3>
+<ul>
+  <li>お申し込み
+    <ul>
+      <li>コースの詳細およびお申込みは<a href="/tutorials/">こちらのWebページ</a>をご参照ください。</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="プログラム概要">プログラム概要</h3>
+<p>今回公開するコースのプログラムは以下のとおりです。
+それぞれ完結しており、必要なコースのみ受講可能です。</p>
+
+<ul>
+  <li>ロボット共通ソフトウェア技術　基礎編
+    <ul>
+      <li>体験コース</li>
+      <li>OSS活用のためのライセンス解説コース</li>
+    </ul>
+  </li>
+  <li>市場化プロジェクト成果活用コース
+    <ul>
+      <li>移動プラットフォーム＋モバイルマニピュレーションコース</li>
+      <li>3Dビジョンセンサ「YCAM3D」とロボットビジョンプラットフォーム</li>
+    </ul>
+  </li>
+  <li>ROS応用コース
+    <ul>
+      <li>画像処理・AI技術活用コース</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[【3月26日】NEDO特別講座「ロボット共通ソフトウェア技術講座」を開講しました]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">【2月8日】NEDO特別講座キックオフシンポジウムビデオ講演を一般公開いたしました</title><link href="/nedo/nedo-symposium202101-open/" rel="alternate" type="text/html" title="【2月8日】NEDO特別講座キックオフシンポジウムビデオ講演を一般公開いたしました" /><published>2021-02-08T00:00:05+00:00</published><updated>2021-02-08T00:00:05+00:00</updated><id>/nedo/nedo-symposium202101-open</id><content type="html" xml:base="/nedo/nedo-symposium202101-open/"><![CDATA[<p><a href="/symposium2021">NEDO特別講座キックオフシンポジウム</a>ビデオ講演を一般公開致しました。</p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[NEDO特別講座キックオフシンポジウムビデオ講演を一般公開致しました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">【1月29日】NEDO特別講座キックオフシンポジウをオンライン・オンデマンド方式で開催</title><link href="/nedo/nedo-symposium202101-online/" rel="alternate" type="text/html" title="【1月29日】NEDO特別講座キックオフシンポジウをオンライン・オンデマンド方式で開催" /><published>2021-01-29T00:00:05+00:00</published><updated>2021-01-29T00:00:05+00:00</updated><id>/nedo/nedo-symposium202101-online</id><content type="html" xml:base="/nedo/nedo-symposium202101-online/"><![CDATA[<p><a href="/symposium2021">NEDO特別講座キックオフシンポジウム</a>をオンライン・オンデマンド方式で開催しました。</p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[NEDO特別講座キックオフシンポジウムをオンライン・オンデマンド方式で開催しました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">【1月15日】NEDOプレスリリースロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講</title><link href="/nedo/nedo-pre-release/" rel="alternate" type="text/html" title="【1月15日】NEDOプレスリリースロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講" /><published>2021-01-15T00:00:05+00:00</published><updated>2021-01-15T00:00:05+00:00</updated><id>/nedo/nedo-pre-release</id><content type="html" xml:base="/nedo/nedo-pre-release/"><![CDATA[<p><a href="https://www.nedo.go.jp/news/press/AA5_101400.html">NEDOプレスリリースロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講</a></p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[NEDOプレスリリースロボット用ミドルウェア技術の普及・発展を推進する人材育成講座を開講]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">【12月18日】NEDO特別講座講習会をSI2020（オンライン）にて開催いたしました。（講習会資料あり）</title><link href="/si2020-online/" rel="alternate" type="text/html" title="【12月18日】NEDO特別講座講習会をSI2020（オンライン）にて開催いたしました。（講習会資料あり）" /><published>2020-12-18T00:00:00+00:00</published><updated>2020-12-18T00:00:00+00:00</updated><id>/si2020-online</id><content type="html" xml:base="/si2020-online/"><![CDATA[<p><a href="/si2020">NEDO特別講座講習会をSI2020（オンライン）にて開催いたしました。（講習会資料あり）</a></p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[NEDO特別講座講習会をSI2020（オンライン）にて開催いたしました。（講習会資料あり）]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">RRI調査検討委員会成果物発表:RRI WG3内調査検討委員会から、2019年度の成果物等が一般公開されました。</title><link href="/rri-wg3/" rel="alternate" type="text/html" title="RRI調査検討委員会成果物発表:RRI WG3内調査検討委員会から、2019年度の成果物等が一般公開されました。" /><published>2020-06-30T00:00:00+00:00</published><updated>2020-06-30T00:00:00+00:00</updated><id>/rri-wg3</id><content type="html" xml:base="/rri-wg3/"><![CDATA[<p><a href="https://www.jmfrri.gr.jp/document/library/1392.html">RRI調査検討委員会成果物発表</a>:RRI WG3内調査検討委員会から、2019年度の成果物等が一般公開されました。</p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[RRI調査検討委員会成果物発表:RRI WG3内調査検討委員会から、2019年度の成果物等が一般公開されました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">NEDO講座「システム・インテグレーションを加速するロボットミドルウェア技術を維持・普及・発展させていくための人材の育成・交流・研究の活性化」に埼玉大学が採択されました。</title><link href="/nedo/" rel="alternate" type="text/html" title="NEDO講座「システム・インテグレーションを加速するロボットミドルウェア技術を維持・普及・発展させていくための人材の育成・交流・研究の活性化」に埼玉大学が採択されました。" /><published>2020-05-28T00:00:00+00:00</published><updated>2020-05-28T00:00:00+00:00</updated><id>/nedo</id><content type="html" xml:base="/nedo/"><![CDATA[<p><a href="https://www.nedo.go.jp/koubo/CD3_100205.html">NEDO講座「システム・インテグレーションを加速するロボットミドルウェア技術を維持・普及・発展させていくための人材の育成・交流・研究の活性化」に埼玉大学が採択されました。</a></p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[NEDO講座「システム・インテグレーションを加速するロボットミドルウェア技術を維持・普及・発展させていくための人材の育成・交流・研究の活性化」に埼玉大学が採択されました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">NEDOプレスリリース:自律型移動ロボット向けインターフェースの仕様を策定し、サンプルソフトウェアを公開</title><link href="/nedo/" rel="alternate" type="text/html" title="NEDOプレスリリース:自律型移動ロボット向けインターフェースの仕様を策定し、サンプルソフトウェアを公開" /><published>2020-03-30T00:00:00+00:00</published><updated>2020-03-30T00:00:00+00:00</updated><id>/nedo</id><content type="html" xml:base="/nedo/"><![CDATA[<p><a href="https://www.nedo.go.jp/news/press/AA5_101303.html">NEDOプレスリリース</a>:自律型移動ロボット向けインターフェースの仕様を策定し、サンプルソフトウェアを公開</p>]]></content><author><name>mani_d2</name></author><category term="Nedo" /><summary type="html"><![CDATA[NEDOプレスリリース:自律型移動ロボット向けインターフェースの仕様を策定し、サンプルソフトウェアを公開]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/nedo-news-s.png" /><media:content medium="image" url="/assets/images/nedo-news-s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
